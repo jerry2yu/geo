@@ -1,0 +1,457 @@
+***** Generating dataset and evaluating for all *****
+===== Generating and evaluating all - LocalGeoPosPuncLayoutFips =====
+LocalGeoPosPuncLayoutFips(all) Outputing testing data for ngram 1
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 1 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 1 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing testing data for ngram 3
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 3 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 3 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing testing data for ngram 5
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 5 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 5 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing testing data for ngram 7
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 7 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 7 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing testing data for ngram 9
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 1
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 2
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 3
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 4
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 5
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 6
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 7
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 8
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 9
+LocalGeoPosPuncLayoutFips(all) Outputing training data for ngram 9 fold 10
+LocalGeoPosPuncLayoutFips(all) Outputing validating data for ngram 9 fold 10
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 1
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 1
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:35:40 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 2
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 2
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:36:16 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 3
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 3
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:36:54 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 4
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 4
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:37:28 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 5
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 5
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:38:05 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 6
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 6
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:38:42 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 7
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 7
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:39:19 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 8
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 8
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:39:56 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 9
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 9
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:40:32 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 1 with training dataset, fold 10
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 1 with validating(for pruning trees) and testing, fold 10
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:41:10 2006
+------------------------------------------
+
+Read 424225 cases (7 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 1
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 1
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:43:32 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 2
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 2
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:45:50 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 3
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 3
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:48:05 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 4
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 4
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:50:23 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 5
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 5
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:52:44 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 6
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 6
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:54:54 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 7
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 7
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:57:07 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 8
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 8
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 16:59:19 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 9
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 9
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:01:36 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 3 with training dataset, fold 10
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 3 with validating(for pruning trees) and testing, fold 10
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:03:47 2006
+------------------------------------------
+
+Read 424225 cases (21 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 1
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 1
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:07:59 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 2
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 2
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:12:07 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 3
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 3
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:16:14 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 4
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 4
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:20:24 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 5
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 5
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:24:32 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 6
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 6
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:28:39 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 7
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 7
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:32:31 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 8
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 8
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:36:38 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 9
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 9
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:40:40 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 5 with training dataset, fold 10
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 5 with validating(for pruning trees) and testing, fold 10
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:44:42 2006
+------------------------------------------
+
+Read 424225 cases (35 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 1
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 1
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:50:50 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 2
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 2
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 17:56:59 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 3
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 3
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:03:08 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 4
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 4
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:09:33 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 5
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 5
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:16:02 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 6
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 6
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:22:27 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 7
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 7
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:28:11 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 8
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 8
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:34:18 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 9
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 9
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:40:24 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 7 with training dataset, fold 10
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 7 with validating(for pruning trees) and testing, fold 10
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:46:26 2006
+------------------------------------------
+
+Read 424225 cases (49 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 1
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 1
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 18:54:55 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 2
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 2
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 19:03:26 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 3
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 3
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 19:11:49 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 4
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 4
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 19:26:15 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 5
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 5
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 19:34:55 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 6
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 6
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 19:43:29 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 7
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 7
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 19:51:25 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 8
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 8
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 19:59:38 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 9
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 9
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 20:07:48 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test
+LocalGeoPosPuncLayoutFips(all) Training and Validating word ngram 9 with training dataset, fold 10
+LocalGeoPosPuncLayoutFips(all) Testing word ngram 9 with validating(for pruning trees) and testing, fold 10
+
+C4.5 [release 8] label examples using tree	Mon Aug  7 20:15:56 2006
+------------------------------------------
+
+Read 424225 cases (63 attributes) from address.test

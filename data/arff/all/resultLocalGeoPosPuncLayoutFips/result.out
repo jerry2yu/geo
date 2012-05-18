@@ -1,0 +1,45 @@
+***** LocalGeoPosPuncLayoutFips(all) ngram 1 for all *****
+fold 10
+Precision 0.854277 Recall 0.518121 F1 0.645020
+Total 2257 address True Positive 1169 False Positive 199
+Start Precision 0.671624 Recall 0.636332 F1 0.653502
+Mid Precision 0.658666 Recall 0.253219 F1 0.363633
+End Precision 0.812740 Recall 0.846433 F1 0.829191
+Other Precision 0.969865 Recall 0.992758 F1 0.981176
+Average Precision 0.778224 Recall 0.682186 F1 0.706876
+***** LocalGeoPosPuncLayoutFips(all) ngram 3 for all *****
+fold 10
+Precision 0.946185 Recall 0.723350 F1 0.819831
+Total 2257 address True Positive 1632 False Positive 92
+Start Precision 0.833779 Recall 0.824635 F1 0.829134
+Mid Precision 0.859353 Recall 0.815542 F1 0.836856
+End Precision 0.916069 Recall 0.874302 F1 0.894678
+Other Precision 0.991726 Recall 0.993980 F1 0.992852
+Average Precision 0.900232 Recall 0.877115 F1 0.888380
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 for all *****
+fold 10
+Precision 0.942844 Recall 0.722774 F1 0.818204
+Total 2257 address True Positive 1631 False Positive 98
+Start Precision 0.836910 Recall 0.837173 F1 0.837001
+Mid Precision 0.899933 Recall 0.856503 F1 0.877673
+End Precision 0.921741 Recall 0.871644 F1 0.895954
+Other Precision 0.993196 Recall 0.995336 F1 0.994265
+Average Precision 0.912945 Recall 0.890164 F1 0.901223
+***** LocalGeoPosPuncLayoutFips(all) ngram 7 for all *****
+fold 10
+Precision 0.931557 Recall 0.753035 F1 0.832719
+Total 2257 address True Positive 1699 False Positive 124
+Start Precision 0.855748 Recall 0.865574 F1 0.860600
+Mid Precision 0.909302 Recall 0.861022 F1 0.884493
+End Precision 0.912240 Recall 0.878999 F1 0.895232
+Other Precision 0.993601 Recall 0.995767 F1 0.994683
+Average Precision 0.917723 Recall 0.900340 F1 0.908752
+***** LocalGeoPosPuncLayoutFips(all) ngram 9 for all *****
+fold 10
+Precision 0.929571 Recall 0.754807 F1 0.832997
+Total 2257 address True Positive 1703 False Positive 129
+Start Precision 0.854469 Recall 0.858573 F1 0.856462
+Mid Precision 0.921083 Recall 0.866218 F1 0.892800
+End Precision 0.918705 Recall 0.886930 F1 0.902509
+Other Precision 0.993839 Recall 0.996279 F1 0.995058
+Average Precision 0.922024 Recall 0.902000 F1 0.911707

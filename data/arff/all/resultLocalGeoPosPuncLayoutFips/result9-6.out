@@ -1,0 +1,6 @@
+Precision 0.925695, Recall 0.723084, F-Meassure 0.811940, TotalAddresses 2257, True Positive 1632, False Positive 131
+START: Precision 0.852288, Recall 0.833407 F-measure 0.842742
+MID: Precision 0.921263, Recall 0.867821 F-measure 0.893744
+END: Precision 0.920129, Recall 0.883031 F-measure 0.901198
+OTHER: Precision 0.993719, Recall 0.996281 F-measure 0.994999
+Average: Precision 0.921850, Recall 0.895135, F-Measure 0.908171

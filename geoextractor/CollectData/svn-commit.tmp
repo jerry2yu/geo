@@ -1,0 +1,28 @@
+
+--This line, and those below, will be ignored--
+
+M    Address.l
+M    listFiles.c
+M    HashSet.cpp
+M    HashSet.h
+M    cvector.c
+M    UrlHandler.h
+M    UrlHandler.l
+M    SimpleDic.cpp
+M    cvector.h
+M    Geo.cpp
+M    text2token.h
+M    SimpleDic.h
+M    cgiparser.c
+M    text2token.l
+M    HttpFetcher.c
+M    cgiparser.h
+M    SimpleExtract.cpp
+M    token.h
+M    HttpFetcher.h
+M    GetAddress.c
+AM   build.sh
+M    Address.h
+M    GetAddress.h
+M    geo.html
+M    Makefile

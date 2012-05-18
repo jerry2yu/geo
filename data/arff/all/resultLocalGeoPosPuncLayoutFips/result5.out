@@ -1,0 +1,70 @@
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 1 *****
+Precision 0.937246, Recall 0.714665, F-Meassure 0.810960, TotalAddresses 2257, True Positive 1613, False Positive 108
+START: Precision 0.832155, Recall 0.834736 F-measure 0.833444
+MID: Precision 0.899946, Recall 0.859387 F-measure 0.879199
+END: Precision 0.909599, Recall 0.864865 F-measure 0.886668
+OTHER: Precision 0.993242, Recall 0.995217 F-measure 0.994229
+Average: Precision 0.908736, Recall 0.888551, F-Measure 0.898385
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 2 *****
+Precision 0.932658, Recall 0.693398, F-Meassure 0.795426, TotalAddresses 2257, True Positive 1565, False Positive 113
+START: Precision 0.854587, Recall 0.825432 F-measure 0.839757
+MID: Precision 0.902538, Recall 0.856168 F-measure 0.878742
+END: Precision 0.916627, Recall 0.852459 F-measure 0.883379
+OTHER: Precision 0.992989, Recall 0.995527 F-measure 0.994256
+Average: Precision 0.916685, Recall 0.882396, F-Measure 0.899033
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 3 *****
+Precision 0.946163, Recall 0.731945, F-Meassure 0.825381, TotalAddresses 2257, True Positive 1652, False Positive 94
+START: Precision 0.838313, Recall 0.845370 F-measure 0.841827
+MID: Precision 0.900943, Recall 0.860803 F-measure 0.880416
+END: Precision 0.918654, Recall 0.870625 F-measure 0.893995
+OTHER: Precision 0.993402, Recall 0.995346 F-measure 0.994373
+Average: Precision 0.912828, Recall 0.893036, F-Measure 0.902653
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 4 *****
+Precision 0.951434, Recall 0.720425, F-Meassure 0.819970, TotalAddresses 2257, True Positive 1626, False Positive 83
+START: Precision 0.831278, Recall 0.836066 F-measure 0.833665
+MID: Precision 0.902015, Recall 0.855846 F-measure 0.878324
+END: Precision 0.924894, Recall 0.867523 F-measure 0.895290
+OTHER: Precision 0.993118, Recall 0.995383 F-measure 0.994249
+Average: Precision 0.912826, Recall 0.888705, F-Measure 0.900382
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 5 *****
+Precision 0.935006, Recall 0.726628, F-Meassure 0.817751, TotalAddresses 2257, True Positive 1640, False Positive 114
+START: Precision 0.837004, Recall 0.841825 F-measure 0.839408
+MID: Precision 0.900467, Recall 0.856812 F-measure 0.878097
+END: Precision 0.907706, Recall 0.871511 F-measure 0.889241
+OTHER: Precision 0.993215, Recall 0.995255 F-measure 0.994234
+Average: Precision 0.909598, Recall 0.891351, F-Measure 0.900245
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 6 *****
+Precision 0.941347, Recall 0.718210, F-Meassure 0.814778, TotalAddresses 2257, True Positive 1621, False Positive 101
+START: Precision 0.835242, Recall 0.840053 F-measure 0.837641
+MID: Precision 0.902575, Recall 0.855331 F-measure 0.878318
+END: Precision 0.928095, Recall 0.863536 F-measure 0.894652
+OTHER: Precision 0.993099, Recall 0.995450 F-measure 0.994273
+Average: Precision 0.914753, Recall 0.888592, F-Measure 0.901221
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 7 *****
+Precision 0.955392, Recall 0.749668, F-Meassure 0.840119, TotalAddresses 2257, True Positive 1692, False Positive 79
+START: Precision 0.833696, Recall 0.848471 F-measure 0.841019
+MID: Precision 0.895678, Recall 0.860675 F-measure 0.877828
+END: Precision 0.946819, Recall 0.883474 F-measure 0.914050
+OTHER: Precision 0.993559, Recall 0.995324 F-measure 0.994441
+Average: Precision 0.917438, Recall 0.896986, F-Measure 0.906834
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 8 *****
+Precision 0.946087, Recall 0.723084, F-Meassure 0.819689, TotalAddresses 2257, True Positive 1632, False Positive 93
+START: Precision 0.833996, Recall 0.836952 F-measure 0.835471
+MID: Precision 0.899904, Recall 0.845673 F-measure 0.871946
+END: Precision 0.913769, Recall 0.873283 F-measure 0.893068
+OTHER: Precision 0.992759, Recall 0.995284 F-measure 0.994020
+Average: Precision 0.910107, Recall 0.887798, F-Measure 0.898626
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 9 *****
+Precision 0.940343, Recall 0.705361, F-Meassure 0.806076, TotalAddresses 2257, True Positive 1592, False Positive 101
+START: Precision 0.836184, Recall 0.823217 F-measure 0.829649
+MID: Precision 0.900494, Recall 0.856490 F-measure 0.877941
+END: Precision 0.928135, Recall 0.875498 F-measure 0.901049
+OTHER: Precision 0.993108, Recall 0.995373 F-measure 0.994239
+Average: Precision 0.914480, Recall 0.887645, F-Measure 0.900720
+***** LocalGeoPosPuncLayoutFips(all) ngram 5 fold 10 *****
+Precision 0.942761, Recall 0.744351, F-Meassure 0.831889, TotalAddresses 2257, True Positive 1680, False Positive 102
+START: Precision 0.836645, Recall 0.839610 F-measure 0.838125
+MID: Precision 0.894769, Recall 0.857842 F-measure 0.875916
+END: Precision 0.923112, Recall 0.893664 F-measure 0.908149
+OTHER: Precision 0.993472, Recall 0.995205 F-measure 0.994338
+Average: Precision 0.911999, Recall 0.896580, F-Measure 0.904132

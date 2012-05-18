@@ -1,0 +1,21 @@
+
+Steps to compile
+
+modify config.h to make sure all configurations are set correctly
+
+run following commands:
+
+flex Address.l
+flex text2token.l
+flex UrlHandler.l
+make
+make install // it will install the cgi file and html file
+
+Two executable files should be generated:
+geo and listFiles
+
+You need to install geo into cgi-bin directory of your www server, also copy the geo.html to webserver home directory.
+
+Launch your browser and run http://localhost/geo.html
+
+

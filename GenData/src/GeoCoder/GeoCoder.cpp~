@@ -1,0 +1,162 @@
+#include "GeoCoder.h"
+#include "../Config.h"
+
+GeoCoder::GeoCoder()
+{
+	index = io_open( GEO_MAP_FILE );
+	out = new geo_location();
+	out->zip_code = 0;
+	strcpy(out->street_name,"");
+	strcpy(out->city_name,"");
+	strcpy(out->state_name,"");
+	rangeCount=0;
+
+
+}
+
+GeoCoder::~GeoCoder()
+{
+	if ( index )
+		io_close( index );
+	if ( out )
+		delete out;
+}
+
+void GeoCoder::run( Vector<IToken*> & tokens )
+{
+	int count = (int)(tokens.count());
+	for ( int i=0; i<count; i++ )
+	{
+		GeoToken * token = (GeoToken*) tokens[i];
+		if ( token->getTokenString().isNumber() )
+		{
+			//printf("is number %s.\n", token->getTokenString().c_str() );
+			int endIndex = getAddressEnd( tokens, i );
+			if ( endIndex != -1 )
+			{ /* is an address, endIndex is the vector index of the last token in the address */
+				setAddressTag( tokens, i, endIndex );
+				i = endIndex + 1;
+			}
+		}
+	}
+}
+#define FRAME_WINDOW_SIZE 5
+#define MAX_ADDRESS_LENGTH 20
+void GeoCoder::runFIPS( Vector<IToken*> & tokens )
+{
+	int count = (int)(tokens.count());
+	lastNamePos = lastNumberPos = -1;
+	for ( int i=0; i<count; i++ )
+	{
+		GeoToken * token = (GeoToken*) tokens[i];
+		if ( token->getTokenString().isNumber() )
+		{
+			lastNumberPos = i;
+			lastNamePos = i;
+			streetNo = atoi( token->getTokenString().c_str() );
+		}
+		if ( lastNumberPos != -1 && i - lastNamePos <= FRAME_WINDOW_SIZE  && i - lastNumberPos <= MAX_ADDRESS_LENGTH )
+		{
+			//printf("is number %s.\n", token->getTokenString().c_str() );
+			int newPos = getNames( tokens, i+1 );
+			if ( newPos == i+1 && i+2 < count )
+			{
+				newPos = getNames( tokens, i+2 );
+			}
+			if ( newPos == i+2 && i+3 < count )
+			{	
+				getNames( tokens, i+3 );
+			}
+			if ( newPos > lastNamePos )
+			{
+				lastNamePos = newPos;
+			}
+			rangeCount = 0;
+		}
+
+
+#if 0
+		int endIndex = getAddressEnd( tokens, i );
+		if ( endIndex != -1 )
+		{ /* is an address, endIndex is the vector index of the last token in the address */
+			setAddressTag( tokens, i, endIndex );
+			i = endIndex + 1;
+		}
+#endif
+
+	}
+}
+
+
+void GeoCoder::setAddressTag( Vector<IToken*> & tokens, int startIndex, int endIndex )
+{
+  if ( startIndex<=endIndex && startIndex >=0 && endIndex < tokens.count() )
+    {
+	for ( int i=startIndex; i<=endIndex; i++ )
+	{
+	  GeoToken * token = (GeoToken*)tokens[i];
+	  /* set GeocoderStart, GeoCoderMid, GeoCoderEnd, GoeCoderOther */
+          i == startIndex ? token->setGeocoderStart() : i == endIndex ? token->setGeocoderEnd() : token->setGeocoderMid();
+          token->setGeocoderAddress(); // set GEO/NOTGEO feature
+	}
+    }
+}
+int GeoCoder::getAddressEnd( Vector<IToken*> & tokens, int start )
+{
+	int ret = -1;
+	int bufferLen = 82;
+	char * buffer = (char*)malloc( bufferLen );
+	buffer[0]=0;
+	int index = start;
+	int count = (int)(tokens.count());
+	int len = 0;
+
+	while (  index < count )
+	{
+		GeoToken * token = (GeoToken*) tokens[index];
+		if ( len + (int)(token->getTokenString().length()) + 2 > bufferLen )
+		{
+			break;
+		}
+		sprintf( buffer + len, "%s ", token->getTokenString().c_str() );
+		++index;
+		len += (int)(token->getTokenString().length()) + 1;
+	}
+	/* get index of last token in address */
+	int endIndex = getAddressEnd( buffer );
+	free( buffer );
+	index = start;
+	if ( endIndex > 0 ) 
+	{ /* is an address */
+		int totalTokens = 0;
+		len = 0;
+		while ( index < count )
+		{
+			GeoToken * token = (GeoToken*) tokens[index];
+			len += (int)(token->getTokenString().length()) + 1;
+			if ( len > endIndex )
+			{
+				break;
+			}
+			++index;
+		}
+		ret = index;
+		// printf("totalTokens %d last token is %s.\n", index - start, (GeoToken*)tokens[index]->getTokenString().c_str() );
+	}
+
+	return ret;
+} 
+
+int GeoCoder::getAddressEnd( const char * buffer )
+{
+	// printf("Potential address is %s.\n", buffer );
+	struct geo_location loc;
+	/* geocoding the input address */
+	int endIndex = geo_find( index, buffer,(int)(strlen(buffer)),&loc);
+	if ( endIndex > 0 )
+	{ /* is an address */
+		//printf("Address %.*s.\n",endIndex, buffer );
+	}
+	return endIndex > 0 ? endIndex : -1;
+
+}

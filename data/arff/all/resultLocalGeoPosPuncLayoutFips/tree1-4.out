@@ -1,0 +1,6073 @@
+
+C4.5 [release 8] decision tree generator	Mon Aug  7 16:37:01 2006
+----------------------------------------
+
+    Options:
+	File stem <address>
+	Trees evaluated on unseen cases
+	Verbosity level 1
+
+Read 1523612 cases (7 attributes) from address.data
+
+1523612 items, total weight 1523612.0
+	best attribute fips0 inf 1.157 gain 0.132 val 0.114
+
+1250395 items, total weight 1250395.0
+	best attribute punctuation0 inf 1.257 gain 0.034 val 0.027
+
+72583 items, total weight 72583.0
+	best attribute layout0 inf 0.105 gain 0.009 val 0.084
+
+10 items, total weight 10.0
+	no sensible splits  10.0/1.0
+
+71600 items, total weight 71600.0
+	no sensible splits  71600.0/13524.0
+
+973 items, total weight 973.0
+	no sensible splits  973.0/364.0
+
+60302 items, total weight 60302.0
+	best attribute layout0 inf 0.762 gain 0.004 val 0.005
+
+202 items, total weight 202.0
+	no sensible splits  202.0/3.0
+
+48108 items, total weight 48108.0
+	no sensible splits  48108.0/1439.0
+
+11917 items, total weight 11917.0
+	no sensible splits  11917.0/774.0
+Collapse tree for 60302 items to leaf OTHER
+
+28374 items, total weight 28374.0
+	best attribute layout0 inf 0.832 gain 0.000 val 0.000
+
+21049 items, total weight 21049.0
+	no sensible splits  21049.0/20.0
+
+7304 items, total weight 7304.0
+	no sensible splits  7304.0/1.0
+Collapse tree for 28374 items to leaf OTHER
+
+1248 items, total weight 1248.0
+	best attribute layout0 inf 0.252 gain 0.000 val 0.001
+
+1202 items, total weight 1202.0
+	no sensible splits  1202.0/4.0
+Collapse tree for 1248 items to leaf OTHER
+
+8913 items, total weight 8913.0
+	best attribute layout0 inf 1.015 gain 0.001 val 0.001
+
+1108 items, total weight 1108.0
+	no sensible splits  1108.0/2.0
+
+7019 items, total weight 7019.0
+	no sensible splits  7019.0/37.0
+Collapse tree for 8913 items to leaf OTHER
+
+12699 items, total weight 12699.0
+	best attribute layout0 inf 0.380 gain 0.003 val 0.007
+
+935 items, total weight 935.0
+	no sensible splits  935.0/36.0
+
+11763 items, total weight 11763.0
+	no sensible splits  11763.0/104.0
+Collapse tree for 12699 items to leaf OTHER
+
+12865 items, total weight 12865.0
+	best attribute layout0 inf 1.002 gain 0.002 val 0.002
+
+6400 items, total weight 6400.0
+	no sensible splits  6400.0/56.0
+
+6463 items, total weight 6463.0
+	no sensible splits  6463.0/72.0
+Collapse tree for 12865 items to leaf OTHER
+
+6073 items, total weight 6073.0
+	best attribute layout0 inf 0.903 gain 0.000 val 0.000
+
+4902 items, total weight 4902.0
+	no sensible splits  4902.0/1.0
+Collapse tree for 6073 items to leaf OTHER
+
+1419 items, total weight 1419.0
+	best attribute layout0 inf 0.643 gain 0.000 val 0.000
+
+232 items, total weight 232.0
+	no sensible splits  232.0/1.0
+
+1187 items, total weight 1187.0
+	no sensible splits  1187.0/3.0
+Collapse tree for 1419 items to leaf OTHER
+
+1421 items, total weight 1421.0
+	best attribute layout0 inf 0.864 gain 0.001 val 0.001
+
+1014 items, total weight 1014.0
+	no sensible splits  1014.0/3.0
+Collapse tree for 1421 items to leaf OTHER
+
+10738 items, total weight 10738.0
+	best attribute layout0 inf 0.135 gain 0.000 val 0.001
+
+10568 items, total weight 10568.0
+	no sensible splits  10568.0/66.0
+Collapse tree for 10738 items to leaf OTHER
+
+1016 items, total weight 1016.0
+	best attribute layout0 inf 0.638 gain 0.020 val 0.032
+
+112 items, total weight 112.0
+	no sensible splits  112.0/1.0
+
+886 items, total weight 886.0
+	no sensible splits  886.0/122.0
+Collapse tree for 1016 items to leaf OTHER
+
+947 items, total weight 947.0
+	best attribute layout0 inf 0.714 gain 0.001 val 0.001
+
+772 items, total weight 772.0
+	no sensible splits  772.0/2.0
+Collapse tree for 947 items to leaf OTHER
+
+1016459 items, total weight 1016459.0
+	best attribute wordFormat0 inf 1.669 gain 0.015 val 0.009
+
+446284 items, total weight 446284.0
+	best attribute dictionary0 inf 0.427 gain 0.007 val 0.017
+
+418993 items, total weight 418993.0
+	best attribute pos0 inf 1.917 gain 0.003 val 0.002
+
+593 items, total weight 593.0
+	best attribute layout0 inf 0.257 gain 0.000 val 0.000
+
+570 items, total weight 570.0
+	no sensible splits  570.0/1.0
+Collapse tree for 593 items to leaf OTHER
+
+754 items, total weight 754.0
+	best attribute layout0 inf 0.977 gain 0.058 val 0.060
+
+202 items, total weight 202.0
+	no sensible splits  202.0/38.0
+
+536 items, total weight 536.0
+	no sensible splits  536.0/11.0
+
+16 items, total weight 16.0
+	no sensible splits  16.0/1.0
+Collapse tree for 754 items to leaf OTHER
+
+11355 items, total weight 11355.0
+	best attribute layout0 inf 0.987 gain 0.001 val 0.001
+
+3774 items, total weight 3774.0
+	no sensible splits  3774.0/7.0
+
+7483 items, total weight 7483.0
+	no sensible splits  7483.0/12.0
+Collapse tree for 11355 items to leaf OTHER
+
+7839 items, total weight 7839.0
+	best attribute layout0 inf 1.082 gain 0.000 val 0.000
+
+2628 items, total weight 2628.0
+	no sensible splits  2628.0/3.0
+
+5031 items, total weight 5031.0
+	no sensible splits  5031.0/12.0
+Collapse tree for 7839 items to leaf OTHER
+
+18411 items, total weight 18411.0
+	best attribute layout0 inf 1.677 gain 0.000 val 0.000
+
+6030 items, total weight 6030.0
+	no sensible splits  6030.0/2.0
+
+8390 items, total weight 8390.0
+	no sensible splits  8390.0/4.0
+Collapse tree for 18411 items to leaf OTHER
+
+298835 items, total weight 298835.0
+	best attribute layout0 inf 1.364 gain 0.000 val 0.000
+
+52631 items, total weight 52631.0
+	no sensible splits  52631.0/131.0
+
+199611 items, total weight 199611.0
+	no sensible splits  199611.0/711.0
+
+36692 items, total weight 36692.0
+	no sensible splits  36692.0/79.0
+Collapse tree for 298835 items to leaf OTHER
+
+15416 items, total weight 15416.0
+	best attribute layout0 inf 1.292 gain 0.006 val 0.005
+
+6847 items, total weight 6847.0
+	no sensible splits  6847.0/158.0
+
+7767 items, total weight 7767.0
+	no sensible splits  7767.0/93.0
+Collapse tree for 15416 items to leaf OTHER
+
+3451 items, total weight 3451.0
+	best attribute layout0 inf 1.244 gain 0.000 val 0.000
+
+1043 items, total weight 1043.0
+	no sensible splits  1043.0/1.0
+
+2171 items, total weight 2171.0
+	no sensible splits  2171.0/4.0
+Collapse tree for 3451 items to leaf OTHER
+
+1862 items, total weight 1862.0
+	best attribute layout0 inf 1.181 gain 0.002 val 0.002
+
+1260 items, total weight 1260.0
+	no sensible splits  1260.0/7.0
+Collapse tree for 1862 items to leaf OTHER
+
+1027 items, total weight 1027.0
+	best attribute layout0 inf 1.005 gain 0.001 val 0.001
+
+704 items, total weight 704.0
+	no sensible splits  704.0/1.0
+Collapse tree for 1027 items to leaf OTHER
+
+10532 items, total weight 10532.0
+	best attribute layout0 inf 1.407 gain 0.000 val 0.000
+
+4970 items, total weight 4970.0
+	no sensible splits  4970.0/2.0
+Collapse tree for 10532 items to leaf OTHER
+Collapse tree for 418993 items to leaf OTHER
+
+2412 items, total weight 2412.0
+	best attribute layout0 inf 1.011 gain 0.003 val 0.003
+
+432 items, total weight 432.0
+	best attribute pos0 inf 0.218 gain 0.000 val 0.001
+
+417 items, total weight 417.0
+	no sensible splits  417.0/2.0
+Collapse tree for 432 items to leaf OTHER
+
+1842 items, total weight 1842.0
+	best attribute pos0 inf 0.086 gain 0.000 val 0.001
+
+1822 items, total weight 1822.0
+	no sensible splits  1822.0/9.0
+Collapse tree for 1842 items to leaf OTHER
+
+119 items, total weight 119.0
+	no sensible splits  119.0/5.0
+Collapse tree for 2412 items to leaf OTHER
+
+16316 items, total weight 16316.0
+	best attribute layout0 inf 0.956 gain 0.003 val 0.003
+
+1110 items, total weight 1110.0
+	best attribute pos0 inf 0.994 gain 0.004 val 0.004
+
+934 items, total weight 934.0
+	no sensible splits  934.0/17.0
+Collapse tree for 1110 items to leaf OTHER
+
+12889 items, total weight 12889.0
+	best attribute pos0 inf 0.342 gain 0.001 val 0.003
+
+12369 items, total weight 12369.0
+	no sensible splits  12369.0/180.0
+
+54 items, total weight 54.0
+	no sensible splits  54.0/3.0
+
+4 items, total weight 4.0
+	no sensible splits  4.0/1.0
+Collapse tree for 12889 items to leaf OTHER
+
+2261 items, total weight 2261.0
+	best attribute pos0 inf 0.408 gain 0.003 val 0.006
+
+11 items, total weight 11.0
+	no sensible splits  11.0/2.0
+
+2127 items, total weight 2127.0
+	no sensible splits  2127.0/78.0
+
+91 items, total weight 91.0
+	no sensible splits  91.0/1.0
+Collapse tree for 2261 items to leaf OTHER
+Collapse tree for 16316 items to leaf OTHER
+
+7005 items, total weight 7005.0
+	best attribute pos0 inf 0.580 gain 0.092 val 0.158
+
+73 items, total weight 73.0
+	best attribute layout0 inf 0.961 gain 0.019 val 0.020
+
+45 items, total weight 45.0
+	no sensible splits  45.0/2.0
+Collapse tree for 73 items to leaf OTHER
+
+643 items, total weight 643.0
+	best attribute layout0 inf 1.251 gain 0.145 val 0.116
+
+180 items, total weight 180.0
+	no sensible splits  180.0/80.0
+
+410 items, total weight 410.0
+	no sensible splits  410.0/138.0
+
+6249 items, total weight 6249.0
+	best attribute layout0 inf 1.182 gain 0.019 val 0.016
+
+829 items, total weight 829.0
+	no sensible splits  829.0/48.0
+
+4439 items, total weight 4439.0
+	no sensible splits  4439.0/276.0
+
+957 items, total weight 957.0
+	no sensible splits  957.0/110.0
+Collapse tree for 6249 items to leaf OTHER
+
+42024 items, total weight 42024.0
+	best attribute layout0 inf 1.371 gain 0.013 val 0.010
+
+6361 items, total weight 6361.0
+	best attribute pos0 inf 1.567 gain 0.003 val 0.002
+
+66 items, total weight 66.0
+	best attribute dictionary0 inf 0.488 gain 0.002 val 0.005
+
+59 items, total weight 59.0
+	no sensible splits  59.0/1.0
+Collapse tree for 66 items to leaf OTHER
+
+449 items, total weight 449.0
+	best attribute dictionary0 inf 0.166 gain 0.014 val 0.085
+
+6 items, total weight 6.0
+	no sensible splits  6.0/1.0
+Collapse tree for 449 items to leaf OTHER
+
+4818 items, total weight 4818.0
+	best attribute dictionary0 inf 0.345 gain 0.001 val 0.002
+
+4618 items, total weight 4618.0
+	no sensible splits  4618.0/28.0
+
+31 items, total weight 31.0
+	no sensible splits  31.0/1.0
+Collapse tree for 4818 items to leaf OTHER
+Collapse tree for 6361 items to leaf OTHER
+
+28248 items, total weight 28248.0
+	best attribute pos0 inf 1.257 gain 0.004 val 0.003
+
+393 items, total weight 393.0
+	best attribute dictionary0 inf 0.859 gain 0.001 val 0.001
+
+282 items, total weight 282.0
+	no sensible splits  282.0/1.0
+Collapse tree for 393 items to leaf OTHER
+
+17 items, total weight 17.0
+	no sensible splits  17.0/1.0
+
+285 items, total weight 285.0
+	no sensible splits  285.0/1.0
+
+839 items, total weight 839.0
+	best attribute dictionary0 inf 0.743 gain 0.001 val 0.002
+
+662 items, total weight 662.0
+	no sensible splits  662.0/3.0
+Collapse tree for 839 items to leaf OTHER
+
+1079 items, total weight 1079.0
+	best attribute dictionary0 inf 1.082 gain 0.014 val 0.013
+
+736 items, total weight 736.0
+	no sensible splits  736.0/1.0
+
+310 items, total weight 310.0
+	no sensible splits  310.0/8.0
+Collapse tree for 1079 items to leaf OTHER
+
+23408 items, total weight 23408.0
+	best attribute dictionary0 inf 1.292 gain 0.001 val 0.001
+
+16332 items, total weight 16332.0
+	no sensible splits  16332.0/323.0
+
+5338 items, total weight 5338.0
+	no sensible splits  5338.0/87.0
+
+82 items, total weight 82.0
+	no sensible splits  82.0/4.0
+
+91 items, total weight 91.0
+	no sensible splits  91.0/2.0
+
+458 items, total weight 458.0
+	no sensible splits  458.0/2.0
+
+426 items, total weight 426.0
+	no sensible splits  426.0/4.0
+
+115 items, total weight 115.0
+	no sensible splits  115.0/1.0
+Collapse tree for 23408 items to leaf OTHER
+
+394 items, total weight 394.0
+	no sensible splits  394.0/2.0
+
+631 items, total weight 631.0
+	best attribute dictionary0 inf 0.382 gain 0.007 val 0.019
+
+584 items, total weight 584.0
+	no sensible splits  584.0/39.0
+Collapse tree for 631 items to leaf OTHER
+Collapse tree for 28248 items to leaf OTHER
+
+5842 items, total weight 5842.0
+	best attribute pos0 inf 1.111 gain 0.023 val 0.020
+
+4809 items, total weight 4809.0
+	best attribute dictionary0 inf 1.210 gain 0.016 val 0.013
+
+3326 items, total weight 3326.0
+	no sensible splits  3326.0/126.0
+
+1219 items, total weight 1219.0
+	no sensible splits  1219.0/5.0
+
+8 items, total weight 8.0
+	no sensible splits  8.0/2.0
+
+4 items, total weight 4.0
+	no sensible splits  4.0/2.0
+
+94 items, total weight 94.0
+	no sensible splits  94.0/1.0
+Collapse tree for 4809 items to leaf OTHER
+
+349 items, total weight 349.0
+	best attribute dictionary0 inf 0.071 gain 0.000 val 0.007
+
+346 items, total weight 346.0
+	no sensible splits  346.0/13.0
+Collapse tree for 349 items to leaf OTHER
+
+157 items, total weight 157.0
+	no sensible splits  157.0/46.0
+Collapse tree for 5842 items to leaf OTHER
+
+1573 items, total weight 1573.0
+	best attribute pos0 inf 1.099 gain 0.013 val 0.012
+
+1301 items, total weight 1301.0
+	best attribute dictionary0 inf 0.221 gain 0.001 val 0.007
+
+1263 items, total weight 1263.0
+	no sensible splits  1263.0/44.0
+Collapse tree for 1301 items to leaf OTHER
+
+4 items, total weight 4.0
+	no sensible splits  4.0/1.0
+Collapse tree for 1573 items to leaf OTHER
+Collapse tree for 42024 items to leaf OTHER
+
+6264 items, total weight 6264.0
+	best attribute pos0 inf 1.455 gain 0.055 val 0.038
+
+3301 items, total weight 3301.0
+	best attribute layout0 inf 0.696 gain 0.033 val 0.047
+
+123 items, total weight 123.0
+	no sensible splits  123.0/14.0
+
+2881 items, total weight 2881.0
+	no sensible splits  2881.0/727.0
+
+274 items, total weight 274.0
+	no sensible splits  274.0/28.0
+Collapse tree for 3301 items to leaf OTHER
+
+429 items, total weight 429.0
+	best attribute layout0 inf 0.723 gain 0.035 val 0.049
+
+20 items, total weight 20.0
+	no sensible splits  20.0/2.0
+
+376 items, total weight 376.0
+	no sensible splits  376.0/28.0
+
+24 items, total weight 24.0
+	no sensible splits  24.0/5.0
+Collapse tree for 429 items to leaf OTHER
+
+114 items, total weight 114.0
+	best attribute layout0 inf 0.470 gain 0.003 val 0.007
+
+104 items, total weight 104.0
+	no sensible splits  104.0/8.0
+
+9 items, total weight 9.0
+	no sensible splits  9.0/1.0
+Collapse tree for 114 items to leaf OTHER
+
+2371 items, total weight 2371.0
+	best attribute layout0 inf 0.650 gain 0.050 val 0.077
+
+159 items, total weight 159.0
+	no sensible splits  159.0/12.0
+
+2107 items, total weight 2107.0
+	no sensible splits  2107.0/1011.0
+
+75 items, total weight 75.0
+	no sensible splits  75.0/15.0
+
+30 items, total weight 30.0
+	no sensible splits  30.0/1.0
+Collapse tree for 2371 items to leaf OTHER
+Collapse tree for 6264 items to leaf OTHER
+
+1962 items, total weight 1962.0
+	best attribute layout0 inf 1.397 gain 0.019 val 0.014
+
+256 items, total weight 256.0
+	best attribute pos0 inf 0.656 gain 0.092 val 0.140
+
+5 items, total weight 5.0
+	no sensible splits  5.0/1.0
+
+228 items, total weight 228.0
+	no sensible splits  228.0/7.0
+
+1186 items, total weight 1186.0
+	best attribute pos0 inf 0.039 gain 0.001 val 0.017
+
+1181 items, total weight 1181.0
+	no sensible splits  1181.0/123.0
+Collapse tree for 1186 items to leaf OTHER
+
+498 items, total weight 498.0
+	no sensible splits  498.0/54.0
+
+22 items, total weight 22.0
+	no sensible splits  22.0/2.0
+
+466821 items, total weight 466821.0
+	best attribute geo0 inf 0.017 gain 0.008 val 0.458
+
+719 items, total weight 719.0
+	best attribute pos0 inf 0.806 gain 0.243 val 0.302
+
+592 items, total weight 592.0
+	best attribute layout0 inf 1.235 gain 0.205 val 0.166
+
+350 items, total weight 350.0
+	best attribute dictionary0 inf 0.255 gain 0.009 val 0.037
+
+335 items, total weight 335.0
+	no sensible splits  335.0/95.0
+
+15 items, total weight 15.0
+	no sensible splits  15.0/8.0
+Collapse tree for 350 items to leaf START
+
+209 items, total weight 209.0
+	best attribute dictionary0 inf 0.733 gain 0.029 val 0.040
+
+166 items, total weight 166.0
+	no sensible splits  166.0/87.0
+
+43 items, total weight 43.0
+	no sensible splits  43.0/14.0
+Collapse tree for 209 items to leaf OTHER
+
+466102 items, total weight 466102.0
+	best attribute layout0 inf 0.352 gain 0.000 val 0.001
+
+7665 items, total weight 7665.0
+	best attribute pos0 inf 2.821 gain 0.005 val 0.002
+
+22 items, total weight 22.0
+	no sensible splits  22.0/1.0
+
+2448 items, total weight 2448.0
+	no sensible splits  2448.0/19.0
+Collapse tree for 7665 items to leaf OTHER
+
+442597 items, total weight 442597.0
+	best attribute pos0 inf 3.784 gain 0.001 val 0.000
+
+27877 items, total weight 27877.0
+	best attribute dictionary0 inf 0.579 gain 0.000 val 0.000
+
+24035 items, total weight 24035.0
+	no sensible splits  24035.0/36.0
+
+3842 items, total weight 3842.0
+	no sensible splits  3842.0/2.0
+Collapse tree for 27877 items to leaf OTHER
+
+1883 items, total weight 1883.0
+	no sensible splits  1883.0/1.0
+
+34930 items, total weight 34930.0
+	no sensible splits  34930.0/62.0
+
+68827 items, total weight 68827.0
+	best attribute dictionary0 inf 0.550 gain 0.000 val 0.001
+
+60532 items, total weight 60532.0
+	no sensible splits  60532.0/178.0
+
+8102 items, total weight 8102.0
+	no sensible splits  8102.0/1.0
+Collapse tree for 68827 items to leaf OTHER
+
+38249 items, total weight 38249.0
+	best attribute dictionary0 inf 0.083 gain 0.000 val 0.000
+
+37933 items, total weight 37933.0
+	no sensible splits  37933.0/22.0
+Collapse tree for 38249 items to leaf OTHER
+
+95383 items, total weight 95383.0
+	best attribute dictionary0 inf 0.380 gain 0.000 val 0.000
+
+89920 items, total weight 89920.0
+	no sensible splits  89920.0/36.0
+
+2890 items, total weight 2890.0
+	no sensible splits  2890.0/2.0
+
+2489 items, total weight 2489.0
+	no sensible splits  2489.0/3.0
+Collapse tree for 95383 items to leaf OTHER
+
+12201 items, total weight 12201.0
+	best attribute dictionary0 inf 0.042 gain 0.000 val 0.003
+
+12155 items, total weight 12155.0
+	no sensible splits  12155.0/133.0
+
+17 items, total weight 17.0
+	no sensible splits  17.0/1.0
+Collapse tree for 12201 items to leaf OTHER
+
+39225 items, total weight 39225.0
+	best attribute dictionary0 inf 0.113 gain 0.000 val 0.000
+
+38652 items, total weight 38652.0
+	no sensible splits  38652.0/8.0
+Collapse tree for 39225 items to leaf OTHER
+
+9072 items, total weight 9072.0
+	best attribute dictionary0 inf 0.173 gain 0.000 val 0.000
+
+8837 items, total weight 8837.0
+	no sensible splits  8837.0/2.0
+Collapse tree for 9072 items to leaf OTHER
+
+13463 items, total weight 13463.0
+	best attribute dictionary0 inf 0.343 gain 0.000 val 0.001
+
+12817 items, total weight 12817.0
+	no sensible splits  12817.0/3.0
+
+209 items, total weight 209.0
+	no sensible splits  209.0/1.0
+Collapse tree for 13463 items to leaf OTHER
+
+15129 items, total weight 15129.0
+	no sensible splits  15129.0/2.0
+
+18377 items, total weight 18377.0
+	best attribute dictionary0 inf 0.130 gain 0.000 val 0.000
+
+18088 items, total weight 18088.0
+	no sensible splits  18088.0/3.0
+Collapse tree for 18377 items to leaf OTHER
+
+7928 items, total weight 7928.0
+	best attribute dictionary0 inf 0.019 gain 0.000 val 0.000
+
+7915 items, total weight 7915.0
+	no sensible splits  7915.0/1.0
+Collapse tree for 7928 items to leaf OTHER
+
+11240 items, total weight 11240.0
+	no sensible splits  11240.0/2.0
+
+10016 items, total weight 10016.0
+	best attribute dictionary0 inf 0.074 gain 0.000 val 0.000
+
+9934 items, total weight 9934.0
+	no sensible splits  9934.0/2.0
+Collapse tree for 10016 items to leaf OTHER
+
+10694 items, total weight 10694.0
+	best attribute dictionary0 inf 0.979 gain 0.000 val 0.000
+
+6267 items, total weight 6267.0
+	no sensible splits  6267.0/1.0
+
+4427 items, total weight 4427.0
+	no sensible splits  4427.0/4.0
+Collapse tree for 10694 items to leaf OTHER
+
+759 items, total weight 759.0
+	no sensible splits  759.0/1.0
+Collapse tree for 442597 items to leaf OTHER
+
+14027 items, total weight 14027.0
+	best attribute pos0 inf 2.723 gain 0.006 val 0.002
+
+39 items, total weight 39.0
+	no sensible splits  39.0/9.0
+
+739 items, total weight 739.0
+	best attribute dictionary0 inf 0.497 gain 0.001 val 0.002
+
+670 items, total weight 670.0
+	no sensible splits  670.0/6.0
+Collapse tree for 739 items to leaf OTHER
+
+603 items, total weight 603.0
+	no sensible splits  603.0/3.0
+
+5780 items, total weight 5780.0
+	best attribute dictionary0 inf 0.285 gain 0.008 val 0.027
+
+5551 items, total weight 5551.0
+	no sensible splits  5551.0/6.0
+
+87 items, total weight 87.0
+	no sensible splits  87.0/1.0
+
+136 items, total weight 136.0
+	no sensible splits  136.0/11.0
+Collapse tree for 5780 items to leaf OTHER
+
+1539 items, total weight 1539.0
+	no sensible splits  1539.0/21.0
+Collapse tree for 14027 items to leaf OTHER
+Collapse tree for 466102 items to leaf OTHER
+
+3649 items, total weight 3649.0
+	best attribute layout0 inf 1.371 gain 0.023 val 0.017
+
+466 items, total weight 466.0
+	no sensible splits  466.0/30.0
+
+2411 items, total weight 2411.0
+	best attribute pos0 inf 0.097 gain 0.000 val 0.000
+
+2387 items, total weight 2387.0
+	no sensible splits  2387.0/1.0
+Collapse tree for 2411 items to leaf OTHER
+Collapse tree for 3649 items to leaf OTHER
+
+4545 items, total weight 4545.0
+	best attribute layout0 inf 1.822 gain 0.000 val 0.000
+
+2181 items, total weight 2181.0
+	best attribute pos0 inf 1.962 gain 0.000 val 0.000
+
+1038 items, total weight 1038.0
+	no sensible splits  1038.0/1.0
+Collapse tree for 2181 items to leaf OTHER
+Collapse tree for 4545 items to leaf OTHER
+
+10064 items, total weight 10064.0
+	best attribute pos0 inf 1.439 gain 0.002 val 0.001
+
+7511 items, total weight 7511.0
+	best attribute layout0 inf 0.906 gain 0.001 val 0.001
+
+1482 items, total weight 1482.0
+	no sensible splits  1482.0/7.0
+
+5834 items, total weight 5834.0
+	no sensible splits  5834.0/42.0
+
+67 items, total weight 67.0
+	no sensible splits  67.0/1.0
+Collapse tree for 7511 items to leaf OTHER
+
+1149 items, total weight 1149.0
+	best attribute layout0 inf 0.346 gain 0.000 val 0.000
+
+1078 items, total weight 1078.0
+	no sensible splits  1078.0/1.0
+Collapse tree for 1149 items to leaf OTHER
+Collapse tree for 10064 items to leaf OTHER
+
+3531 items, total weight 3531.0
+	best attribute layout0 inf 0.810 gain 0.030 val 0.037
+
+97 items, total weight 97.0
+	best attribute pos0 inf 0.411 gain 0.003 val 0.006
+
+89 items, total weight 89.0
+	no sensible splits  89.0/2.0
+Collapse tree for 97 items to leaf OTHER
+
+2867 items, total weight 2867.0
+	no sensible splits  2867.0/763.0
+
+567 items, total weight 567.0
+	no sensible splits  567.0/45.0
+Collapse tree for 3531 items to leaf OTHER
+
+5338 items, total weight 5338.0
+	best attribute pos0 inf 1.922 gain 0.002 val 0.001
+
+2005 items, total weight 2005.0
+	best attribute layout0 inf 1.129 gain 0.001 val 0.001
+
+1538 items, total weight 1538.0
+	best attribute dictionary0 inf 0.802 gain 0.000 val 0.000
+
+1162 items, total weight 1162.0
+	no sensible splits  1162.0/3.0
+
+376 items, total weight 376.0
+	no sensible splits  376.0/2.0
+Collapse tree for 1538 items to leaf OTHER
+
+81 items, total weight 81.0
+	best attribute dictionary0 inf 0.465 gain 0.002 val 0.004
+
+73 items, total weight 73.0
+	no sensible splits  73.0/1.0
+Collapse tree for 81 items to leaf OTHER
+Collapse tree for 2005 items to leaf OTHER
+Collapse tree for 5338 items to leaf OTHER
+
+11317 items, total weight 11317.0
+	best attribute pos0 inf 1.079 gain 0.001 val 0.001
+
+9032 items, total weight 9032.0
+	best attribute layout0 inf 0.052 gain 0.000 val 0.000
+
+8984 items, total weight 8984.0
+	no sensible splits  8984.0/4.0
+Collapse tree for 9032 items to leaf OTHER
+
+85 items, total weight 85.0
+	best attribute layout0 inf 0.274 gain 0.001 val 0.003
+
+81 items, total weight 81.0
+	no sensible splits  81.0/1.0
+Collapse tree for 85 items to leaf OTHER
+
+962 items, total weight 962.0
+	best attribute dictionary0 inf 0.702 gain 0.007 val 0.011
+
+183 items, total weight 183.0
+	best attribute layout0 inf 0.320 gain 0.001 val 0.004
+
+174 items, total weight 174.0
+	no sensible splits  174.0/3.0
+Collapse tree for 183 items to leaf OTHER
+Collapse tree for 962 items to leaf OTHER
+Collapse tree for 11317 items to leaf OTHER
+
+2648 items, total weight 2648.0
+	best attribute layout0 inf 1.035 gain 0.002 val 0.002
+
+359 items, total weight 359.0
+	best attribute pos0 inf 1.825 gain 0.003 val 0.001
+
+191 items, total weight 191.0
+	no sensible splits  191.0/1.0
+Collapse tree for 359 items to leaf OTHER
+
+2064 items, total weight 2064.0
+	best attribute pos0 inf 1.934 gain 0.000 val 0.000
+
+483 items, total weight 483.0
+	no sensible splits  483.0/1.0
+
+854 items, total weight 854.0
+	no sensible splits  854.0/1.0
+
+606 items, total weight 606.0
+	no sensible splits  606.0/1.0
+Collapse tree for 2064 items to leaf OTHER
+
+179 items, total weight 179.0
+	best attribute pos0 inf 1.651 gain 0.007 val 0.004
+
+79 items, total weight 79.0
+	no sensible splits  79.0/1.0
+Collapse tree for 179 items to leaf OTHER
+Collapse tree for 2648 items to leaf OTHER
+
+7619 items, total weight 7619.0
+	best attribute pos0 inf 1.352 gain 0.001 val 0.001
+
+4700 items, total weight 4700.0
+	best attribute layout0 inf 1.981 gain 0.001 val 0.000
+
+1117 items, total weight 1117.0
+	no sensible splits  1117.0/2.0
+Collapse tree for 4700 items to leaf OTHER
+
+2063 items, total weight 2063.0
+	best attribute layout0 inf 1.783 gain 0.002 val 0.001
+
+133 items, total weight 133.0
+	no sensible splits  133.0/1.0
+
+471 items, total weight 471.0
+	no sensible splits  471.0/1.0
+
+587 items, total weight 587.0
+	no sensible splits  587.0/1.0
+Collapse tree for 2063 items to leaf OTHER
+Collapse tree for 7619 items to leaf OTHER
+
+33850 items, total weight 33850.0
+	best attribute dictionary0 inf 0.535 gain 0.129 val 0.241
+
+30090 items, total weight 30090.0
+	best attribute wordFormat0 inf 1.797 gain 0.026 val 0.014
+
+15694 items, total weight 15694.0
+	best attribute layout0 inf 1.258 gain 0.032 val 0.025
+
+3097 items, total weight 3097.0
+	best attribute pos0 inf 1.525 gain 0.053 val 0.035
+
+143 items, total weight 143.0
+	no sensible splits  143.0/36.0
+
+2237 items, total weight 2237.0
+	no sensible splits  2237.0/10.0
+Collapse tree for 3097 items to leaf OTHER
+
+10699 items, total weight 10699.0
+	best attribute pos0 inf 0.743 gain 0.014 val 0.018
+
+205 items, total weight 205.0
+	no sensible splits  205.0/21.0
+
+36 items, total weight 36.0
+	no sensible splits  36.0/13.0
+
+119 items, total weight 119.0
+	no sensible splits  119.0/10.0
+
+221 items, total weight 221.0
+	no sensible splits  221.0/51.0
+
+322 items, total weight 322.0
+	no sensible splits  322.0/15.0
+
+9638 items, total weight 9638.0
+	no sensible splits  9638.0/1019.0
+
+17 items, total weight 17.0
+	no sensible splits  17.0/1.0
+
+43 items, total weight 43.0
+	no sensible splits  43.0/1.0
+
+15 items, total weight 15.0
+	no sensible splits  15.0/3.0
+
+16 items, total weight 16.0
+	no sensible splits  16.0/1.0
+Collapse tree for 10699 items to leaf OTHER
+
+1737 items, total weight 1737.0
+	best attribute pos0 inf 0.516 gain 0.036 val 0.069
+
+9 items, total weight 9.0
+	no sensible splits  9.0/1.0
+
+20 items, total weight 20.0
+	no sensible splits  20.0/6.0
+
+1616 items, total weight 1616.0
+	no sensible splits  1616.0/34.0
+
+616 items, total weight 616.0
+	best attribute pos0 inf 1.119 gain 0.058 val 0.051
+
+4 items, total weight 4.0
+	no sensible splits  4.0/2.0
+
+27 items, total weight 27.0
+	best attribute layout0 inf 0.503 gain 0.006 val 0.013
+
+24 items, total weight 24.0
+	no sensible splits  24.0/1.0
+Collapse tree for 27 items to leaf OTHER
+
+14 items, total weight 14.0
+	best attribute layout0 inf 0.946 gain 0.228 val 0.241
+Collapse tree for 14 items to leaf OTHER
+
+516 items, total weight 516.0
+	best attribute layout0 inf 1.297 gain 0.004 val 0.003
+
+102 items, total weight 102.0
+	no sensible splits  102.0/1.0
+
+346 items, total weight 346.0
+	no sensible splits  346.0/12.0
+
+61 items, total weight 61.0
+	no sensible splits  61.0/1.0
+Collapse tree for 516 items to leaf OTHER
+
+10 items, total weight 10.0
+	best attribute layout0 inf 0.881 gain 0.881 val 1.000
+
+7 items, total weight 7.0
+	no sensible splits  7.0/3.0
+
+4 items, total weight 4.0
+	best attribute layout0 inf 1.000 gain 1.000 val 1.000
+
+6803 items, total weight 6803.0
+	best attribute pos0 inf 2.308 gain 0.023 val 0.010
+
+158 items, total weight 158.0
+	no sensible splits  158.0/24.0
+
+1743 items, total weight 1743.0
+	best attribute layout0 inf 0.051 gain 0.000 val 0.002
+
+1734 items, total weight 1734.0
+	no sensible splits  1734.0/29.0
+Collapse tree for 1743 items to leaf OTHER
+
+722 items, total weight 722.0
+	best attribute layout0 inf 0.174 gain 0.000 val 0.000
+
+707 items, total weight 707.0
+	no sensible splits  707.0/1.0
+Collapse tree for 722 items to leaf OTHER
+
+26 items, total weight 26.0
+	best attribute layout0 inf 1.323 gain 0.144 val 0.109
+
+18 items, total weight 18.0
+	no sensible splits  18.0/6.0
+Collapse tree for 26 items to leaf OTHER
+Collapse tree for 6803 items to leaf OTHER
+
+2469 items, total weight 2469.0
+	best attribute pos0 inf 1.962 gain 0.035 val 0.018
+
+705 items, total weight 705.0
+	best attribute layout0 inf 1.233 gain 0.040 val 0.032
+
+463 items, total weight 463.0
+	no sensible splits  463.0/16.0
+
+52 items, total weight 52.0
+	no sensible splits  52.0/10.0
+Collapse tree for 705 items to leaf OTHER
+
+819 items, total weight 819.0
+	best attribute layout0 inf 1.543 gain 0.008 val 0.005
+
+482 items, total weight 482.0
+	no sensible splits  482.0/13.0
+
+189 items, total weight 189.0
+	no sensible splits  189.0/8.0
+Collapse tree for 819 items to leaf OTHER
+
+523 items, total weight 523.0
+	best attribute layout0 inf 1.164 gain 0.035 val 0.030
+
+47 items, total weight 47.0
+	no sensible splits  47.0/2.0
+
+398 items, total weight 398.0
+	no sensible splits  398.0/67.0
+
+29 items, total weight 29.0
+	no sensible splits  29.0/8.0
+Collapse tree for 523 items to leaf OTHER
+
+420 items, total weight 420.0
+	best attribute layout0 inf 0.664 gain 0.002 val 0.003
+
+353 items, total weight 353.0
+	no sensible splits  353.0/3.0
+Collapse tree for 420 items to leaf OTHER
+Collapse tree for 2469 items to leaf OTHER
+
+4504 items, total weight 4504.0
+	best attribute pos0 inf 0.626 gain 0.000 val 0.000
+
+3913 items, total weight 3913.0
+	best attribute layout0 inf 0.055 gain 0.000 val 0.000
+
+3891 items, total weight 3891.0
+	no sensible splits  3891.0/2.0
+Collapse tree for 3913 items to leaf OTHER
+Collapse tree for 4504 items to leaf OTHER
+
+3574 items, total weight 3574.0
+	best attribute wordFormat0 inf 0.784 gain 0.143 val 0.182
+
+3013 items, total weight 3013.0
+	best attribute layout0 inf 0.849 gain 0.055 val 0.064
+
+64 items, total weight 64.0
+	best attribute pos0 inf 0.612 gain 0.003 val 0.005
+
+56 items, total weight 56.0
+	no sensible splits  56.0/1.0
+Collapse tree for 64 items to leaf OTHER
+
+2368 items, total weight 2368.0
+	best attribute pos0 inf 0.034 gain 0.001 val 0.043
+
+2361 items, total weight 2361.0
+	no sensible splits  2361.0/853.0
+
+581 items, total weight 581.0
+	best attribute pos0 inf 0.083 gain 0.003 val 0.034
+
+575 items, total weight 575.0
+	no sensible splits  575.0/101.0
+Collapse tree for 581 items to leaf MID
+
+265 items, total weight 265.0
+	best attribute layout0 inf 0.522 gain 0.336 val 0.643
+
+236 items, total weight 236.0
+	no sensible splits  236.0/15.0
+
+296 items, total weight 296.0
+	best attribute pos0 inf 0.937 gain 0.059 val 0.063
+
+254 items, total weight 254.0
+	best attribute layout0 inf 0.239 gain 0.023 val 0.094
+
+244 items, total weight 244.0
+	no sensible splits  244.0/2.0
+
+10 items, total weight 10.0
+	no sensible splits  10.0/2.0
+Collapse tree for 254 items to leaf OTHER
+
+11 items, total weight 11.0
+	no sensible splits  11.0/5.0
+Collapse tree for 296 items to leaf OTHER
+
+185 items, total weight 185.0
+	best attribute wordFormat0 inf 0.485 gain 0.018 val 0.038
+
+169 items, total weight 169.0
+	best attribute layout0 inf 0.886 gain 0.017 val 0.020
+
+133 items, total weight 133.0
+	no sensible splits  133.0/22.0
+
+30 items, total weight 30.0
+	no sensible splits  30.0/2.0
+Collapse tree for 169 items to leaf OTHER
+Collapse tree for 185 items to leaf OTHER
+
+27851 items, total weight 27851.0
+	best attribute wordFormat0 inf 1.111 gain 0.031 val 0.028
+
+18439 items, total weight 18439.0
+	best attribute pos0 inf 1.223 gain 0.028 val 0.023
+
+33 items, total weight 33.0
+	best attribute layout0 inf 0.851 gain 0.009 val 0.010
+
+27 items, total weight 27.0
+	no sensible splits  27.0/1.0
+Collapse tree for 33 items to leaf OTHER
+
+18 items, total weight 18.0
+	best attribute layout0 inf 0.852 gain 0.086 val 0.101
+
+5 items, total weight 5.0
+	no sensible splits  5.0/2.0
+
+13 items, total weight 13.0
+	no sensible splits  13.0/3.0
+
+600 items, total weight 600.0
+	best attribute dictionary0 inf 0.149 gain 0.012 val 0.083
+
+4 items, total weight 4.0
+	no sensible splits  4.0/1.0
+Collapse tree for 600 items to leaf OTHER
+
+1469 items, total weight 1469.0
+	best attribute layout0 inf 1.417 gain 0.002 val 0.002
+
+624 items, total weight 624.0
+	best attribute dictionary0 inf 0.397 gain 0.000 val 0.000
+
+577 items, total weight 577.0
+	no sensible splits  577.0/1.0
+Collapse tree for 624 items to leaf OTHER
+
+708 items, total weight 708.0
+	best attribute dictionary0 inf 0.116 gain 0.000 val 0.001
+
+697 items, total weight 697.0
+	no sensible splits  697.0/2.0
+Collapse tree for 708 items to leaf OTHER
+
+111 items, total weight 111.0
+	no sensible splits  111.0/2.0
+Collapse tree for 1469 items to leaf OTHER
+
+14619 items, total weight 14619.0
+	best attribute layout0 inf 1.327 gain 0.021 val 0.016
+
+3786 items, total weight 3786.0
+	best attribute dictionary0 inf 0.183 gain 0.003 val 0.015
+
+3688 items, total weight 3688.0
+	no sensible splits  3688.0/704.0
+
+91 items, total weight 91.0
+	no sensible splits  91.0/5.0
+
+7 items, total weight 7.0
+	no sensible splits  7.0/1.0
+Collapse tree for 3786 items to leaf OTHER
+
+9339 items, total weight 9339.0
+	best attribute dictionary0 inf 0.355 gain 0.000 val 0.001
+
+8746 items, total weight 8746.0
+	no sensible splits  8746.0/957.0
+
+572 items, total weight 572.0
+	no sensible splits  572.0/57.0
+Collapse tree for 9339 items to leaf OTHER
+
+1200 items, total weight 1200.0
+	best attribute dictionary0 inf 0.465 gain 0.015 val 0.032
+
+1093 items, total weight 1093.0
+	no sensible splits  1093.0/26.0
+
+100 items, total weight 100.0
+	no sensible splits  100.0/10.0
+
+7 items, total weight 7.0
+	no sensible splits  7.0/1.0
+Collapse tree for 1200 items to leaf OTHER
+
+294 items, total weight 294.0
+	best attribute dictionary0 inf 0.124 gain 0.000 val 0.001
+
+289 items, total weight 289.0
+	no sensible splits  289.0/1.0
+Collapse tree for 294 items to leaf OTHER
+Collapse tree for 14619 items to leaf OTHER
+
+200 items, total weight 200.0
+	best attribute layout0 inf 1.214 gain 0.018 val 0.015
+
+140 items, total weight 140.0
+	best attribute dictionary0 inf 0.822 gain 0.017 val 0.021
+
+104 items, total weight 104.0
+	no sensible splits  104.0/3.0
+
+36 items, total weight 36.0
+	no sensible splits  36.0/4.0
+Collapse tree for 140 items to leaf OTHER
+Collapse tree for 200 items to leaf OTHER
+
+96 items, total weight 96.0
+	best attribute dictionary0 inf 0.146 gain 0.021 val 0.141
+
+94 items, total weight 94.0
+	best attribute layout0 inf 1.308 gain 0.022 val 0.017
+
+50 items, total weight 50.0
+	no sensible splits  50.0/5.0
+
+38 items, total weight 38.0
+	no sensible splits  38.0/1.0
+Collapse tree for 94 items to leaf OTHER
+Collapse tree for 96 items to leaf OTHER
+
+1062 items, total weight 1062.0
+	best attribute dictionary0 inf 0.170 gain 0.029 val 0.167
+
+1037 items, total weight 1037.0
+	best attribute layout0 inf 1.391 gain 0.001 val 0.001
+
+406 items, total weight 406.0
+	no sensible splits  406.0/1.0
+Collapse tree for 1037 items to leaf OTHER
+
+23 items, total weight 23.0
+	no sensible splits  23.0/6.0
+Collapse tree for 1062 items to leaf OTHER
+
+14 items, total weight 14.0
+	best attribute layout0 inf 0.985 gain 0.061 val 0.062
+
+8 items, total weight 8.0
+	no sensible splits  8.0/1.0
+Collapse tree for 14 items to leaf OTHER
+
+1217 items, total weight 1217.0
+	best attribute layout0 inf 1.457 gain 0.023 val 0.016
+
+280 items, total weight 280.0
+	best attribute pos0 inf 1.057 gain 0.017 val 0.016
+
+43 items, total weight 43.0
+	no sensible splits  43.0/1.0
+
+217 items, total weight 217.0
+	best attribute dictionary0 inf 0.133 gain 0.003 val 0.021
+
+213 items, total weight 213.0
+	no sensible splits  213.0/21.0
+Collapse tree for 217 items to leaf OTHER
+Collapse tree for 280 items to leaf OTHER
+
+739 items, total weight 739.0
+	best attribute pos0 inf 0.915 gain 0.002 val 0.002
+
+627 items, total weight 627.0
+	best attribute dictionary0 inf 0.197 gain 0.000 val 0.002
+
+609 items, total weight 609.0
+	no sensible splits  609.0/7.0
+Collapse tree for 627 items to leaf OTHER
+Collapse tree for 739 items to leaf OTHER
+
+165 items, total weight 165.0
+	best attribute dictionary0 inf 0.657 gain 0.017 val 0.026
+
+137 items, total weight 137.0
+	best attribute pos0 inf 0.700 gain 0.001 val 0.002
+
+119 items, total weight 119.0
+	no sensible splits  119.0/1.0
+Collapse tree for 137 items to leaf OTHER
+
+28 items, total weight 28.0
+	no sensible splits  28.0/1.0
+Collapse tree for 165 items to leaf OTHER
+
+33 items, total weight 33.0
+	no sensible splits  33.0/1.0
+Collapse tree for 1217 items to leaf OTHER
+
+8194 items, total weight 8194.0
+	best attribute pos0 inf 2.118 gain 0.017 val 0.008
+
+141 items, total weight 141.0
+	no sensible splits  141.0/11.0
+
+4642 items, total weight 4642.0
+	best attribute layout0 inf 0.382 gain 0.000 val 0.000
+
+4373 items, total weight 4373.0
+	best attribute dictionary0 inf 0.231 gain 0.000 val 0.000
+
+4235 items, total weight 4235.0
+	no sensible splits  4235.0/2.0
+Collapse tree for 4373 items to leaf OTHER
+Collapse tree for 4642 items to leaf OTHER
+
+106 items, total weight 106.0
+	best attribute layout0 inf 1.307 gain 0.249 val 0.191
+
+18 items, total weight 18.0
+	no sensible splits  18.0/4.0
+
+72 items, total weight 72.0
+	no sensible splits  72.0/6.0
+
+14 items, total weight 14.0
+	no sensible splits  14.0/7.0
+Collapse tree for 106 items to leaf OTHER
+
+463 items, total weight 463.0
+	best attribute layout0 inf 0.246 gain 0.000 val 0.000
+
+446 items, total weight 446.0
+	no sensible splits  446.0/1.0
+Collapse tree for 463 items to leaf OTHER
+Collapse tree for 8194 items to leaf OTHER
+
+85415 items, total weight 85415.0
+	best attribute wordFormat0 inf 1.046 gain 0.080 val 0.077
+
+68453 items, total weight 68453.0
+	best attribute dictionary0 inf 1.094 gain 0.025 val 0.023
+
+48886 items, total weight 48886.0
+	best attribute layout0 inf 1.165 gain 0.036 val 0.031
+
+10390 items, total weight 10390.0
+	best attribute pos0 inf 0.753 gain 0.084 val 0.111
+
+133 items, total weight 133.0
+	no sensible splits  133.0/4.0
+
+827 items, total weight 827.0
+	no sensible splits  827.0/2.0
+
+9088 items, total weight 9088.0
+	no sensible splits  9088.0/3778.0
+
+18 items, total weight 18.0
+	no sensible splits  18.0/5.0
+Collapse tree for 10390 items to leaf OTHER
+
+34647 items, total weight 34647.0
+	best attribute pos0 inf 0.208 gain 0.010 val 0.047
+
+7 items, total weight 7.0
+	no sensible splits  7.0/1.0
+
+142 items, total weight 142.0
+	no sensible splits  142.0/4.0
+
+265 items, total weight 265.0
+	no sensible splits  265.0/1.0
+
+179 items, total weight 179.0
+	no sensible splits  179.0/19.0
+
+33890 items, total weight 33890.0
+	no sensible splits  33890.0/11779.0
+
+50 items, total weight 50.0
+	no sensible splits  50.0/1.0
+
+23 items, total weight 23.0
+	no sensible splits  23.0/2.0
+
+13 items, total weight 13.0
+	no sensible splits  13.0/2.0
+
+3243 items, total weight 3243.0
+	best attribute pos0 inf 0.150 gain 0.002 val 0.014
+
+49 items, total weight 49.0
+	no sensible splits  49.0/1.0
+
+3184 items, total weight 3184.0
+	no sensible splits  3184.0/342.0
+Collapse tree for 3243 items to leaf OTHER
+
+606 items, total weight 606.0
+	best attribute pos0 inf 0.581 gain 0.004 val 0.007
+
+541 items, total weight 541.0
+	no sensible splits  541.0/15.0
+Collapse tree for 606 items to leaf OTHER
+
+2974 items, total weight 2974.0
+	best attribute layout0 inf 0.789 gain 0.029 val 0.036
+
+255 items, total weight 255.0
+	best attribute pos0 inf 0.348 gain 0.028 val 0.081
+
+241 items, total weight 241.0
+	no sensible splits  241.0/74.0
+Collapse tree for 255 items to leaf OTHER
+
+2512 items, total weight 2512.0
+	best attribute pos0 inf 0.037 gain 0.001 val 0.031
+
+10 items, total weight 10.0
+	no sensible splits  10.0/3.0
+
+2502 items, total weight 2502.0
+	no sensible splits  2502.0/959.0
+
+202 items, total weight 202.0
+	no sensible splits  202.0/72.0
+
+15980 items, total weight 15980.0
+	best attribute layout0 inf 0.888 gain 0.035 val 0.039
+
+421 items, total weight 421.0
+	best attribute pos0 inf 0.723 gain 0.045 val 0.062
+
+361 items, total weight 361.0
+	no sensible splits  361.0/76.0
+Collapse tree for 421 items to leaf OTHER
+
+12462 items, total weight 12462.0
+	best attribute pos0 inf 0.151 gain 0.005 val 0.031
+
+163 items, total weight 163.0
+	no sensible splits  163.0/64.0
+
+12238 items, total weight 12238.0
+	no sensible splits  12238.0/5654.0
+
+26 items, total weight 26.0
+	no sensible splits  26.0/1.0
+
+3077 items, total weight 3077.0
+	best attribute pos0 inf 0.280 gain 0.011 val 0.039
+
+134 items, total weight 134.0
+	no sensible splits  134.0/62.0
+
+2937 items, total weight 2937.0
+	no sensible splits  2937.0/864.0
+
+613 items, total weight 613.0
+	best attribute layout0 inf 0.884 gain 0.022 val 0.025
+
+59 items, total weight 59.0
+	best attribute pos0 inf 0.214 gain 0.004 val 0.021
+
+57 items, total weight 57.0
+	no sensible splits  57.0/5.0
+Collapse tree for 59 items to leaf OTHER
+
+498 items, total weight 498.0
+	no sensible splits  498.0/97.0
+
+56 items, total weight 56.0
+	no sensible splits  56.0/11.0
+Collapse tree for 613 items to leaf OTHER
+
+4146 items, total weight 4146.0
+	best attribute dictionary0 inf 1.169 gain 0.094 val 0.080
+
+2982 items, total weight 2982.0
+	best attribute layout0 inf 1.221 gain 0.041 val 0.034
+
+396 items, total weight 396.0
+	best attribute pos0 inf 0.714 gain 0.062 val 0.087
+
+350 items, total weight 350.0
+	no sensible splits  350.0/115.0
+Collapse tree for 396 items to leaf OTHER
+
+2107 items, total weight 2107.0
+	best attribute pos0 inf 0.318 gain 0.004 val 0.012
+
+38 items, total weight 38.0
+	no sensible splits  38.0/2.0
+
+2025 items, total weight 2025.0
+	no sensible splits  2025.0/217.0
+Collapse tree for 2107 items to leaf OTHER
+
+447 items, total weight 447.0
+	best attribute pos0 inf 0.116 gain 0.000 val 0.004
+
+441 items, total weight 441.0
+	no sensible splits  441.0/10.0
+Collapse tree for 447 items to leaf OTHER
+
+32 items, total weight 32.0
+	best attribute pos0 inf 0.337 gain 0.003 val 0.009
+
+30 items, total weight 30.0
+	no sensible splits  30.0/1.0
+Collapse tree for 32 items to leaf OTHER
+Collapse tree for 2982 items to leaf OTHER
+
+412 items, total weight 412.0
+	best attribute layout0 inf 1.193 gain 0.121 val 0.102
+
+28 items, total weight 28.0
+	no sensible splits  28.0/1.0
+
+264 items, total weight 264.0
+	no sensible splits  264.0/107.0
+
+120 items, total weight 120.0
+	no sensible splits  120.0/21.0
+
+717 items, total weight 717.0
+	best attribute layout0 inf 0.919 gain 0.125 val 0.136
+
+15 items, total weight 15.0
+	no sensible splits  15.0/1.0
+
+536 items, total weight 536.0
+	best attribute pos0 inf 0.488 gain 0.016 val 0.032
+
+494 items, total weight 494.0
+	no sensible splits  494.0/87.0
+
+14 items, total weight 14.0
+	no sensible splits  14.0/1.0
+Collapse tree for 536 items to leaf OTHER
+
+166 items, total weight 166.0
+	best attribute pos0 inf 0.531 gain 0.185 val 0.349
+
+146 items, total weight 146.0
+	no sensible splits  146.0/44.0
+
+9316 items, total weight 9316.0
+	best attribute pos0 inf 2.420 gain 0.022 val 0.009
+
+15 items, total weight 15.0
+	no sensible splits  15.0/1.0
+
+4 items, total weight 4.0
+	no sensible splits  4.0/1.0
+
+928 items, total weight 928.0
+	best attribute dictionary0 inf 0.501 gain 0.000 val 0.001
+
+848 items, total weight 848.0
+	best attribute layout0 inf 0.150 gain 0.000 val 0.000
+
+833 items, total weight 833.0
+	no sensible splits  833.0/2.0
+Collapse tree for 848 items to leaf OTHER
+Collapse tree for 928 items to leaf OTHER
+
+3990 items, total weight 3990.0
+	best attribute dictionary0 inf 0.917 gain 0.002 val 0.002
+
+3159 items, total weight 3159.0
+	best attribute layout0 inf 0.530 gain 0.001 val 0.001
+
+2858 items, total weight 2858.0
+	no sensible splits  2858.0/15.0
+Collapse tree for 3159 items to leaf OTHER
+
+682 items, total weight 682.0
+	best attribute layout0 inf 0.607 gain 0.001 val 0.001
+
+604 items, total weight 604.0
+	no sensible splits  604.0/9.0
+
+58 items, total weight 58.0
+	no sensible splits  58.0/1.0
+Collapse tree for 682 items to leaf OTHER
+Collapse tree for 3990 items to leaf OTHER
+
+156 items, total weight 156.0
+	best attribute layout0 inf 1.243 gain 0.123 val 0.099
+
+39 items, total weight 39.0
+	best attribute geo0 inf 0.918 gain 0.086 val 0.093
+
+13 items, total weight 13.0
+	no sensible splits  13.0/3.0
+
+26 items, total weight 26.0
+	no sensible splits  26.0/2.0
+Collapse tree for 39 items to leaf OTHER
+
+101 items, total weight 101.0
+	best attribute dictionary0 inf 0.850 gain 0.030 val 0.036
+
+77 items, total weight 77.0
+	no sensible splits  77.0/29.0
+
+23 items, total weight 23.0
+	no sensible splits  23.0/5.0
+
+804 items, total weight 804.0
+	best attribute layout0 inf 0.836 gain 0.001 val 0.001
+
+596 items, total weight 596.0
+	best attribute dictionary0 inf 0.259 gain 0.000 val 0.000
+
+570 items, total weight 570.0
+	no sensible splits  570.0/1.0
+Collapse tree for 596 items to leaf OTHER
+Collapse tree for 804 items to leaf OTHER
+
+87 items, total weight 87.0
+	best attribute dictionary0 inf 0.713 gain 0.004 val 0.005
+
+70 items, total weight 70.0
+	best attribute layout0 inf 0.508 gain 0.002 val 0.004
+
+64 items, total weight 64.0
+	no sensible splits  64.0/1.0
+Collapse tree for 70 items to leaf OTHER
+Collapse tree for 87 items to leaf OTHER
+
+2262 items, total weight 2262.0
+	best attribute dictionary0 inf 0.054 gain 0.000 val 0.000
+
+2248 items, total weight 2248.0
+	no sensible splits  2248.0/1.0
+Collapse tree for 2262 items to leaf OTHER
+
+1571 items, total weight 1571.0
+	best attribute layout0 inf 0.789 gain 0.085 val 0.107
+
+93 items, total weight 93.0
+	best attribute pos0 inf 0.895 gain 0.018 val 0.020
+
+29 items, total weight 29.0
+	no sensible splits  29.0/1.0
+Collapse tree for 93 items to leaf OTHER
+
+1349 items, total weight 1349.0
+	best attribute pos0 inf 0.624 gain 0.009 val 0.014
+
+210 items, total weight 210.0
+	no sensible splits  210.0/94.0
+
+1139 items, total weight 1139.0
+	best attribute dictionary0 inf 0.047 gain 0.001 val 0.023
+
+6 items, total weight 6.0
+	no sensible splits  6.0/2.0
+
+1133 items, total weight 1133.0
+	no sensible splits  1133.0/453.0
+
+100 items, total weight 100.0
+	best attribute pos0 inf 0.904 gain 0.065 val 0.072
+
+68 items, total weight 68.0
+	no sensible splits  68.0/25.0
+
+32 items, total weight 32.0
+	no sensible splits  32.0/10.0
+
+1929 items, total weight 1929.0
+	best attribute pos0 inf 0.503 gain 0.004 val 0.008
+
+95 items, total weight 95.0
+	best attribute layout0 inf 0.821 gain 0.013 val 0.016
+
+79 items, total weight 79.0
+	no sensible splits  79.0/2.0
+
+9 items, total weight 9.0
+	no sensible splits  9.0/1.0
+Collapse tree for 95 items to leaf OTHER
+
+1775 items, total weight 1775.0
+	best attribute layout0 inf 0.065 gain 0.000 val 0.000
+
+1762 items, total weight 1762.0
+	no sensible splits  1762.0/3.0
+Collapse tree for 1775 items to leaf OTHER
+Collapse tree for 1929 items to leaf OTHER
+
+839 items, total weight 839.0
+	best attribute wordFormat0 inf 1.253 gain 0.415 val 0.331
+
+287 items, total weight 287.0
+	best attribute pos0 inf 0.945 gain 0.126 val 0.134
+
+183 items, total weight 183.0
+	best attribute layout0 inf 0.349 gain 0.061 val 0.175
+
+171 items, total weight 171.0
+	no sensible splits  171.0/34.0
+
+12 items, total weight 12.0
+	no sensible splits  12.0/3.0
+
+104 items, total weight 104.0
+	no sensible splits  104.0/37.0
+
+1015 items, total weight 1015.0
+	best attribute layout0 inf 0.892 gain 0.096 val 0.108
+
+81 items, total weight 81.0
+	best attribute dictionary0 inf 0.999 gain 0.040 val 0.040
+
+39 items, total weight 39.0
+	best attribute wordFormat0 inf 0.292 gain 0.006 val 0.021
+
+37 items, total weight 37.0
+	no sensible splits  37.0/3.0
+Collapse tree for 39 items to leaf OTHER
+Collapse tree for 81 items to leaf OTHER
+
+843 items, total weight 843.0
+	best attribute wordFormat0 inf 1.074 gain 0.069 val 0.064
+
+306 items, total weight 306.0
+	best attribute dictionary0 inf 1.643 gain 0.299 val 0.182
+
+169 items, total weight 169.0
+	no sensible splits  169.0/73.0
+
+57 items, total weight 57.0
+	no sensible splits  57.0/1.0
+
+20 items, total weight 20.0
+	no sensible splits  20.0/1.0
+
+520 items, total weight 520.0
+	best attribute dictionary0 inf 1.145 gain 0.049 val 0.043
+
+385 items, total weight 385.0
+	no sensible splits  385.0/140.0
+
+49 items, total weight 49.0
+	best attribute pos0 inf 0.911 gain 0.462 val 0.506
+
+33 items, total weight 33.0
+	no sensible splits  33.0/11.0
+
+78 items, total weight 78.0
+	no sensible splits  78.0/37.0
+
+17 items, total weight 17.0
+	best attribute pos0 inf 1.322 gain 0.064 val 0.048
+
+12 items, total weight 12.0
+	no sensible splits  12.0/2.0
+Collapse tree for 17 items to leaf OTHER
+
+72 items, total weight 72.0
+	best attribute dictionary0 inf 1.571 gain 0.149 val 0.095
+
+6 items, total weight 6.0
+	no sensible splits  6.0/1.0
+
+42 items, total weight 42.0
+	best attribute pos0 inf 0.371 gain 0.005 val 0.014
+
+39 items, total weight 39.0
+	no sensible splits  39.0/2.0
+Collapse tree for 42 items to leaf OTHER
+
+7 items, total weight 7.0
+	best attribute wordFormat0 inf 1.379 gain 0.414 val 0.300
+
+4 items, total weight 4.0
+	no sensible splits  4.0/2.0
+
+24629 items, total weight 24629.0
+	best attribute pos0 inf 1.226 gain 0.277 val 0.226
+
+1423 items, total weight 1423.0
+	best attribute wordFormat0 inf 0.457 gain 0.105 val 0.230
+
+50 items, total weight 50.0
+	no sensible splits  50.0/22.0
+
+196 items, total weight 196.0
+	best attribute layout0 inf 0.768 gain 0.010 val 0.013
+
+161 items, total weight 161.0
+	best attribute dictionary0 inf 0.912 gain 0.004 val 0.004
+
+125 items, total weight 125.0
+	best attribute wordFormat0 inf 0.529 gain 0.002 val 0.003
+
+15 items, total weight 15.0
+	no sensible splits  15.0/1.0
+
+110 items, total weight 110.0
+	no sensible splits  110.0/4.0
+Collapse tree for 125 items to leaf OTHER
+
+30 items, total weight 30.0
+	no sensible splits  30.0/2.0
+Collapse tree for 161 items to leaf OTHER
+Collapse tree for 196 items to leaf OTHER
+
+3816 items, total weight 3816.0
+	best attribute wordFormat0 inf 0.566 gain 0.049 val 0.087
+
+335 items, total weight 335.0
+	best attribute layout0 inf 1.346 gain 0.002 val 0.002
+
+204 items, total weight 204.0
+	no sensible splits  204.0/1.0
+Collapse tree for 335 items to leaf OTHER
+
+75 items, total weight 75.0
+	best attribute layout0 inf 0.279 gain 0.037 val 0.134
+
+72 items, total weight 72.0
+	no sensible splits  72.0/35.0
+Collapse tree for 75 items to leaf OTHER
+
+3406 items, total weight 3406.0
+	best attribute layout0 inf 0.077 gain 0.000 val 0.000
+
+3378 items, total weight 3378.0
+	no sensible splits  3378.0/5.0
+Collapse tree for 3406 items to leaf OTHER
+Collapse tree for 3816 items to leaf OTHER
+
+93 items, total weight 93.0
+	best attribute wordFormat0 inf 1.473 gain 0.151 val 0.103
+
+15 items, total weight 15.0
+	best attribute layout0 inf 0.567 gain 0.014 val 0.025
+
+13 items, total weight 13.0
+	no sensible splits  13.0/1.0
+Collapse tree for 15 items to leaf OTHER
+
+42 items, total weight 42.0
+	best attribute layout0 inf 1.264 gain 0.250 val 0.198
+
+27 items, total weight 27.0
+	no sensible splits  27.0/13.0
+Collapse tree for 42 items to leaf OTHER
+Collapse tree for 93 items to leaf OTHER
+
+20 items, total weight 20.0
+	best attribute layout0 inf 0.748 gain 0.053 val 0.071
+
+17 items, total weight 17.0
+	no sensible splits  17.0/4.0
+Collapse tree for 20 items to leaf OTHER
+
+153 items, total weight 153.0
+	best attribute wordFormat0 inf 1.200 gain 0.372 val 0.310
+
+81 items, total weight 81.0
+	best attribute dictionary0 inf 0.263 gain 0.055 val 0.209
+
+78 items, total weight 78.0
+	no sensible splits  78.0/27.0
+
+67 items, total weight 67.0
+	best attribute dictionary0 inf 1.416 gain 0.112 val 0.079
+
+18488 items, total weight 18488.0
+	best attribute layout0 inf 0.857 gain 0.182 val 0.212
+
+1531 items, total weight 1531.0
+	best attribute dictionary0 inf 0.798 gain 0.112 val 0.140
+
+1304 items, total weight 1304.0
+	best attribute wordFormat0 inf 0.170 gain 0.008 val 0.049
+
+1271 items, total weight 1271.0
+	no sensible splits  1271.0/498.0
+
+33 items, total weight 33.0
+	no sensible splits  33.0/9.0
+
+59 items, total weight 59.0
+	best attribute wordFormat0 inf 0.843 gain 0.106 val 0.126
+
+43 items, total weight 43.0
+	no sensible splits  43.0/12.0
+Collapse tree for 59 items to leaf OTHER
+
+141 items, total weight 141.0
+	best attribute wordFormat0 inf 0.841 gain 0.010 val 0.011
+
+103 items, total weight 103.0
+	no sensible splits  103.0/9.0
+
+38 items, total weight 38.0
+	no sensible splits  38.0/1.0
+Collapse tree for 141 items to leaf OTHER
+
+15363 items, total weight 15363.0
+	best attribute dictionary0 inf 1.293 gain 0.088 val 0.068
+
+6493 items, total weight 6493.0
+	best attribute wordFormat0 inf 0.142 gain 0.010 val 0.068
+
+6364 items, total weight 6364.0
+	no sensible splits  6364.0/2969.0
+
+128 items, total weight 128.0
+	no sensible splits  128.0/18.0
+
+8171 items, total weight 8171.0
+	best attribute wordFormat0 inf 0.151 gain 0.027 val 0.178
+
+167 items, total weight 167.0
+	no sensible splits  167.0/41.0
+
+7999 items, total weight 7999.0
+	no sensible splits  7999.0/1437.0
+
+47 items, total weight 47.0
+	best attribute wordFormat0 inf 0.711 gain 0.083 val 0.117
+
+41 items, total weight 41.0
+	no sensible splits  41.0/7.0
+
+143 items, total weight 143.0
+	best attribute wordFormat0 inf 0.684 gain 0.004 val 0.006
+
+26 items, total weight 26.0
+	no sensible splits  26.0/8.0
+
+117 items, total weight 117.0
+	no sensible splits  117.0/26.0
+Collapse tree for 143 items to leaf MID
+
+301 items, total weight 301.0
+	best attribute wordFormat0 inf 0.997 gain 0.000 val 0.000
+
+160 items, total weight 160.0
+	no sensible splits  160.0/62.0
+
+141 items, total weight 141.0
+	no sensible splits  141.0/52.0
+Collapse tree for 301 items to leaf OTHER
+
+208 items, total weight 208.0
+	best attribute wordFormat0 inf 0.788 gain 0.066 val 0.083
+
+49 items, total weight 49.0
+	no sensible splits  49.0/4.0
+
+159 items, total weight 159.0
+	no sensible splits  159.0/61.0
+Collapse tree for 208 items to leaf MID
+
+1479 items, total weight 1479.0
+	best attribute dictionary0 inf 1.427 gain 0.159 val 0.112
+
+823 items, total weight 823.0
+	best attribute wordFormat0 inf 0.087 gain 0.013 val 0.155
+
+814 items, total weight 814.0
+	no sensible splits  814.0/347.0
+
+9 items, total weight 9.0
+	no sensible splits  9.0/1.0
+
+533 items, total weight 533.0
+	best attribute wordFormat0 inf 0.077 gain 0.013 val 0.172
+
+528 items, total weight 528.0
+	no sensible splits  528.0/214.0
+
+52 items, total weight 52.0
+	best attribute wordFormat0 inf 0.318 gain 0.027 val 0.085
+
+49 items, total weight 49.0
+	no sensible splits  49.0/14.0
+Collapse tree for 52 items to leaf MID
+
+53 items, total weight 53.0
+	no sensible splits  53.0/1.0
+
+16 items, total weight 16.0
+	best attribute wordFormat0 inf 0.696 gain 0.393 val 0.564
+
+13 items, total weight 13.0
+	no sensible splits  13.0/2.0
+
+115 items, total weight 115.0
+	best attribute dictionary0 inf 0.534 gain 0.411 val 0.768
+
+14 items, total weight 14.0
+	no sensible splits  14.0/6.0
+
+93 items, total weight 93.0
+	best attribute wordFormat0 inf 1.240 gain 0.217 val 0.175
+
+5 items, total weight 5.0
+	no sensible splits  5.0/1.0
+
+39207 items, total weight 39207.0
+	best attribute layout0 inf 1.608 gain 0.276 val 0.171
+
+8311 items, total weight 8311.0
+	best attribute wordFormat0 inf 0.805 gain 0.211 val 0.263
+
+7015 items, total weight 7015.0
+	best attribute pos0 inf 0.084 gain 0.006 val 0.068
+
+6953 items, total weight 6953.0
+	best attribute geo0 inf 0.189 gain 0.004 val 0.022
+
+201 items, total weight 201.0
+	no sensible splits  201.0/22.0
+
+6752 items, total weight 6752.0
+	no sensible splits  6752.0/1861.0
+Collapse tree for 6953 items to leaf START
+
+18 items, total weight 18.0
+	no sensible splits  18.0/1.0
+
+38 items, total weight 38.0
+	no sensible splits  38.0/8.0
+
+234 items, total weight 234.0
+	best attribute pos0 inf 1.247 gain 0.174 val 0.139
+
+14 items, total weight 14.0
+	no sensible splits  14.0/5.0
+
+175 items, total weight 175.0
+	no sensible splits  175.0/9.0
+
+28 items, total weight 28.0
+	no sensible splits  28.0/11.0
+
+916 items, total weight 916.0
+	best attribute pos0 inf 1.460 gain 0.032 val 0.022
+
+401 items, total weight 401.0
+	no sensible splits  401.0/27.0
+
+138 items, total weight 138.0
+	no sensible splits  138.0/1.0
+Collapse tree for 916 items to leaf OTHER
+
+21905 items, total weight 21905.0
+	best attribute geo0 inf 0.061 gain 0.012 val 0.201
+
+157 items, total weight 157.0
+	best attribute pos0 inf 0.259 gain 0.036 val 0.139
+
+151 items, total weight 151.0
+	no sensible splits  151.0/65.0
+
+5 items, total weight 5.0
+	no sensible splits  5.0/2.0
+
+21748 items, total weight 21748.0
+	best attribute wordFormat0 inf 0.872 gain 0.013 val 0.015
+
+18054 items, total weight 18054.0
+	best attribute pos0 inf 0.115 gain 0.002 val 0.014
+
+17817 items, total weight 17817.0
+	no sensible splits  17817.0/1378.0
+
+41 items, total weight 41.0
+	no sensible splits  41.0/8.0
+Collapse tree for 18054 items to leaf OTHER
+
+729 items, total weight 729.0
+	best attribute pos0 inf 1.157 gain 0.014 val 0.012
+
+125 items, total weight 125.0
+	no sensible splits  125.0/2.0
+
+537 items, total weight 537.0
+	no sensible splits  537.0/1.0
+
+56 items, total weight 56.0
+	no sensible splits  56.0/2.0
+Collapse tree for 729 items to leaf OTHER
+
+536 items, total weight 536.0
+	best attribute pos0 inf 1.407 gain 0.004 val 0.003
+
+102 items, total weight 102.0
+	no sensible splits  102.0/1.0
+Collapse tree for 536 items to leaf OTHER
+
+2429 items, total weight 2429.0
+	best attribute pos0 inf 1.620 gain 0.006 val 0.003
+
+1123 items, total weight 1123.0
+	no sensible splits  1123.0/13.0
+
+791 items, total weight 791.0
+	no sensible splits  791.0/1.0
+
+472 items, total weight 472.0
+	no sensible splits  472.0/2.0
+Collapse tree for 2429 items to leaf OTHER
+Collapse tree for 21748 items to leaf OTHER
+
+6949 items, total weight 6949.0
+	best attribute geo0 inf 0.170 gain 0.067 val 0.393
+
+176 items, total weight 176.0
+	best attribute pos0 inf 0.337 gain 0.002 val 0.007
+
+165 items, total weight 165.0
+	no sensible splits  165.0/87.0
+
+11 items, total weight 11.0
+	no sensible splits  11.0/6.0
+Collapse tree for 176 items to leaf END
+
+6773 items, total weight 6773.0
+	best attribute wordFormat0 inf 1.137 gain 0.049 val 0.043
+
+3743 items, total weight 3743.0
+	best attribute pos0 inf 0.031 gain 0.002 val 0.051
+
+3731 items, total weight 3731.0
+	no sensible splits  3731.0/331.0
+
+12 items, total weight 12.0
+	no sensible splits  12.0/1.0
+Collapse tree for 3743 items to leaf OTHER
+
+154 items, total weight 154.0
+	best attribute pos0 inf 0.956 gain 0.389 val 0.407
+
+58 items, total weight 58.0
+	no sensible splits  58.0/25.0
+
+96 items, total weight 96.0
+	no sensible splits  96.0/5.0
+
+2865 items, total weight 2865.0
+	best attribute pos0 inf 0.993 gain 0.001 val 0.001
+
+1294 items, total weight 1294.0
+	no sensible splits  1294.0/8.0
+
+1571 items, total weight 1571.0
+	no sensible splits  1571.0/23.0
+Collapse tree for 2865 items to leaf OTHER
+
+2042 items, total weight 2042.0
+	best attribute geo0 inf 0.025 gain 0.017 val 0.700
+
+5 items, total weight 5.0
+	no sensible splits  5.0/3.0
+
+2037 items, total weight 2037.0
+	best attribute wordFormat0 inf 0.714 gain 0.000 val 0.000
+
+1703 items, total weight 1703.0
+	best attribute pos0 inf 1.680 gain 0.000 val 0.000
+
+732 items, total weight 732.0
+	no sensible splits  732.0/1.0
+
+574 items, total weight 574.0
+	no sensible splits  574.0/1.0
+Collapse tree for 1703 items to leaf OTHER
+Collapse tree for 2037 items to leaf OTHER
+
+48881 items, total weight 48881.0
+	best attribute layout0 inf 0.926 gain 0.091 val 0.098
+
+5075 items, total weight 5075.0
+	best attribute pos0 inf 0.175 gain 0.012 val 0.067
+
+4970 items, total weight 4970.0
+	no sensible splits  4970.0/1631.0
+
+40 items, total weight 40.0
+	no sensible splits  40.0/12.0
+
+39797 items, total weight 39797.0
+	best attribute pos0 inf 0.305 gain 0.002 val 0.005
+
+37920 items, total weight 37920.0
+	no sensible splits  37920.0/968.0
+
+1672 items, total weight 1672.0
+	no sensible splits  1672.0/6.0
+
+121 items, total weight 121.0
+	no sensible splits  121.0/11.0
+
+9 items, total weight 9.0
+	no sensible splits  9.0/3.0
+Collapse tree for 39797 items to leaf OTHER
+
+3418 items, total weight 3418.0
+	best attribute pos0 inf 0.249 gain 0.003 val 0.014
+
+3276 items, total weight 3276.0
+	no sensible splits  3276.0/359.0
+
+142 items, total weight 142.0
+	no sensible splits  142.0/3.0
+Collapse tree for 3418 items to leaf OTHER
+
+2001 items, total weight 2001.0
+	best attribute layout0 inf 0.690 gain 0.011 val 0.016
+
+83 items, total weight 83.0
+	no sensible splits  83.0/5.0
+
+1756 items, total weight 1756.0
+	best attribute pos0 inf 0.499 gain 0.000 val 0.001
+
+1580 items, total weight 1580.0
+	no sensible splits  1580.0/5.0
+Collapse tree for 1756 items to leaf OTHER
+
+144 items, total weight 144.0
+	no sensible splits  144.0/2.0
+Collapse tree for 2001 items to leaf OTHER
+
+9515 items, total weight 9515.0
+	best attribute layout0 inf 1.081 gain 0.354 val 0.327
+
+566 items, total weight 566.0
+	best attribute pos0 inf 0.061 gain 0.018 val 0.297
+
+562 items, total weight 562.0
+	no sensible splits  562.0/136.0
+
+4 items, total weight 4.0
+	no sensible splits  4.0/1.0
+
+2002 items, total weight 2002.0
+	best attribute pos0 inf 0.249 gain 0.008 val 0.032
+
+1934 items, total weight 1934.0
+	best attribute geo0 inf 0.012 gain 0.002 val 0.199
+
+1932 items, total weight 1932.0
+	no sensible splits  1932.0/828.0
+
+44 items, total weight 44.0
+	no sensible splits  44.0/10.0
+
+23 items, total weight 23.0
+	no sensible splits  23.0/9.0
+
+6911 items, total weight 6911.0
+	best attribute geo0 inf 0.016 gain 0.008 val 0.505
+
+6901 items, total weight 6901.0
+	best attribute pos0 inf 0.222 gain 0.001 val 0.006
+
+6655 items, total weight 6655.0
+	no sensible splits  6655.0/269.0
+
+246 items, total weight 246.0
+	no sensible splits  246.0/13.0
+Collapse tree for 6901 items to leaf END
+
+36 items, total weight 36.0
+	best attribute pos0 inf 0.490 gain 0.046 val 0.094
+
+33 items, total weight 33.0
+	no sensible splits  33.0/11.0
+Collapse tree for 36 items to leaf END
+
+14 items, total weight 14.0
+	best attribute layout0 inf 1.727 gain 0.959 val 0.555
+
+6 items, total weight 6.0
+	no sensible splits  6.0/1.0
+
+5 items, total weight 5.0
+	no sensible splits  5.0/2.0
+
+Decision Tree:
+
+fips0 = 6: OTHER (0.0)
+fips0 = 8: OTHER (0.0)
+fips0 = 9: OTHER (0.0)
+fips0 = 10: OTHER (0.0)
+fips0 = 11: OTHER (0.0)
+fips0 = 12: OTHER (0.0)
+fips0 = 13: OTHER (0.0)
+fips0 = 14: OTHER (0.0)
+fips0 = 15: OTHER (0.0)
+fips0 = 18: OTHER (0.0)
+fips0 = 19: OTHER (2001.0/12.0)
+fips0 = 20: OTHER (0.0)
+fips0 = 21: OTHER (0.0)
+fips0 = 22: OTHER (0.0)
+fips0 = 23: OTHER (0.0)
+fips0 = 26: OTHER (0.0)
+fips0 = 27: OTHER (0.0)
+fips0 = 28: OTHER (0.0)
+fips0 = 29: OTHER (0.0)
+fips0 = 30: OTHER (0.0)
+fips0 = 31: OTHER (0.0)
+fips0 = 0:
+|   punctuation0 = PERIOD: OTHER (60302.0/2216.0)
+|   punctuation0 = EXCLAMATION: OTHER (2922.0)
+|   punctuation0 = QUESTION: OTHER (2120.0)
+|   punctuation0 = SEMICOLON: OTHER (0.0)
+|   punctuation0 = COLON: OTHER (28374.0/21.0)
+|   punctuation0 = PLUS: OTHER (1248.0/4.0)
+|   punctuation0 = MINUS: OTHER (8913.0/39.0)
+|   punctuation0 = APOSTROPHE: OTHER (1912.0)
+|   punctuation0 = LEFT_PARENTHESIS: OTHER (12699.0/140.0)
+|   punctuation0 = RIGHT_PARENTHESIS: OTHER (12865.0/128.0)
+|   punctuation0 = DOUBLE_QUOTE: OTHER (6073.0/1.0)
+|   punctuation0 = LEFT_BOX_BRACKET: OTHER (1419.0/4.0)
+|   punctuation0 = RIGH_BOX_BRACKET: OTHER (1421.0/3.0)
+|   punctuation0 = LEFT_CURLY_BRACKET: OTHER (23.0)
+|   punctuation0 = RIGHT_CURLY_BRACKET: OTHER (27.0)
+|   punctuation0 = EQUAL: OTHER (3608.0)
+|   punctuation0 = UNDERSCORE: OTHER (2528.0)
+|   punctuation0 = SLASH: OTHER (10738.0/66.0)
+|   punctuation0 = BACK_SLASH: OTHER (113.0)
+|   punctuation0 = NUMBER_SIGN: OTHER (1016.0/123.0)
+|   punctuation0 = LEFT_ANGLE_BRACKET: OTHER (947.0/2.0)
+|   punctuation0 = RIGHT_ANGLE_BRACKET: OTHER (2085.0)
+|   punctuation0 = COMMA:
+|   |   layout0 = Start: OTHER (10.0/1.0)
+|   |   layout0 = Mid: OTHER (71600.0/13524.0)
+|   |   layout0 = End: MID (973.0/364.0)
+|   |   layout0 = OneToken: OTHER (0.0)
+|   punctuation0 = NOTPUNC:
+|   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   wordFormat0 = EMAIL: OTHER (4393.0)
+|   |   wordFormat0 = ALLCAPS: OTHER (42024.0/751.0)
+|   |   wordFormat0 = CONTAINDIGITS: OTHER (6264.0/1852.0)
+|   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   wordFormat0 = TIME: OTHER (3649.0/31.0)
+|   |   wordFormat0 = URL: OTHER (4545.0/1.0)
+|   |   wordFormat0 = CONTRACTION: OTHER (10064.0/51.0)
+|   |   wordFormat0 = LONELYINITIAL: OTHER (3531.0/810.0)
+|   |   wordFormat0 = UPPERCASECHAR: OTHER (5338.0/6.0)
+|   |   wordFormat0 = LOWERCASECHAR: OTHER (11317.0/8.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (2648.0/5.0)
+|   |   wordFormat0 = PHONE: OTHER (7619.0/5.0)
+|   |   wordFormat0 = INITCAP:
+|   |   |   dictionary0 = 0: OTHER (418993.0/1278.0)
+|   |   |   dictionary0 = 1: OTHER (1132.0)
+|   |   |   dictionary0 = 2: OTHER (2412.0/16.0)
+|   |   |   dictionary0 = 3: MID (1.0)
+|   |   |   dictionary0 = 4: OTHER (16316.0/282.0)
+|   |   |   dictionary0 = 5: OTHER (329.0)
+|   |   |   dictionary0 = 6: OTHER (0.0)
+|   |   |   dictionary0 = 7: OTHER (0.0)
+|   |   |   dictionary0 = 9: OTHER (96.0)
+|   |   |   dictionary0 = 10: OTHER (0.0)
+|   |   |   dictionary0 = 11: OTHER (0.0)
+|   |   |   dictionary0 = 12: OTHER (0.0)
+|   |   |   dictionary0 = 13: OTHER (0.0)
+|   |   |   dictionary0 = 14: OTHER (0.0)
+|   |   |   dictionary0 = 15: OTHER (0.0)
+|   |   |   dictionary0 = 8:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (0.0)
+|   |   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (6.0)
+|   |   |   |   pos0 = JJR: OTHER (73.0/2.0)
+|   |   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP: OTHER (6249.0/434.0)
+|   |   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   |   pos0 = NNS: OTHER (4.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (30.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   |   |   pos0 = NN:
+|   |   |   |   |   layout0 = Start: OTHER (180.0/80.0)
+|   |   |   |   |   layout0 = Mid: MID (410.0/138.0)
+|   |   |   |   |   layout0 = End: OTHER (50.0)
+|   |   |   |   |   layout0 = OneToken: OTHER (3.0)
+|   |   wordFormat0 = ACRONYM:
+|   |   |   layout0 = Mid: OTHER (1186.0/123.0)
+|   |   |   layout0 = End: OTHER (498.0/54.0)
+|   |   |   layout0 = OneToken: OTHER (22.0/2.0)
+|   |   |   layout0 = Start:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (0.0)
+|   |   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (15.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NN: END (5.0/1.0)
+|   |   |   |   pos0 = NNP: OTHER (228.0/7.0)
+|   |   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   |   pos0 = NNS: OTHER (8.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   wordFormat0 = WORD:
+|   |   |   geo0 = USZIP: OTHER (0.0)
+|   |   |   geo0 = OTHER: OTHER (466102.0/584.0)
+|   |   |   geo0 = POBOX:
+|   |   |   |   pos0 = UNKNOWN: START (0.0)
+|   |   |   |   pos0 = PUNC: START (0.0)
+|   |   |   |   pos0 = CC: START (0.0)
+|   |   |   |   pos0 = CD: START (0.0)
+|   |   |   |   pos0 = DT: START (0.0)
+|   |   |   |   pos0 = EX: START (0.0)
+|   |   |   |   pos0 = FW: START (0.0)
+|   |   |   |   pos0 = IN: START (0.0)
+|   |   |   |   pos0 = JJ: START (1.0)
+|   |   |   |   pos0 = JJR: START (0.0)
+|   |   |   |   pos0 = JJS: START (0.0)
+|   |   |   |   pos0 = MD: START (0.0)
+|   |   |   |   pos0 = NN: OTHER (105.0)
+|   |   |   |   pos0 = NNPS: START (0.0)
+|   |   |   |   pos0 = NNS: START (0.0)
+|   |   |   |   pos0 = PDT: START (0.0)
+|   |   |   |   pos0 = POS: START (0.0)
+|   |   |   |   pos0 = PRP: START (0.0)
+|   |   |   |   pos0 = PRP$: START (0.0)
+|   |   |   |   pos0 = RB: START (0.0)
+|   |   |   |   pos0 = RBR: START (0.0)
+|   |   |   |   pos0 = RBS: START (0.0)
+|   |   |   |   pos0 = RP: START (0.0)
+|   |   |   |   pos0 = SYM: START (0.0)
+|   |   |   |   pos0 = TO: START (0.0)
+|   |   |   |   pos0 = UH: START (0.0)
+|   |   |   |   pos0 = VB: START (1.0)
+|   |   |   |   pos0 = VBD: START (0.0)
+|   |   |   |   pos0 = VBG: START (0.0)
+|   |   |   |   pos0 = VBN: START (0.0)
+|   |   |   |   pos0 = VBP: OTHER (20.0)
+|   |   |   |   pos0 = VBZ: START (0.0)
+|   |   |   |   pos0 = WDT: START (0.0)
+|   |   |   |   pos0 = WP: START (0.0)
+|   |   |   |   pos0 = WP$: START (0.0)
+|   |   |   |   pos0 = WRB: START (0.0)
+|   |   |   |   pos0 = PRP_MD: START (0.0)
+|   |   |   |   pos0 = NNP_VBN: START (0.0)
+|   |   |   |   pos0 = NNP:
+|   |   |   |   |   layout0 = Start: START (350.0/103.0)
+|   |   |   |   |   layout0 = Mid: OTHER (209.0/101.0)
+|   |   |   |   |   layout0 = End: OTHER (30.0)
+|   |   |   |   |   layout0 = OneToken: OTHER (3.0)
+fips0 = 1:
+|   dictionary0 = 1: OTHER (0.0)
+|   dictionary0 = 2: OTHER (1.0)
+|   dictionary0 = 3: OTHER (0.0)
+|   dictionary0 = 5: OTHER (0.0)
+|   dictionary0 = 6: OTHER (0.0)
+|   dictionary0 = 7: OTHER (0.0)
+|   dictionary0 = 8: OTHER (185.0/24.0)
+|   dictionary0 = 9: OTHER (0.0)
+|   dictionary0 = 10: OTHER (0.0)
+|   dictionary0 = 11: OTHER (0.0)
+|   dictionary0 = 12: OTHER (0.0)
+|   dictionary0 = 13: OTHER (0.0)
+|   dictionary0 = 14: OTHER (0.0)
+|   dictionary0 = 15: OTHER (0.0)
+|   dictionary0 = 0:
+|   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   wordFormat0 = WORD: OTHER (6803.0/60.0)
+|   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   wordFormat0 = URL: OTHER (0.0)
+|   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: OTHER (2469.0/127.0)
+|   |   wordFormat0 = LOWERCASECHAR: OTHER (4504.0/2.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   wordFormat0 = PHONE: OTHER (0.0)
+|   |   wordFormat0 = INITCAP:
+|   |   |   layout0 = Start: OTHER (3097.0/46.0)
+|   |   |   layout0 = Mid: OTHER (10699.0/1136.0)
+|   |   |   layout0 = OneToken: OTHER (161.0)
+|   |   |   layout0 = End:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (9.0/1.0)
+|   |   |   |   pos0 = DT: OTHER (1.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (2.0)
+|   |   |   |   pos0 = JJ: MID (20.0/6.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (3.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NN: OTHER (56.0)
+|   |   |   |   pos0 = NNP: OTHER (1616.0/34.0)
+|   |   |   |   pos0 = NNPS: OTHER (3.0)
+|   |   |   |   pos0 = NNS: OTHER (26.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (1.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   wordFormat0 = ALLCAPS:
+|   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   pos0 = CD: OTHER (8.0)
+|   |   |   pos0 = DT: MID (4.0/2.0)
+|   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   pos0 = IN: OTHER (27.0/1.0)
+|   |   |   pos0 = JJ: OTHER (14.0/1.0)
+|   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   pos0 = JJS: OTHER (14.0)
+|   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   pos0 = NN: OTHER (8.0)
+|   |   |   pos0 = NNP: OTHER (516.0/14.0)
+|   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   pos0 = NNS: OTHER (2.0)
+|   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   pos0 = RB: OTHER (12.0)
+|   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   pos0 = VBD: OTHER (1.0)
+|   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   |   pos0 = PRP:
+|   |   |   |   layout0 = Start: OTHER (0.0)
+|   |   |   |   layout0 = Mid: OTHER (7.0/3.0)
+|   |   |   |   layout0 = End: END (3.0)
+|   |   |   |   layout0 = OneToken: OTHER (0.0)
+|   |   wordFormat0 = CONTAINDIGITS:
+|   |   |   layout0 = Start: OTHER (2.0)
+|   |   |   layout0 = Mid: MID (2.0)
+|   |   |   layout0 = End: MID (0.0)
+|   |   |   layout0 = OneToken: MID (0.0)
+|   dictionary0 = 4:
+|   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   wordFormat0 = WORD: OTHER (296.0/9.0)
+|   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   wordFormat0 = TIME: MID (0.0)
+|   |   wordFormat0 = URL: MID (0.0)
+|   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   wordFormat0 = PHONE: MID (0.0)
+|   |   wordFormat0 = INITCAP:
+|   |   |   layout0 = Start: OTHER (64.0/1.0)
+|   |   |   layout0 = End: MID (581.0/101.0)
+|   |   |   layout0 = OneToken: MID (0.0)
+|   |   |   layout0 = Mid:
+|   |   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   |   pos0 = CC: MID (0.0)
+|   |   |   |   pos0 = CD: MID (0.0)
+|   |   |   |   pos0 = DT: MID (0.0)
+|   |   |   |   pos0 = EX: MID (0.0)
+|   |   |   |   pos0 = FW: MID (0.0)
+|   |   |   |   pos0 = IN: MID (0.0)
+|   |   |   |   pos0 = JJ: MID (0.0)
+|   |   |   |   pos0 = JJR: MID (0.0)
+|   |   |   |   pos0 = JJS: MID (0.0)
+|   |   |   |   pos0 = MD: MID (0.0)
+|   |   |   |   pos0 = NN: OTHER (3.0/1.0)
+|   |   |   |   pos0 = NNP: MID (2361.0/853.0)
+|   |   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   |   pos0 = NNS: MID (0.0)
+|   |   |   |   pos0 = PDT: MID (0.0)
+|   |   |   |   pos0 = POS: MID (0.0)
+|   |   |   |   pos0 = PRP: MID (0.0)
+|   |   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   |   pos0 = RB: MID (0.0)
+|   |   |   |   pos0 = RBR: MID (0.0)
+|   |   |   |   pos0 = RBS: MID (0.0)
+|   |   |   |   pos0 = RP: MID (0.0)
+|   |   |   |   pos0 = SYM: MID (0.0)
+|   |   |   |   pos0 = TO: MID (0.0)
+|   |   |   |   pos0 = UH: MID (0.0)
+|   |   |   |   pos0 = VB: MID (2.0)
+|   |   |   |   pos0 = VBD: MID (0.0)
+|   |   |   |   pos0 = VBG: MID (2.0)
+|   |   |   |   pos0 = VBN: MID (0.0)
+|   |   |   |   pos0 = VBP: MID (0.0)
+|   |   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   |   pos0 = WDT: MID (0.0)
+|   |   |   |   pos0 = WP: MID (0.0)
+|   |   |   |   pos0 = WP$: MID (0.0)
+|   |   |   |   pos0 = WRB: MID (0.0)
+|   |   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   |   pos0 = NNP_VBN: MID (0.0)
+|   |   wordFormat0 = ALLCAPS:
+|   |   |   layout0 = Start: OTHER (1.0)
+|   |   |   layout0 = Mid: OTHER (236.0/15.0)
+|   |   |   layout0 = End: MID (28.0)
+|   |   |   layout0 = OneToken: OTHER (0.0)
+fips0 = 2:
+|   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   wordFormat0 = EMAIL: OTHER (0.0)
+|   wordFormat0 = ALLCAPS: OTHER (1217.0/32.0)
+|   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   wordFormat0 = ACRONYM: OTHER (0.0)
+|   wordFormat0 = WORD: OTHER (8194.0/31.0)
+|   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   wordFormat0 = TIME: OTHER (0.0)
+|   wordFormat0 = URL: OTHER (0.0)
+|   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   wordFormat0 = UPPERCASECHAR: OTHER (1.0)
+|   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   wordFormat0 = PHONE: OTHER (0.0)
+|   wordFormat0 = INITCAP:
+|   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   pos0 = PUNC: OTHER (0.0)
+|   |   pos0 = CC: OTHER (0.0)
+|   |   pos0 = CD: OTHER (33.0/1.0)
+|   |   pos0 = DT: OTHER (16.0)
+|   |   pos0 = EX: OTHER (0.0)
+|   |   pos0 = FW: OTHER (8.0)
+|   |   pos0 = JJ: OTHER (600.0/1.0)
+|   |   pos0 = JJR: OTHER (0.0)
+|   |   pos0 = JJS: OTHER (0.0)
+|   |   pos0 = MD: OTHER (0.0)
+|   |   pos0 = NN: OTHER (1469.0/5.0)
+|   |   pos0 = NNP: OTHER (14619.0/1762.0)
+|   |   pos0 = NNPS: OTHER (200.0/7.0)
+|   |   pos0 = NNS: OTHER (96.0/7.0)
+|   |   pos0 = PDT: OTHER (0.0)
+|   |   pos0 = POS: OTHER (0.0)
+|   |   pos0 = PRP: OTHER (0.0)
+|   |   pos0 = PRP$: OTHER (0.0)
+|   |   pos0 = RB: OTHER (266.0)
+|   |   pos0 = RBR: OTHER (0.0)
+|   |   pos0 = RBS: OTHER (0.0)
+|   |   pos0 = RP: OTHER (0.0)
+|   |   pos0 = SYM: OTHER (0.0)
+|   |   pos0 = TO: OTHER (0.0)
+|   |   pos0 = UH: OTHER (8.0)
+|   |   pos0 = VB: OTHER (1062.0/7.0)
+|   |   pos0 = VBD: OTHER (1.0)
+|   |   pos0 = VBG: OTHER (14.0/1.0)
+|   |   pos0 = VBN: OTHER (1.0)
+|   |   pos0 = VBP: OTHER (5.0)
+|   |   pos0 = VBZ: OTHER (5.0)
+|   |   pos0 = WDT: OTHER (0.0)
+|   |   pos0 = WP: OTHER (0.0)
+|   |   pos0 = WP$: OTHER (0.0)
+|   |   pos0 = WRB: OTHER (18.0)
+|   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   pos0 = IN:
+|   |   |   layout0 = Start: MID (5.0/2.0)
+|   |   |   layout0 = Mid: OTHER (13.0/3.0)
+|   |   |   layout0 = End: OTHER (0.0)
+|   |   |   layout0 = OneToken: OTHER (0.0)
+fips0 = 3:
+|   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   wordFormat0 = EMAIL: OTHER (0.0)
+|   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   wordFormat0 = ACRONYM: OTHER (0.0)
+|   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   wordFormat0 = TIME: OTHER (0.0)
+|   wordFormat0 = URL: OTHER (0.0)
+|   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   wordFormat0 = LOWERCASECHAR: OTHER (1929.0/6.0)
+|   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   wordFormat0 = PHONE: OTHER (0.0)
+|   wordFormat0 = INITCAP:
+|   |   dictionary0 = 1: OTHER (0.0)
+|   |   dictionary0 = 3: OTHER (0.0)
+|   |   dictionary0 = 5: OTHER (0.0)
+|   |   dictionary0 = 6: OTHER (0.0)
+|   |   dictionary0 = 7: OTHER (0.0)
+|   |   dictionary0 = 8: OTHER (613.0/113.0)
+|   |   dictionary0 = 9: OTHER (0.0)
+|   |   dictionary0 = 10: OTHER (0.0)
+|   |   dictionary0 = 11: OTHER (0.0)
+|   |   dictionary0 = 12: OTHER (0.0)
+|   |   dictionary0 = 13: OTHER (0.0)
+|   |   dictionary0 = 14: OTHER (0.0)
+|   |   dictionary0 = 15: OTHER (0.0)
+|   |   dictionary0 = 0:
+|   |   |   layout0 = Start: OTHER (10390.0/3789.0)
+|   |   |   layout0 = End: OTHER (3243.0/343.0)
+|   |   |   layout0 = OneToken: OTHER (606.0/15.0)
+|   |   |   layout0 = Mid:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (48.0)
+|   |   |   |   pos0 = DT: OTHER (7.0/1.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (142.0/4.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (265.0/1.0)
+|   |   |   |   pos0 = MD: OTHER (16.0)
+|   |   |   |   pos0 = NN: OTHER (179.0/19.0)
+|   |   |   |   pos0 = NNP: OTHER (33890.0/11779.0)
+|   |   |   |   pos0 = NNPS: OTHER (50.0/1.0)
+|   |   |   |   pos0 = NNS: OTHER (23.0/2.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (5.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (6.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (13.0/2.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: MID (3.0/1.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   dictionary0 = 2:
+|   |   |   layout0 = Start: OTHER (255.0/74.0)
+|   |   |   layout0 = End: MID (202.0/72.0)
+|   |   |   layout0 = OneToken: OTHER (5.0)
+|   |   |   layout0 = Mid:
+|   |   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   |   pos0 = CC: MID (0.0)
+|   |   |   |   pos0 = CD: MID (0.0)
+|   |   |   |   pos0 = DT: MID (0.0)
+|   |   |   |   pos0 = EX: MID (0.0)
+|   |   |   |   pos0 = FW: MID (0.0)
+|   |   |   |   pos0 = IN: MID (0.0)
+|   |   |   |   pos0 = JJ: OTHER (10.0/3.0)
+|   |   |   |   pos0 = JJR: MID (0.0)
+|   |   |   |   pos0 = JJS: MID (0.0)
+|   |   |   |   pos0 = MD: MID (0.0)
+|   |   |   |   pos0 = NN: MID (0.0)
+|   |   |   |   pos0 = NNP: MID (2502.0/959.0)
+|   |   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   |   pos0 = NNS: MID (0.0)
+|   |   |   |   pos0 = PDT: MID (0.0)
+|   |   |   |   pos0 = POS: MID (0.0)
+|   |   |   |   pos0 = PRP: MID (0.0)
+|   |   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   |   pos0 = RB: MID (0.0)
+|   |   |   |   pos0 = RBR: MID (0.0)
+|   |   |   |   pos0 = RBS: MID (0.0)
+|   |   |   |   pos0 = RP: MID (0.0)
+|   |   |   |   pos0 = SYM: MID (0.0)
+|   |   |   |   pos0 = TO: MID (0.0)
+|   |   |   |   pos0 = UH: MID (0.0)
+|   |   |   |   pos0 = VB: MID (0.0)
+|   |   |   |   pos0 = VBD: MID (0.0)
+|   |   |   |   pos0 = VBG: MID (0.0)
+|   |   |   |   pos0 = VBN: MID (0.0)
+|   |   |   |   pos0 = VBP: MID (0.0)
+|   |   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   |   pos0 = WDT: MID (0.0)
+|   |   |   |   pos0 = WP: MID (0.0)
+|   |   |   |   pos0 = WP$: MID (0.0)
+|   |   |   |   pos0 = WRB: MID (0.0)
+|   |   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   |   pos0 = NNP_VBN: MID (0.0)
+|   |   dictionary0 = 4:
+|   |   |   layout0 = Start: OTHER (421.0/76.0)
+|   |   |   layout0 = OneToken: OTHER (20.0)
+|   |   |   layout0 = Mid:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (0.0)
+|   |   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (0.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NN: MID (163.0/64.0)
+|   |   |   |   pos0 = NNP: OTHER (12238.0/5654.0)
+|   |   |   |   pos0 = NNPS: OTHER (26.0/1.0)
+|   |   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (3.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (32.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   |   layout0 = End:
+|   |   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   |   pos0 = CC: MID (0.0)
+|   |   |   |   pos0 = CD: MID (0.0)
+|   |   |   |   pos0 = DT: MID (0.0)
+|   |   |   |   pos0 = EX: MID (0.0)
+|   |   |   |   pos0 = FW: MID (0.0)
+|   |   |   |   pos0 = IN: MID (0.0)
+|   |   |   |   pos0 = JJ: MID (0.0)
+|   |   |   |   pos0 = JJR: MID (0.0)
+|   |   |   |   pos0 = JJS: MID (0.0)
+|   |   |   |   pos0 = MD: MID (0.0)
+|   |   |   |   pos0 = NN: OTHER (134.0/62.0)
+|   |   |   |   pos0 = NNP: MID (2937.0/864.0)
+|   |   |   |   pos0 = NNPS: OTHER (4.0)
+|   |   |   |   pos0 = NNS: MID (0.0)
+|   |   |   |   pos0 = PDT: MID (0.0)
+|   |   |   |   pos0 = POS: MID (0.0)
+|   |   |   |   pos0 = PRP: MID (0.0)
+|   |   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   |   pos0 = RB: MID (0.0)
+|   |   |   |   pos0 = RBR: MID (0.0)
+|   |   |   |   pos0 = RBS: MID (0.0)
+|   |   |   |   pos0 = RP: MID (0.0)
+|   |   |   |   pos0 = SYM: MID (0.0)
+|   |   |   |   pos0 = TO: MID (0.0)
+|   |   |   |   pos0 = UH: MID (0.0)
+|   |   |   |   pos0 = VB: MID (0.0)
+|   |   |   |   pos0 = VBD: MID (0.0)
+|   |   |   |   pos0 = VBG: MID (0.0)
+|   |   |   |   pos0 = VBN: MID (0.0)
+|   |   |   |   pos0 = VBP: MID (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (2.0)
+|   |   |   |   pos0 = WDT: MID (0.0)
+|   |   |   |   pos0 = WP: MID (0.0)
+|   |   |   |   pos0 = WP$: MID (0.0)
+|   |   |   |   pos0 = WRB: MID (0.0)
+|   |   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   |   pos0 = NNP_VBN: MID (0.0)
+|   wordFormat0 = ALLCAPS:
+|   |   dictionary0 = 0: OTHER (2982.0/345.0)
+|   |   dictionary0 = 1: OTHER (0.0)
+|   |   dictionary0 = 3: OTHER (0.0)
+|   |   dictionary0 = 5: OTHER (0.0)
+|   |   dictionary0 = 6: OTHER (0.0)
+|   |   dictionary0 = 7: OTHER (0.0)
+|   |   dictionary0 = 8: OTHER (35.0)
+|   |   dictionary0 = 9: OTHER (0.0)
+|   |   dictionary0 = 10: OTHER (0.0)
+|   |   dictionary0 = 11: OTHER (0.0)
+|   |   dictionary0 = 12: OTHER (0.0)
+|   |   dictionary0 = 13: OTHER (0.0)
+|   |   dictionary0 = 14: OTHER (0.0)
+|   |   dictionary0 = 15: OTHER (0.0)
+|   |   dictionary0 = 2:
+|   |   |   layout0 = Start: OTHER (28.0/1.0)
+|   |   |   layout0 = Mid: MID (264.0/107.0)
+|   |   |   layout0 = End: MID (120.0/21.0)
+|   |   |   layout0 = OneToken: MID (0.0)
+|   |   dictionary0 = 4:
+|   |   |   layout0 = Start: OTHER (15.0/1.0)
+|   |   |   layout0 = Mid: OTHER (536.0/88.0)
+|   |   |   layout0 = OneToken: OTHER (0.0)
+|   |   |   layout0 = End:
+|   |   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   |   pos0 = CC: MID (0.0)
+|   |   |   |   pos0 = CD: MID (0.0)
+|   |   |   |   pos0 = DT: MID (0.0)
+|   |   |   |   pos0 = EX: MID (0.0)
+|   |   |   |   pos0 = FW: MID (0.0)
+|   |   |   |   pos0 = IN: MID (0.0)
+|   |   |   |   pos0 = JJ: MID (0.0)
+|   |   |   |   pos0 = JJR: MID (0.0)
+|   |   |   |   pos0 = JJS: MID (0.0)
+|   |   |   |   pos0 = MD: MID (0.0)
+|   |   |   |   pos0 = NN: OTHER (20.0)
+|   |   |   |   pos0 = NNP: MID (146.0/44.0)
+|   |   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   |   pos0 = NNS: MID (0.0)
+|   |   |   |   pos0 = PDT: MID (0.0)
+|   |   |   |   pos0 = POS: MID (0.0)
+|   |   |   |   pos0 = PRP: MID (0.0)
+|   |   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   |   pos0 = RB: MID (0.0)
+|   |   |   |   pos0 = RBR: MID (0.0)
+|   |   |   |   pos0 = RBS: MID (0.0)
+|   |   |   |   pos0 = RP: MID (0.0)
+|   |   |   |   pos0 = SYM: MID (0.0)
+|   |   |   |   pos0 = TO: MID (0.0)
+|   |   |   |   pos0 = UH: MID (0.0)
+|   |   |   |   pos0 = VB: MID (0.0)
+|   |   |   |   pos0 = VBD: MID (0.0)
+|   |   |   |   pos0 = VBG: MID (0.0)
+|   |   |   |   pos0 = VBN: MID (0.0)
+|   |   |   |   pos0 = VBP: MID (0.0)
+|   |   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   |   pos0 = WDT: MID (0.0)
+|   |   |   |   pos0 = WP: MID (0.0)
+|   |   |   |   pos0 = WP$: MID (0.0)
+|   |   |   |   pos0 = WRB: MID (0.0)
+|   |   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   |   pos0 = NNP_VBN: MID (0.0)
+|   wordFormat0 = WORD:
+|   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   pos0 = PUNC: OTHER (0.0)
+|   |   pos0 = CC: OTHER (0.0)
+|   |   pos0 = CD: OTHER (78.0)
+|   |   pos0 = DT: OTHER (15.0/1.0)
+|   |   pos0 = EX: OTHER (0.0)
+|   |   pos0 = FW: OTHER (2.0)
+|   |   pos0 = IN: OTHER (4.0/1.0)
+|   |   pos0 = JJ: OTHER (928.0/2.0)
+|   |   pos0 = JJR: OTHER (1.0)
+|   |   pos0 = JJS: OTHER (200.0)
+|   |   pos0 = MD: OTHER (569.0)
+|   |   pos0 = NN: OTHER (3990.0/25.0)
+|   |   pos0 = NNPS: OTHER (0.0)
+|   |   pos0 = NNS: OTHER (804.0/1.0)
+|   |   pos0 = PDT: OTHER (0.0)
+|   |   pos0 = POS: OTHER (0.0)
+|   |   pos0 = PRP: OTHER (0.0)
+|   |   pos0 = PRP$: OTHER (0.0)
+|   |   pos0 = RB: OTHER (154.0)
+|   |   pos0 = RBR: OTHER (0.0)
+|   |   pos0 = RBS: OTHER (5.0)
+|   |   pos0 = RP: OTHER (0.0)
+|   |   pos0 = SYM: OTHER (0.0)
+|   |   pos0 = TO: OTHER (0.0)
+|   |   pos0 = UH: OTHER (0.0)
+|   |   pos0 = VB: OTHER (87.0/1.0)
+|   |   pos0 = VBD: OTHER (2.0)
+|   |   pos0 = VBG: OTHER (3.0)
+|   |   pos0 = VBN: OTHER (1.0)
+|   |   pos0 = VBP: OTHER (55.0)
+|   |   pos0 = VBZ: OTHER (2262.0/1.0)
+|   |   pos0 = WDT: OTHER (0.0)
+|   |   pos0 = WP: OTHER (0.0)
+|   |   pos0 = WP$: OTHER (0.0)
+|   |   pos0 = WRB: OTHER (0.0)
+|   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   pos0 = NNP:
+|   |   |   layout0 = Start: OTHER (39.0/5.0)
+|   |   |   layout0 = End: OTHER (16.0)
+|   |   |   layout0 = OneToken: OTHER (0.0)
+|   |   |   layout0 = Mid:
+|   |   |   |   dictionary0 = 0: OTHER (77.0/29.0)
+|   |   |   |   dictionary0 = 1: OTHER (0.0)
+|   |   |   |   dictionary0 = 2: OTHER (0.0)
+|   |   |   |   dictionary0 = 3: OTHER (0.0)
+|   |   |   |   dictionary0 = 4: MID (1.0)
+|   |   |   |   dictionary0 = 5: OTHER (0.0)
+|   |   |   |   dictionary0 = 6: OTHER (0.0)
+|   |   |   |   dictionary0 = 7: OTHER (0.0)
+|   |   |   |   dictionary0 = 8: OTHER (23.0/5.0)
+|   |   |   |   dictionary0 = 9: OTHER (0.0)
+|   |   |   |   dictionary0 = 10: OTHER (0.0)
+|   |   |   |   dictionary0 = 11: OTHER (0.0)
+|   |   |   |   dictionary0 = 12: OTHER (0.0)
+|   |   |   |   dictionary0 = 13: OTHER (0.0)
+|   |   |   |   dictionary0 = 14: OTHER (0.0)
+|   |   |   |   dictionary0 = 15: OTHER (0.0)
+|   wordFormat0 = UPPERCASECHAR:
+|   |   layout0 = Start: OTHER (93.0/1.0)
+|   |   layout0 = OneToken: OTHER (29.0)
+|   |   layout0 = Mid:
+|   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   pos0 = CC: MID (0.0)
+|   |   |   pos0 = CD: MID (0.0)
+|   |   |   pos0 = DT: MID (0.0)
+|   |   |   pos0 = EX: MID (0.0)
+|   |   |   pos0 = FW: MID (0.0)
+|   |   |   pos0 = IN: MID (0.0)
+|   |   |   pos0 = JJ: MID (0.0)
+|   |   |   pos0 = JJR: MID (0.0)
+|   |   |   pos0 = JJS: MID (0.0)
+|   |   |   pos0 = MD: MID (0.0)
+|   |   |   pos0 = NN: OTHER (210.0/94.0)
+|   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   pos0 = NNS: MID (0.0)
+|   |   |   pos0 = PDT: MID (0.0)
+|   |   |   pos0 = POS: MID (0.0)
+|   |   |   pos0 = PRP: MID (0.0)
+|   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   pos0 = RB: MID (0.0)
+|   |   |   pos0 = RBR: MID (0.0)
+|   |   |   pos0 = RBS: MID (0.0)
+|   |   |   pos0 = RP: MID (0.0)
+|   |   |   pos0 = SYM: MID (0.0)
+|   |   |   pos0 = TO: MID (0.0)
+|   |   |   pos0 = UH: MID (0.0)
+|   |   |   pos0 = VB: MID (0.0)
+|   |   |   pos0 = VBD: MID (0.0)
+|   |   |   pos0 = VBG: MID (0.0)
+|   |   |   pos0 = VBN: MID (0.0)
+|   |   |   pos0 = VBP: MID (0.0)
+|   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   pos0 = WDT: MID (0.0)
+|   |   |   pos0 = WP: MID (0.0)
+|   |   |   pos0 = WP$: MID (0.0)
+|   |   |   pos0 = WRB: MID (0.0)
+|   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   pos0 = NNP_VBN: MID (0.0)
+|   |   |   pos0 = NNP:
+|   |   |   |   dictionary0 = 0: OTHER (6.0/2.0)
+|   |   |   |   dictionary0 = 1: MID (0.0)
+|   |   |   |   dictionary0 = 2: MID (1133.0/453.0)
+|   |   |   |   dictionary0 = 3: MID (0.0)
+|   |   |   |   dictionary0 = 4: MID (0.0)
+|   |   |   |   dictionary0 = 5: MID (0.0)
+|   |   |   |   dictionary0 = 6: MID (0.0)
+|   |   |   |   dictionary0 = 7: MID (0.0)
+|   |   |   |   dictionary0 = 8: MID (0.0)
+|   |   |   |   dictionary0 = 9: MID (0.0)
+|   |   |   |   dictionary0 = 10: MID (0.0)
+|   |   |   |   dictionary0 = 11: MID (0.0)
+|   |   |   |   dictionary0 = 12: MID (0.0)
+|   |   |   |   dictionary0 = 13: MID (0.0)
+|   |   |   |   dictionary0 = 14: MID (0.0)
+|   |   |   |   dictionary0 = 15: MID (0.0)
+|   |   layout0 = End:
+|   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   pos0 = CC: MID (0.0)
+|   |   |   pos0 = CD: MID (0.0)
+|   |   |   pos0 = DT: MID (0.0)
+|   |   |   pos0 = EX: MID (0.0)
+|   |   |   pos0 = FW: MID (0.0)
+|   |   |   pos0 = IN: MID (0.0)
+|   |   |   pos0 = JJ: MID (0.0)
+|   |   |   pos0 = JJR: MID (0.0)
+|   |   |   pos0 = JJS: MID (0.0)
+|   |   |   pos0 = MD: MID (0.0)
+|   |   |   pos0 = NN: MID (68.0/25.0)
+|   |   |   pos0 = NNP: OTHER (32.0/10.0)
+|   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   pos0 = NNS: MID (0.0)
+|   |   |   pos0 = PDT: MID (0.0)
+|   |   |   pos0 = POS: MID (0.0)
+|   |   |   pos0 = PRP: MID (0.0)
+|   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   pos0 = RB: MID (0.0)
+|   |   |   pos0 = RBR: MID (0.0)
+|   |   |   pos0 = RBS: MID (0.0)
+|   |   |   pos0 = RP: MID (0.0)
+|   |   |   pos0 = SYM: MID (0.0)
+|   |   |   pos0 = TO: MID (0.0)
+|   |   |   pos0 = UH: MID (0.0)
+|   |   |   pos0 = VB: MID (0.0)
+|   |   |   pos0 = VBD: MID (0.0)
+|   |   |   pos0 = VBG: MID (0.0)
+|   |   |   pos0 = VBN: MID (0.0)
+|   |   |   pos0 = VBP: MID (0.0)
+|   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   pos0 = WDT: MID (0.0)
+|   |   |   pos0 = WP: MID (0.0)
+|   |   |   pos0 = WP$: MID (0.0)
+|   |   |   pos0 = WRB: MID (0.0)
+|   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   pos0 = NNP_VBN: MID (0.0)
+fips0 = 4:
+|   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   wordFormat0 = EMAIL: OTHER (0.0)
+|   wordFormat0 = INITCAP: OTHER (60.0)
+|   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   wordFormat0 = ACRONYM: OTHER (0.0)
+|   wordFormat0 = WORD: OTHER (492.0)
+|   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   wordFormat0 = TIME: OTHER (0.0)
+|   wordFormat0 = URL: OTHER (0.0)
+|   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   wordFormat0 = PHONE: OTHER (0.0)
+|   wordFormat0 = ALLCAPS:
+|   |   pos0 = UNKNOWN: MID (0.0)
+|   |   pos0 = PUNC: MID (0.0)
+|   |   pos0 = CC: MID (0.0)
+|   |   pos0 = CD: MID (0.0)
+|   |   pos0 = DT: MID (0.0)
+|   |   pos0 = EX: MID (0.0)
+|   |   pos0 = FW: MID (0.0)
+|   |   pos0 = IN: MID (0.0)
+|   |   pos0 = JJ: MID (0.0)
+|   |   pos0 = JJR: MID (0.0)
+|   |   pos0 = JJS: MID (0.0)
+|   |   pos0 = MD: MID (0.0)
+|   |   pos0 = NNP: OTHER (104.0/37.0)
+|   |   pos0 = NNPS: MID (0.0)
+|   |   pos0 = NNS: MID (0.0)
+|   |   pos0 = PDT: MID (0.0)
+|   |   pos0 = POS: MID (0.0)
+|   |   pos0 = PRP: MID (0.0)
+|   |   pos0 = PRP$: MID (0.0)
+|   |   pos0 = RB: MID (0.0)
+|   |   pos0 = RBR: MID (0.0)
+|   |   pos0 = RBS: MID (0.0)
+|   |   pos0 = RP: MID (0.0)
+|   |   pos0 = SYM: MID (0.0)
+|   |   pos0 = TO: MID (0.0)
+|   |   pos0 = UH: MID (0.0)
+|   |   pos0 = VB: MID (0.0)
+|   |   pos0 = VBD: MID (0.0)
+|   |   pos0 = VBG: MID (0.0)
+|   |   pos0 = VBN: MID (0.0)
+|   |   pos0 = VBP: MID (0.0)
+|   |   pos0 = VBZ: MID (0.0)
+|   |   pos0 = WDT: MID (0.0)
+|   |   pos0 = WP: MID (0.0)
+|   |   pos0 = WP$: MID (0.0)
+|   |   pos0 = WRB: MID (0.0)
+|   |   pos0 = PRP_MD: MID (0.0)
+|   |   pos0 = NNP_VBN: MID (0.0)
+|   |   pos0 = NN:
+|   |   |   layout0 = Start: MID (0.0)
+|   |   |   layout0 = Mid: MID (171.0/34.0)
+|   |   |   layout0 = End: OTHER (12.0/3.0)
+|   |   |   layout0 = OneToken: MID (0.0)
+fips0 = 5:
+|   layout0 = Start: OTHER (81.0/3.0)
+|   layout0 = OneToken: OTHER (19.0)
+|   layout0 = Mid:
+|   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   wordFormat0 = WORD: OTHER (17.0/2.0)
+|   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   wordFormat0 = URL: OTHER (0.0)
+|   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   wordFormat0 = PHONE: OTHER (0.0)
+|   |   wordFormat0 = INITCAP:
+|   |   |   dictionary0 = 0: OTHER (169.0/73.0)
+|   |   |   dictionary0 = 1: OTHER (57.0/1.0)
+|   |   |   dictionary0 = 2: OTHER (0.0)
+|   |   |   dictionary0 = 3: OTHER (0.0)
+|   |   |   dictionary0 = 4: OTHER (0.0)
+|   |   |   dictionary0 = 5: MID (20.0/1.0)
+|   |   |   dictionary0 = 6: OTHER (0.0)
+|   |   |   dictionary0 = 7: OTHER (0.0)
+|   |   |   dictionary0 = 8: OTHER (0.0)
+|   |   |   dictionary0 = 9: OTHER (60.0)
+|   |   |   dictionary0 = 10: OTHER (0.0)
+|   |   |   dictionary0 = 11: OTHER (0.0)
+|   |   |   dictionary0 = 12: OTHER (0.0)
+|   |   |   dictionary0 = 13: OTHER (0.0)
+|   |   |   dictionary0 = 14: OTHER (0.0)
+|   |   |   dictionary0 = 15: OTHER (0.0)
+|   |   wordFormat0 = ALLCAPS:
+|   |   |   dictionary0 = 0: OTHER (8.0)
+|   |   |   dictionary0 = 1: MID (385.0/140.0)
+|   |   |   dictionary0 = 2: MID (0.0)
+|   |   |   dictionary0 = 3: MID (0.0)
+|   |   |   dictionary0 = 4: MID (0.0)
+|   |   |   dictionary0 = 6: MID (0.0)
+|   |   |   dictionary0 = 7: MID (0.0)
+|   |   |   dictionary0 = 8: MID (0.0)
+|   |   |   dictionary0 = 9: MID (78.0/37.0)
+|   |   |   dictionary0 = 10: MID (0.0)
+|   |   |   dictionary0 = 11: MID (0.0)
+|   |   |   dictionary0 = 12: MID (0.0)
+|   |   |   dictionary0 = 13: MID (0.0)
+|   |   |   dictionary0 = 14: MID (0.0)
+|   |   |   dictionary0 = 15: MID (0.0)
+|   |   |   dictionary0 = 5:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (0.0)
+|   |   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (0.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NN: MID (33.0/11.0)
+|   |   |   |   pos0 = NNP: OTHER (16.0)
+|   |   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   layout0 = End:
+|   |   dictionary0 = 0: OTHER (6.0/1.0)
+|   |   dictionary0 = 1: OTHER (42.0/2.0)
+|   |   dictionary0 = 2: OTHER (0.0)
+|   |   dictionary0 = 3: OTHER (0.0)
+|   |   dictionary0 = 4: OTHER (0.0)
+|   |   dictionary0 = 6: OTHER (0.0)
+|   |   dictionary0 = 7: OTHER (0.0)
+|   |   dictionary0 = 8: OTHER (0.0)
+|   |   dictionary0 = 9: OTHER (17.0)
+|   |   dictionary0 = 10: OTHER (0.0)
+|   |   dictionary0 = 11: OTHER (0.0)
+|   |   dictionary0 = 12: OTHER (0.0)
+|   |   dictionary0 = 13: OTHER (0.0)
+|   |   dictionary0 = 14: OTHER (0.0)
+|   |   dictionary0 = 15: OTHER (0.0)
+|   |   dictionary0 = 5:
+|   |   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   |   wordFormat0 = INITCAP: MID (2.0)
+|   |   |   wordFormat0 = ALLCAPS: MID (4.0/2.0)
+|   |   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   |   wordFormat0 = WORD: OTHER (1.0)
+|   |   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   |   wordFormat0 = TIME: MID (0.0)
+|   |   |   wordFormat0 = URL: MID (0.0)
+|   |   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   |   wordFormat0 = PHONE: MID (0.0)
+fips0 = 7:
+|   pos0 = UNKNOWN: OTHER (0.0)
+|   pos0 = PUNC: OTHER (0.0)
+|   pos0 = CD: OTHER (0.0)
+|   pos0 = DT: OTHER (0.0)
+|   pos0 = EX: OTHER (0.0)
+|   pos0 = FW: OTHER (196.0/7.0)
+|   pos0 = IN: OTHER (3816.0/41.0)
+|   pos0 = JJ: OTHER (93.0/14.0)
+|   pos0 = JJR: OTHER (0.0)
+|   pos0 = JJS: OTHER (0.0)
+|   pos0 = MD: OTHER (20.0/4.0)
+|   pos0 = NNPS: OTHER (0.0)
+|   pos0 = NNS: OTHER (12.0)
+|   pos0 = PDT: OTHER (0.0)
+|   pos0 = POS: OTHER (0.0)
+|   pos0 = PRP$: OTHER (0.0)
+|   pos0 = RB: MID (1.0)
+|   pos0 = RBR: OTHER (0.0)
+|   pos0 = RBS: OTHER (0.0)
+|   pos0 = RP: OTHER (0.0)
+|   pos0 = SYM: OTHER (0.0)
+|   pos0 = TO: OTHER (0.0)
+|   pos0 = UH: OTHER (3.0)
+|   pos0 = VB: OTHER (331.0)
+|   pos0 = VBD: OTHER (0.0)
+|   pos0 = VBG: OTHER (0.0)
+|   pos0 = VBN: OTHER (0.0)
+|   pos0 = VBP: OTHER (0.0)
+|   pos0 = VBZ: OTHER (0.0)
+|   pos0 = WDT: OTHER (0.0)
+|   pos0 = WP: OTHER (0.0)
+|   pos0 = WP$: OTHER (0.0)
+|   pos0 = WRB: OTHER (0.0)
+|   pos0 = PRP_MD: OTHER (0.0)
+|   pos0 = NNP_VBN: OTHER (0.0)
+|   pos0 = CC:
+|   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   wordFormat0 = INITCAP: OTHER (56.0)
+|   |   wordFormat0 = ALLCAPS: MID (50.0/22.0)
+|   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   wordFormat0 = WORD: OTHER (1317.0)
+|   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   wordFormat0 = URL: OTHER (0.0)
+|   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   wordFormat0 = PHONE: OTHER (0.0)
+|   pos0 = NN:
+|   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   wordFormat0 = INITCAP: OTHER (3.0)
+|   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   wordFormat0 = URL: OTHER (0.0)
+|   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: OTHER (2.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   wordFormat0 = PHONE: OTHER (0.0)
+|   |   wordFormat0 = ALLCAPS:
+|   |   |   dictionary0 = 0: OTHER (2.0)
+|   |   |   dictionary0 = 1: MID (78.0/27.0)
+|   |   |   dictionary0 = 2: MID (0.0)
+|   |   |   dictionary0 = 3: MID (0.0)
+|   |   |   dictionary0 = 4: MID (0.0)
+|   |   |   dictionary0 = 5: OTHER (1.0)
+|   |   |   dictionary0 = 6: MID (0.0)
+|   |   |   dictionary0 = 7: MID (0.0)
+|   |   |   dictionary0 = 8: MID (0.0)
+|   |   |   dictionary0 = 9: MID (0.0)
+|   |   |   dictionary0 = 10: MID (0.0)
+|   |   |   dictionary0 = 11: MID (0.0)
+|   |   |   dictionary0 = 12: MID (0.0)
+|   |   |   dictionary0 = 13: MID (0.0)
+|   |   |   dictionary0 = 14: MID (0.0)
+|   |   |   dictionary0 = 15: MID (0.0)
+|   |   wordFormat0 = WORD:
+|   |   |   dictionary0 = 0: OTHER (15.0)
+|   |   |   dictionary0 = 1: OTHER (43.0)
+|   |   |   dictionary0 = 2: OTHER (7.0)
+|   |   |   dictionary0 = 3: OTHER (0.0)
+|   |   |   dictionary0 = 4: OTHER (0.0)
+|   |   |   dictionary0 = 5: OTHER (1.0)
+|   |   |   dictionary0 = 6: OTHER (0.0)
+|   |   |   dictionary0 = 7: OTHER (0.0)
+|   |   |   dictionary0 = 8: OTHER (0.0)
+|   |   |   dictionary0 = 9: MID (1.0)
+|   |   |   dictionary0 = 10: OTHER (0.0)
+|   |   |   dictionary0 = 11: OTHER (0.0)
+|   |   |   dictionary0 = 12: OTHER (0.0)
+|   |   |   dictionary0 = 13: OTHER (0.0)
+|   |   |   dictionary0 = 14: OTHER (0.0)
+|   |   |   dictionary0 = 15: OTHER (0.0)
+|   pos0 = NNP:
+|   |   layout0 = Start:
+|   |   |   dictionary0 = 1: OTHER (59.0/12.0)
+|   |   |   dictionary0 = 2: OTHER (27.0)
+|   |   |   dictionary0 = 3: MID (0.0)
+|   |   |   dictionary0 = 4: MID (0.0)
+|   |   |   dictionary0 = 5: OTHER (141.0/10.0)
+|   |   |   dictionary0 = 6: MID (0.0)
+|   |   |   dictionary0 = 7: MID (0.0)
+|   |   |   dictionary0 = 8: MID (0.0)
+|   |   |   dictionary0 = 9: MID (0.0)
+|   |   |   dictionary0 = 10: MID (0.0)
+|   |   |   dictionary0 = 11: MID (0.0)
+|   |   |   dictionary0 = 12: MID (0.0)
+|   |   |   dictionary0 = 13: MID (0.0)
+|   |   |   dictionary0 = 14: MID (0.0)
+|   |   |   dictionary0 = 15: MID (0.0)
+|   |   |   dictionary0 = 0:
+|   |   |   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   |   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   |   |   wordFormat0 = INITCAP: MID (1271.0/498.0)
+|   |   |   |   wordFormat0 = ALLCAPS: OTHER (33.0/9.0)
+|   |   |   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   |   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   |   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   |   |   wordFormat0 = WORD: MID (0.0)
+|   |   |   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   |   |   wordFormat0 = TIME: MID (0.0)
+|   |   |   |   wordFormat0 = URL: MID (0.0)
+|   |   |   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   |   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   |   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   |   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   |   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   |   |   wordFormat0 = PHONE: MID (0.0)
+|   |   layout0 = Mid:
+|   |   |   dictionary0 = 3: MID (143.0/34.0)
+|   |   |   dictionary0 = 4: MID (0.0)
+|   |   |   dictionary0 = 5: OTHER (301.0/114.0)
+|   |   |   dictionary0 = 6: MID (0.0)
+|   |   |   dictionary0 = 7: MID (0.0)
+|   |   |   dictionary0 = 8: MID (0.0)
+|   |   |   dictionary0 = 9: MID (208.0/65.0)
+|   |   |   dictionary0 = 10: MID (0.0)
+|   |   |   dictionary0 = 11: MID (0.0)
+|   |   |   dictionary0 = 12: MID (0.0)
+|   |   |   dictionary0 = 13: MID (0.0)
+|   |   |   dictionary0 = 14: MID (0.0)
+|   |   |   dictionary0 = 15: MID (0.0)
+|   |   |   dictionary0 = 0:
+|   |   |   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   |   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   |   |   wordFormat0 = INITCAP: MID (6364.0/2969.0)
+|   |   |   |   wordFormat0 = ALLCAPS: OTHER (128.0/18.0)
+|   |   |   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   |   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   |   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   |   |   wordFormat0 = WORD: OTHER (1.0)
+|   |   |   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   |   |   wordFormat0 = TIME: MID (0.0)
+|   |   |   |   wordFormat0 = URL: MID (0.0)
+|   |   |   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   |   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   |   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   |   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   |   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   |   |   wordFormat0 = PHONE: MID (0.0)
+|   |   |   dictionary0 = 1:
+|   |   |   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   |   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   |   |   wordFormat0 = INITCAP: OTHER (167.0/41.0)
+|   |   |   |   wordFormat0 = ALLCAPS: MID (7999.0/1437.0)
+|   |   |   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   |   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   |   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   |   |   wordFormat0 = WORD: OTHER (5.0)
+|   |   |   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   |   |   wordFormat0 = TIME: MID (0.0)
+|   |   |   |   wordFormat0 = URL: MID (0.0)
+|   |   |   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   |   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   |   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   |   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   |   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   |   |   wordFormat0 = PHONE: MID (0.0)
+|   |   |   dictionary0 = 2:
+|   |   |   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   |   |   wordFormat0 = INITCAP: OTHER (41.0/7.0)
+|   |   |   |   wordFormat0 = ALLCAPS: OTHER (4.0)
+|   |   |   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   |   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   |   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   |   |   wordFormat0 = WORD: OTHER (1.0)
+|   |   |   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   |   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   |   |   wordFormat0 = URL: OTHER (0.0)
+|   |   |   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   |   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   |   |   wordFormat0 = UPPERCASECHAR: MID (1.0)
+|   |   |   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   |   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   |   |   wordFormat0 = PHONE: OTHER (0.0)
+|   |   layout0 = End:
+|   |   |   dictionary0 = 2: MID (2.0/1.0)
+|   |   |   dictionary0 = 3: MID (52.0/14.0)
+|   |   |   dictionary0 = 4: END (0.0)
+|   |   |   dictionary0 = 5: OTHER (53.0/1.0)
+|   |   |   dictionary0 = 6: END (0.0)
+|   |   |   dictionary0 = 7: END (0.0)
+|   |   |   dictionary0 = 8: END (0.0)
+|   |   |   dictionary0 = 10: END (0.0)
+|   |   |   dictionary0 = 11: END (0.0)
+|   |   |   dictionary0 = 12: END (0.0)
+|   |   |   dictionary0 = 13: END (0.0)
+|   |   |   dictionary0 = 14: END (0.0)
+|   |   |   dictionary0 = 15: END (0.0)
+|   |   |   dictionary0 = 0:
+|   |   |   |   wordFormat0 = UNKNOWN: END (0.0)
+|   |   |   |   wordFormat0 = EMAIL: END (0.0)
+|   |   |   |   wordFormat0 = INITCAP: END (814.0/347.0)
+|   |   |   |   wordFormat0 = ALLCAPS: OTHER (9.0/1.0)
+|   |   |   |   wordFormat0 = CONTAINDIGITS: END (0.0)
+|   |   |   |   wordFormat0 = ALLDIGITS: END (0.0)
+|   |   |   |   wordFormat0 = ACRONYM: END (0.0)
+|   |   |   |   wordFormat0 = WORD: END (0.0)
+|   |   |   |   wordFormat0 = PUNCTUATION: END (0.0)
+|   |   |   |   wordFormat0 = TIME: END (0.0)
+|   |   |   |   wordFormat0 = URL: END (0.0)
+|   |   |   |   wordFormat0 = CONTRACTION: END (0.0)
+|   |   |   |   wordFormat0 = LONELYINITIAL: END (0.0)
+|   |   |   |   wordFormat0 = UPPERCASECHAR: END (0.0)
+|   |   |   |   wordFormat0 = LOWERCASECHAR: END (0.0)
+|   |   |   |   wordFormat0 = CONTAINDASH: END (0.0)
+|   |   |   |   wordFormat0 = PHONE: END (0.0)
+|   |   |   dictionary0 = 1:
+|   |   |   |   wordFormat0 = UNKNOWN: END (0.0)
+|   |   |   |   wordFormat0 = EMAIL: END (0.0)
+|   |   |   |   wordFormat0 = INITCAP: OTHER (5.0)
+|   |   |   |   wordFormat0 = ALLCAPS: END (528.0/214.0)
+|   |   |   |   wordFormat0 = CONTAINDIGITS: END (0.0)
+|   |   |   |   wordFormat0 = ALLDIGITS: END (0.0)
+|   |   |   |   wordFormat0 = ACRONYM: END (0.0)
+|   |   |   |   wordFormat0 = WORD: END (0.0)
+|   |   |   |   wordFormat0 = PUNCTUATION: END (0.0)
+|   |   |   |   wordFormat0 = TIME: END (0.0)
+|   |   |   |   wordFormat0 = URL: END (0.0)
+|   |   |   |   wordFormat0 = CONTRACTION: END (0.0)
+|   |   |   |   wordFormat0 = LONELYINITIAL: END (0.0)
+|   |   |   |   wordFormat0 = UPPERCASECHAR: END (0.0)
+|   |   |   |   wordFormat0 = LOWERCASECHAR: END (0.0)
+|   |   |   |   wordFormat0 = CONTAINDASH: END (0.0)
+|   |   |   |   wordFormat0 = PHONE: END (0.0)
+|   |   |   dictionary0 = 9:
+|   |   |   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   |   |   wordFormat0 = INITCAP: MID (3.0)
+|   |   |   |   wordFormat0 = ALLCAPS: OTHER (13.0/2.0)
+|   |   |   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   |   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   |   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   |   |   wordFormat0 = WORD: OTHER (0.0)
+|   |   |   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   |   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   |   |   wordFormat0 = URL: OTHER (0.0)
+|   |   |   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   |   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   |   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   |   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   |   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   |   |   wordFormat0 = PHONE: OTHER (0.0)
+|   |   layout0 = OneToken:
+|   |   |   dictionary0 = 0: OTHER (101.0)
+|   |   |   dictionary0 = 1: END (14.0/6.0)
+|   |   |   dictionary0 = 2: OTHER (0.0)
+|   |   |   dictionary0 = 3: OTHER (0.0)
+|   |   |   dictionary0 = 4: OTHER (0.0)
+|   |   |   dictionary0 = 5: OTHER (0.0)
+|   |   |   dictionary0 = 6: OTHER (0.0)
+|   |   |   dictionary0 = 7: OTHER (0.0)
+|   |   |   dictionary0 = 8: OTHER (0.0)
+|   |   |   dictionary0 = 9: OTHER (0.0)
+|   |   |   dictionary0 = 10: OTHER (0.0)
+|   |   |   dictionary0 = 11: OTHER (0.0)
+|   |   |   dictionary0 = 12: OTHER (0.0)
+|   |   |   dictionary0 = 13: OTHER (0.0)
+|   |   |   dictionary0 = 14: OTHER (0.0)
+|   |   |   dictionary0 = 15: OTHER (0.0)
+|   pos0 = PRP:
+|   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   wordFormat0 = INITCAP: OTHER (39.0)
+|   |   wordFormat0 = ALLCAPS: MID (5.0/1.0)
+|   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   wordFormat0 = WORD: OTHER (49.0)
+|   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   wordFormat0 = URL: OTHER (0.0)
+|   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   wordFormat0 = PHONE: OTHER (0.0)
+fips0 = 16:
+|   layout0 = Start:
+|   |   wordFormat0 = UNKNOWN: START (0.0)
+|   |   wordFormat0 = EMAIL: START (0.0)
+|   |   wordFormat0 = INITCAP: START (0.0)
+|   |   wordFormat0 = ALLCAPS: START (0.0)
+|   |   wordFormat0 = CONTAINDIGITS: START (0.0)
+|   |   wordFormat0 = ACRONYM: START (0.0)
+|   |   wordFormat0 = PUNCTUATION: START (0.0)
+|   |   wordFormat0 = TIME: START (0.0)
+|   |   wordFormat0 = URL: START (0.0)
+|   |   wordFormat0 = CONTRACTION: START (0.0)
+|   |   wordFormat0 = LONELYINITIAL: START (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: START (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: START (0.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (146.0)
+|   |   wordFormat0 = PHONE: OTHER (916.0/28.0)
+|   |   wordFormat0 = ALLDIGITS:
+|   |   |   pos0 = UNKNOWN: START (0.0)
+|   |   |   pos0 = PUNC: START (0.0)
+|   |   |   pos0 = CC: START (0.0)
+|   |   |   pos0 = CD: START (6953.0/1883.0)
+|   |   |   pos0 = DT: START (0.0)
+|   |   |   pos0 = EX: START (0.0)
+|   |   |   pos0 = FW: START (0.0)
+|   |   |   pos0 = IN: START (0.0)
+|   |   |   pos0 = JJ: OTHER (6.0)
+|   |   |   pos0 = JJR: START (0.0)
+|   |   |   pos0 = JJS: START (0.0)
+|   |   |   pos0 = MD: START (0.0)
+|   |   |   pos0 = NN: OTHER (18.0/1.0)
+|   |   |   pos0 = NNP: START (38.0/8.0)
+|   |   |   pos0 = NNPS: START (0.0)
+|   |   |   pos0 = NNS: START (0.0)
+|   |   |   pos0 = PDT: START (0.0)
+|   |   |   pos0 = POS: START (0.0)
+|   |   |   pos0 = PRP: START (0.0)
+|   |   |   pos0 = PRP$: START (0.0)
+|   |   |   pos0 = RB: START (0.0)
+|   |   |   pos0 = RBR: START (0.0)
+|   |   |   pos0 = RBS: START (0.0)
+|   |   |   pos0 = RP: START (0.0)
+|   |   |   pos0 = SYM: START (0.0)
+|   |   |   pos0 = TO: START (0.0)
+|   |   |   pos0 = UH: START (0.0)
+|   |   |   pos0 = VB: START (0.0)
+|   |   |   pos0 = VBD: START (0.0)
+|   |   |   pos0 = VBG: START (0.0)
+|   |   |   pos0 = VBN: START (0.0)
+|   |   |   pos0 = VBP: START (0.0)
+|   |   |   pos0 = VBZ: START (0.0)
+|   |   |   pos0 = WDT: START (0.0)
+|   |   |   pos0 = WP: START (0.0)
+|   |   |   pos0 = WP$: START (0.0)
+|   |   |   pos0 = WRB: START (0.0)
+|   |   |   pos0 = PRP_MD: START (0.0)
+|   |   |   pos0 = NNP_VBN: START (0.0)
+|   |   wordFormat0 = WORD:
+|   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   pos0 = CD: OTHER (14.0/5.0)
+|   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   pos0 = JJ: OTHER (175.0/9.0)
+|   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   pos0 = NN: OTHER (3.0)
+|   |   |   pos0 = NNP: START (28.0/11.0)
+|   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   pos0 = VBN: OTHER (14.0)
+|   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   layout0 = Mid:
+|   |   geo0 = POBOX: OTHER (0.0)
+|   |   geo0 = OTHER: OTHER (21748.0/1408.0)
+|   |   geo0 = USZIP:
+|   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   pos0 = CD: OTHER (151.0/65.0)
+|   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   pos0 = JJ: OTHER (5.0/2.0)
+|   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   pos0 = NN: OTHER (0.0)
+|   |   |   pos0 = NNP: MID (1.0)
+|   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   layout0 = End:
+|   |   geo0 = USZIP: END (176.0/93.0)
+|   |   geo0 = POBOX: OTHER (0.0)
+|   |   geo0 = OTHER:
+|   |   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   |   wordFormat0 = INITCAP: OTHER (0.0)
+|   |   |   wordFormat0 = ALLCAPS: OTHER (0.0)
+|   |   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: OTHER (3743.0/332.0)
+|   |   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   |   wordFormat0 = URL: OTHER (0.0)
+|   |   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: OTHER (11.0)
+|   |   |   wordFormat0 = PHONE: OTHER (2865.0/31.0)
+|   |   |   wordFormat0 = WORD:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: END (58.0/25.0)
+|   |   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (96.0/5.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NN: OTHER (0.0)
+|   |   |   |   pos0 = NNP: OTHER (0.0)
+|   |   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   layout0 = OneToken:
+|   |   geo0 = USZIP: END (5.0/3.0)
+|   |   geo0 = POBOX: OTHER (0.0)
+|   |   geo0 = OTHER: OTHER (2037.0/2.0)
+fips0 = 17:
+|   layout0 = Mid: OTHER (39797.0/988.0)
+|   layout0 = End: OTHER (3418.0/362.0)
+|   layout0 = OneToken: OTHER (591.0)
+|   layout0 = Start:
+|   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   pos0 = PUNC: OTHER (0.0)
+|   |   pos0 = CC: OTHER (0.0)
+|   |   pos0 = CD: OTHER (4970.0/1631.0)
+|   |   pos0 = DT: OTHER (0.0)
+|   |   pos0 = EX: OTHER (0.0)
+|   |   pos0 = FW: OTHER (0.0)
+|   |   pos0 = IN: OTHER (0.0)
+|   |   pos0 = JJ: OTHER (6.0)
+|   |   pos0 = JJR: OTHER (0.0)
+|   |   pos0 = JJS: OTHER (0.0)
+|   |   pos0 = MD: OTHER (0.0)
+|   |   pos0 = NN: OTHER (56.0)
+|   |   pos0 = NNP: START (40.0/12.0)
+|   |   pos0 = NNPS: OTHER (0.0)
+|   |   pos0 = NNS: OTHER (0.0)
+|   |   pos0 = PDT: OTHER (0.0)
+|   |   pos0 = POS: OTHER (0.0)
+|   |   pos0 = PRP: OTHER (0.0)
+|   |   pos0 = PRP$: OTHER (0.0)
+|   |   pos0 = RB: OTHER (0.0)
+|   |   pos0 = RBR: OTHER (0.0)
+|   |   pos0 = RBS: OTHER (0.0)
+|   |   pos0 = RP: OTHER (0.0)
+|   |   pos0 = SYM: OTHER (0.0)
+|   |   pos0 = TO: OTHER (0.0)
+|   |   pos0 = UH: OTHER (0.0)
+|   |   pos0 = VB: OTHER (0.0)
+|   |   pos0 = VBD: OTHER (0.0)
+|   |   pos0 = VBG: OTHER (2.0)
+|   |   pos0 = VBN: OTHER (0.0)
+|   |   pos0 = VBP: OTHER (1.0)
+|   |   pos0 = VBZ: OTHER (0.0)
+|   |   pos0 = WDT: OTHER (0.0)
+|   |   pos0 = WP: OTHER (0.0)
+|   |   pos0 = WP$: OTHER (0.0)
+|   |   pos0 = WRB: OTHER (0.0)
+|   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   pos0 = NNP_VBN: OTHER (0.0)
+fips0 = 24:
+|   layout0 = OneToken: END (36.0/11.0)
+|   layout0 = Start:
+|   |   pos0 = UNKNOWN: START (0.0)
+|   |   pos0 = PUNC: START (0.0)
+|   |   pos0 = CC: START (0.0)
+|   |   pos0 = CD: START (562.0/136.0)
+|   |   pos0 = DT: START (0.0)
+|   |   pos0 = EX: START (0.0)
+|   |   pos0 = FW: START (0.0)
+|   |   pos0 = IN: START (0.0)
+|   |   pos0 = JJ: START (0.0)
+|   |   pos0 = JJR: START (0.0)
+|   |   pos0 = JJS: START (0.0)
+|   |   pos0 = MD: START (0.0)
+|   |   pos0 = NN: START (0.0)
+|   |   pos0 = NNP: OTHER (4.0/1.0)
+|   |   pos0 = NNPS: START (0.0)
+|   |   pos0 = NNS: START (0.0)
+|   |   pos0 = PDT: START (0.0)
+|   |   pos0 = POS: START (0.0)
+|   |   pos0 = PRP: START (0.0)
+|   |   pos0 = PRP$: START (0.0)
+|   |   pos0 = RB: START (0.0)
+|   |   pos0 = RBR: START (0.0)
+|   |   pos0 = RBS: START (0.0)
+|   |   pos0 = RP: START (0.0)
+|   |   pos0 = SYM: START (0.0)
+|   |   pos0 = TO: START (0.0)
+|   |   pos0 = UH: START (0.0)
+|   |   pos0 = VB: START (0.0)
+|   |   pos0 = VBD: START (0.0)
+|   |   pos0 = VBG: START (0.0)
+|   |   pos0 = VBN: START (0.0)
+|   |   pos0 = VBP: START (0.0)
+|   |   pos0 = VBZ: START (0.0)
+|   |   pos0 = WDT: START (0.0)
+|   |   pos0 = WP: START (0.0)
+|   |   pos0 = WP$: START (0.0)
+|   |   pos0 = WRB: START (0.0)
+|   |   pos0 = PRP_MD: START (0.0)
+|   |   pos0 = NNP_VBN: START (0.0)
+|   layout0 = Mid:
+|   |   pos0 = UNKNOWN: END (0.0)
+|   |   pos0 = PUNC: END (0.0)
+|   |   pos0 = CC: END (0.0)
+|   |   pos0 = DT: END (0.0)
+|   |   pos0 = EX: END (0.0)
+|   |   pos0 = FW: END (0.0)
+|   |   pos0 = IN: END (0.0)
+|   |   pos0 = JJ: END (44.0/10.0)
+|   |   pos0 = JJR: END (0.0)
+|   |   pos0 = JJS: END (0.0)
+|   |   pos0 = MD: END (0.0)
+|   |   pos0 = NN: END (0.0)
+|   |   pos0 = NNP: END (23.0/9.0)
+|   |   pos0 = NNPS: END (0.0)
+|   |   pos0 = NNS: END (0.0)
+|   |   pos0 = PDT: END (0.0)
+|   |   pos0 = POS: END (0.0)
+|   |   pos0 = PRP: END (0.0)
+|   |   pos0 = PRP$: END (0.0)
+|   |   pos0 = RB: END (0.0)
+|   |   pos0 = RBR: END (0.0)
+|   |   pos0 = RBS: END (0.0)
+|   |   pos0 = RP: END (0.0)
+|   |   pos0 = SYM: END (0.0)
+|   |   pos0 = TO: END (0.0)
+|   |   pos0 = UH: END (0.0)
+|   |   pos0 = VB: END (0.0)
+|   |   pos0 = VBD: END (1.0)
+|   |   pos0 = VBG: END (0.0)
+|   |   pos0 = VBN: END (0.0)
+|   |   pos0 = VBP: END (0.0)
+|   |   pos0 = VBZ: END (0.0)
+|   |   pos0 = WDT: END (0.0)
+|   |   pos0 = WP: END (0.0)
+|   |   pos0 = WP$: END (0.0)
+|   |   pos0 = WRB: END (0.0)
+|   |   pos0 = PRP_MD: END (0.0)
+|   |   pos0 = NNP_VBN: END (0.0)
+|   |   pos0 = CD:
+|   |   |   geo0 = USZIP: END (1932.0/828.0)
+|   |   |   geo0 = POBOX: END (0.0)
+|   |   |   geo0 = OTHER: OTHER (2.0)
+|   layout0 = End:
+|   |   geo0 = USZIP: END (6901.0/282.0)
+|   |   geo0 = POBOX: END (0.0)
+|   |   geo0 = OTHER: OTHER (10.0)
+fips0 = 25:
+|   layout0 = Start: START (6.0/1.0)
+|   layout0 = Mid: OTHER (5.0/2.0)
+|   layout0 = End: END (2.0/1.0)
+|   layout0 = OneToken: OTHER (1.0)
+
+
+
+| | | OTHER (10.00:1.00/2.44)
+
+| | | OTHER (71600.00:13524.00/13597.18)
+
+| | | MID (973.00:364.00/375.01)
+
+| | layout0:  [19%  N=72583.00  tree=13974.63  leaf=14134.00+74.53  br[2]=14208.53]
+
+| | OTHER (60302.00:2216.00/2248.72)
+
+| | OTHER (2922.00:0.00/1.39)
+
+| | OTHER (2120.00:0.00/1.39)
+
+| | OTHER (28374.00:21.00/24.96)
+
+| | OTHER (1248.00:4.00/6.22)
+
+| | OTHER (8913.00:39.00/44.09)
+
+| | OTHER (1912.00:0.00/1.39)
+
+| | OTHER (12699.00:140.00/148.90)
+
+| | OTHER (12865.00:128.00/136.55)
+
+| | OTHER (6073.00:1.00/2.62)
+
+| | OTHER (1419.00:4.00/6.22)
+
+| | OTHER (1421.00:3.00/5.05)
+
+| | OTHER (23.00:0.00/1.35)
+
+| | OTHER (27.00:0.00/1.35)
+
+| | OTHER (3608.00:0.00/1.39)
+
+| | OTHER (2528.00:0.00/1.39)
+
+| | OTHER (10738.00:66.00/72.37)
+
+| | OTHER (113.00:0.00/1.38)
+
+| | OTHER (1016.00:123.00/130.89)
+
+| | OTHER (947.00:2.00/3.86)
+
+| | OTHER (2085.00:0.00/1.39)
+
+| | | OTHER (4393.00:0.00/1.39)
+
+| | | | OTHER (418993.00:1278.00/1303.46)
+
+| | | | OTHER (1132.00:0.00/1.39)
+
+| | | | OTHER (2412.00:16.00/19.55)
+
+| | | | MID (1.00:0.00/0.75)
+
+| | | | OTHER (16316.00:282.00/294.27)
+
+| | | | OTHER (329.00:0.00/1.38)
+
+| | | | | OTHER (6.00:0.00/1.24)
+
+| | | | | OTHER (73.00:2.00/3.82)
+
+| | | | | | OTHER (180.00:80.00/85.14)
+
+| | | | | | MID (410.00:138.00/145.21)
+
+| | | | | | OTHER (50.00:0.00/1.37)
+
+| | | | | | OTHER (3.00:0.00/1.11)
+
+| | | | | layout0:  [36%  N=643.00  tree=232.82  leaf=296.00+9.27  br[2]=305.27]
+
+| | | | | OTHER (6249.00:434.00/448.63)
+
+| | | | | OTHER (4.00:0.00/1.17)
+
+| | | | | OTHER (30.00:0.00/1.35)
+
+| | | | pos0:  [9%  N=7005.00  tree=689.03  leaf=788.00+19.00  br[14]=807.00]
+
+| | | | OTHER (96.00:0.00/1.38)
+
+| | | dictionary0:  [0%  N=446284.00  tree=2311.21  leaf=2365.00+34.33  br[1]=2399.33]
+
+| | | OTHER (42024.00:751.00/770.55)
+
+| | | OTHER (6264.00:1852.00/1877.61)
+
+| | | | | OTHER (15.00:0.00/1.32)
+
+| | | | | END (5.00:1.00/2.27)
+
+| | | | | OTHER (228.00:7.00/9.60)
+
+| | | | | OTHER (8.00:0.00/1.27)
+
+| | | | pos0:  [5%  N=256.00  tree=14.47  leaf=11.00+3.02  br[14]=14.02]
+
+| | | | Replaced with leaf OTHER
+
+| | | | OTHER (1186.00:123.00/130.97)
+
+| | | | OTHER (498.00:54.00/59.51)
+
+| | | | OTHER (22.00:2.00/3.72)
+
+| | | layout0:  [10%  N=1962.00  tree=208.23  leaf=190.00+9.78  br[2]=199.78]
+
+| | | Replaced with leaf OTHER
+
+| | | | | START (1.00:0.00/0.75)
+
+| | | | | OTHER (105.00:0.00/1.38)
+
+| | | | | | START (350.00:103.00/109.51)
+
+| | | | | | OTHER (209.00:101.00/106.50)
+
+| | | | | | OTHER (30.00:0.00/1.35)
+
+| | | | | | OTHER (3.00:0.00/1.11)
+
+| | | | | layout0:  [36%  N=592.00  tree=218.48  leaf=262.00+8.89  br[1]=270.89]
+
+| | | | | START (1.00:0.00/0.75)
+
+| | | | | OTHER (20.00:0.00/1.34)
+
+| | | | pos0:  [30%  N=719.00  tree=222.69  leaf=387.00+9.73  br[14]=224.60]
+
+| | | | OTHER (466102.00:584.00/601.47)
+
+| | | geo0:  [0%  N=466821.00  tree=824.17  leaf=987.00+22.48  br[3]=1009.48]
+
+| | | OTHER (3649.00:31.00/35.61)
+
+| | | OTHER (4545.00:1.00/2.62)
+
+| | | OTHER (10064.00:51.00/56.70)
+
+| | | OTHER (3531.00:810.00/827.93)
+
+| | | OTHER (5338.00:6.00/8.52)
+
+| | | OTHER (11317.00:8.00/10.77)
+
+| | | OTHER (2648.00:5.00/7.38)
+
+| | | OTHER (7619.00:5.00/7.38)
+
+| | wordFormat0:  [0%  N=1016459.00  tree=6941.61  leaf=7062.00+58.73  br[8]=6938.76]
+
+| | Replaced with branch 8
+
+| | | | START (1.00:0.00/0.75)
+
+| | | | OTHER (105.00:0.00/1.38)
+
+| | | | | START (350.00:103.00/109.51)
+
+| | | | | OTHER (209.00:101.00/106.50)
+
+| | | | | OTHER (30.00:0.00/1.35)
+
+| | | | | OTHER (3.00:0.00/1.11)
+
+| | | | layout0:  [36%  N=592.00  tree=218.48  leaf=262.00+8.89  br[1]=270.89]
+
+| | | | START (1.00:0.00/0.75)
+
+| | | | OTHER (20.00:0.00/1.34)
+
+| | | pos0:  [30%  N=719.00  tree=222.69  leaf=387.00+9.73  br[14]=224.60]
+
+| | | OTHER (1015740.00:6659.00/6716.06)
+
+| | geo0:  [0%  N=1016459.00  tree=6938.76  leaf=7062.00+58.73  br[3]=7120.73]
+
+| punctuation0:  [1%  N=1250395.00  tree=23756.24  leaf=23943.00+106.85  br[24]=23868.67]
+
+| | | | OTHER (3097.00:46.00/51.42)
+
+| | | | OTHER (10699.00:1136.00/1158.76)
+
+| | | | | OTHER (9.00:1.00/2.42)
+
+| | | | | OTHER (1.00:0.00/0.75)
+
+| | | | | OTHER (2.00:0.00/1.00)
+
+| | | | | MID (20.00:6.00/8.02)
+
+| | | | | OTHER (3.00:0.00/1.11)
+
+| | | | | OTHER (56.00:0.00/1.37)
+
+| | | | | OTHER (1616.00:34.00/38.76)
+
+| | | | | OTHER (3.00:0.00/1.11)
+
+| | | | | OTHER (26.00:0.00/1.35)
+
+| | | | | OTHER (1.00:0.00/0.75)
+
+| | | | pos0:  [3%  N=1737.00  tree=56.64  leaf=49.00+5.53  br[14]=54.53]
+
+| | | | Replaced with leaf OTHER
+
+| | | | OTHER (161.00:0.00/1.38)
+
+| | | layout0:  [8%  N=15694.00  tree=1266.10  leaf=1231.00+24.03  br[2]=1255.03]
+
+| | | Replaced with leaf OTHER
+
+| | | | OTHER (8.00:0.00/1.27)
+
+| | | | MID (4.00:2.00/3.08)
+
+| | | | OTHER (27.00:1.00/2.55)
+
+| | | | OTHER (14.00:1.00/2.49)
+
+| | | | OTHER (14.00:0.00/1.32)
+
+| | | | OTHER (8.00:0.00/1.27)
+
+| | | | OTHER (516.00:14.00/17.33)
+
+| | | | OTHER (2.00:0.00/1.00)
+
+| | | | | OTHER (7.00:3.00/4.39)
+
+| | | | | END (3.00:0.00/1.11)
+
+| | | | layout0:  [54%  N=10.00  tree=5.50  leaf=6.00+1.45  br[2]=7.45]
+
+| | | | OTHER (12.00:0.00/1.31)
+
+| | | | OTHER (1.00:0.00/0.75)
+
+| | | pos0:  [6%  N=616.00  tree=37.88  leaf=24.00+4.09  br[14]=28.09]
+
+| | | Replaced with leaf OTHER
+
+| | | | OTHER (2.00:0.00/1.00)
+
+| | | | MID (2.00:0.00/1.00)
+
+| | | layout0:  [49%  N=4.00  tree=2.00  leaf=2.00+1.08  br[2]=3.08]
+
+| | | OTHER (6803.00:60.00/66.10)
+
+| | | OTHER (2469.00:127.00/135.33)
+
+| | | OTHER (4504.00:2.00/3.86)
+
+| | wordFormat0:  [4%  N=30090.00  tree=1490.41  leaf=1446.00+26.41  br[3]=1472.41]
+
+| | Replaced with leaf OTHER
+
+| | OTHER (1.00:0.00/0.75)
+
+| | | | OTHER (64.00:1.00/2.59)
+
+| | | | | OTHER (3.00:1.00/2.06)
+
+| | | | | MID (2361.00:853.00/869.73)
+
+| | | | | MID (2.00:0.00/1.00)
+
+| | | | | MID (2.00:0.00/1.00)
+
+| | | | pos0:  [36%  N=2368.00  tree=873.79  leaf=855.00+16.75  br[14]=871.75]
+
+| | | | Replaced with leaf MID
+
+| | | | MID (581.00:101.00/107.99)
+
+| | | layout0:  [32%  N=3013.00  tree=982.34  leaf=1020.00+18.57  br[2]=1038.57]
+
+| | | | OTHER (1.00:0.00/0.75)
+
+| | | | OTHER (236.00:15.00/18.35)
+
+| | | | MID (28.00:0.00/1.35)
+
+| | | layout0:  [7%  N=265.00  tree=20.45  leaf=43.00+4.84  br[2]=47.84]
+
+| | | OTHER (296.00:9.00/11.83)
+
+| | wordFormat0:  [28%  N=3574.00  tree=1014.62  leaf=1529.00+21.02  br[3]=1492.91]
+
+| | OTHER (185.00:24.00/27.87)
+
+| dictionary0:  [7%  N=33850.00  tree=2515.66  leaf=3516.00+39.56  br[1]=3555.56]
+
+| | | OTHER (33.00:1.00/2.57)
+
+| | | OTHER (16.00:0.00/1.33)
+
+| | | OTHER (8.00:0.00/1.27)
+
+| | | | MID (5.00:2.00/3.24)
+
+| | | | OTHER (13.00:3.00/4.70)
+
+| | | layout0:  [44%  N=18.00  tree=7.94  leaf=6.00+1.96  br[2]=7.96]
+
+| | | Replaced with leaf OTHER
+
+| | | OTHER (600.00:1.00/2.62)
+
+| | | OTHER (1469.00:5.00/7.38)
+
+| | | OTHER (14619.00:1762.00/1789.95)
+
+| | | OTHER (200.00:7.00/9.59)
+
+| | | OTHER (96.00:7.00/9.53)
+
+| | | OTHER (266.00:0.00/1.38)
+
+| | | OTHER (8.00:0.00/1.27)
+
+| | | OTHER (1062.00:7.00/9.64)
+
+| | | OTHER (1.00:0.00/0.75)
+
+| | | OTHER (14.00:1.00/2.49)
+
+| | | OTHER (1.00:0.00/0.75)
+
+| | | OTHER (5.00:0.00/1.21)
+
+| | | OTHER (5.00:0.00/1.21)
+
+| | | OTHER (18.00:0.00/1.33)
+
+| | pos0:  [10%  N=18439.00  tree=1852.23  leaf=1797.00+28.59  br[14]=1825.59]
+
+| | Replaced with leaf OTHER
+
+| | OTHER (1217.00:32.00/36.63)
+
+| | OTHER (8194.00:31.00/35.62)
+
+| | OTHER (1.00:0.00/0.75)
+
+| wordFormat0:  [6%  N=27851.00  tree=1898.59  leaf=1860.00+29.56  br[3]=1889.56]
+
+| Replaced with leaf OTHER
+
+| | | | OTHER (10390.00:3789.00/3823.54)
+
+| | | | | OTHER (48.00:0.00/1.37)
+
+| | | | | OTHER (7.00:1.00/2.37)
+
+| | | | | OTHER (142.00:4.00/6.18)
+
+| | | | | OTHER (265.00:1.00/2.61)
+
+| | | | | OTHER (16.00:0.00/1.33)
+
+| | | | | OTHER (179.00:19.00/22.58)
+
+| | | | | OTHER (33890.00:11779.00/11840.28)
+
+| | | | | OTHER (50.00:1.00/2.58)
+
+| | | | | OTHER (23.00:2.00/3.72)
+
+| | | | | OTHER (5.00:0.00/1.21)
+
+| | | | | OTHER (6.00:0.00/1.24)
+
+| | | | | OTHER (13.00:2.00/3.62)
+
+| | | | | MID (3.00:1.00/2.06)
+
+| | | | pos0:  [34%  N=34647.00  tree=11891.15  leaf=11811.00+61.68  br[14]=11872.68]
+
+| | | | Replaced with leaf OTHER
+
+| | | | OTHER (3243.00:343.00/355.83)
+
+| | | | OTHER (606.00:15.00/18.43)
+
+| | | layout0:  [32%  N=48886.00  tree=16070.47  leaf=15958.00+72.38  br[2]=16030.38]
+
+| | | Replaced with leaf OTHER
+
+| | | | OTHER (255.00:74.00/79.62)
+
+| | | | | OTHER (10.00:3.00/4.59)
+
+| | | | | MID (2502.00:959.00/976.40)
+
+| | | | pos0:  [39%  N=2512.00  tree=980.99  leaf=966.00+17.44  br[14]=983.44]
+
+| | | | MID (202.00:72.00/77.28)
+
+| | | | OTHER (5.00:0.00/1.21)
+
+| | | layout0:  [38%  N=2974.00  tree=1139.11  leaf=1225.00+19.13  br[2]=1228.98]
+
+| | | | OTHER (421.00:76.00/82.13)
+
+| | | | | MID (163.00:64.00/68.87)
+
+| | | | | OTHER (12238.00:5654.00/5692.71)
+
+| | | | | OTHER (26.00:1.00/2.55)
+
+| | | | | OTHER (3.00:0.00/1.11)
+
+| | | | | OTHER (32.00:0.00/1.36)
+
+| | | | pos0:  [46%  N=12462.00  tree=5766.60  leaf=5754.00+39.06  br[14]=5793.06]
+
+| | | | | OTHER (134.00:62.00/66.51)
+
+| | | | | MID (2937.00:864.00/881.70)
+
+| | | | | OTHER (4.00:0.00/1.17)
+
+| | | | | OTHER (2.00:0.00/1.00)
+
+| | | | pos0:  [30%  N=3077.00  tree=950.38  leaf=942.00+18.30  br[14]=960.30]
+
+| | | | OTHER (20.00:0.00/1.34)
+
+| | | layout0:  [42%  N=15980.00  tree=6800.45  leaf=7965.00+44.27  br[2]=7981.51]
+
+| | | OTHER (613.00:113.00/120.31)
+
+| | dictionary0:  [35%  N=68453.00  tree=24090.24  leaf=25786.00+88.35  br[1]=25874.35]
+
+| | | OTHER (2982.00:345.00/357.79)
+
+| | | | OTHER (28.00:1.00/2.56)
+
+| | | | MID (264.00:107.00/113.07)
+
+| | | | MID (120.00:21.00/24.56)
+
+| | | layout0:  [34%  N=412.00  tree=140.18  leaf=155.00+7.37  br[2]=162.37]
+
+| | | | OTHER (15.00:1.00/2.50)
+
+| | | | OTHER (536.00:88.00/94.61)
+
+| | | | | OTHER (20.00:0.00/1.34)
+
+| | | | | MID (146.00:44.00/48.44)
+
+| | | | pos0:  [29%  N=166.00  tree=49.78  leaf=64.00+4.90  br[14]=68.90]
+
+| | | layout0:  [20%  N=717.00  tree=146.89  leaf=191.00+8.81  br[2]=199.81]
+
+| | | OTHER (35.00:0.00/1.36)
+
+| | dictionary0:  [15%  N=4146.00  tree=646.22  leaf=793.00+18.19  br[1]=811.19]
+
+| | | OTHER (78.00:0.00/1.37)
+
+| | | OTHER (15.00:1.00/2.50)
+
+| | | OTHER (2.00:0.00/1.00)
+
+| | | OTHER (4.00:1.00/2.19)
+
+| | | OTHER (928.00:2.00/3.86)
+
+| | | OTHER (1.00:0.00/0.75)
+
+| | | OTHER (200.00:0.00/1.38)
+
+| | | OTHER (569.00:0.00/1.38)
+
+| | | OTHER (3990.00:25.00/29.23)
+
+| | | | OTHER (39.00:5.00/7.18)
+
+| | | | | OTHER (77.00:29.00/32.50)
+
+| | | | | MID (1.00:0.00/0.75)
+
+| | | | | OTHER (23.00:5.00/7.03)
+
+| | | | dictionary0:  [39%  N=101.00  tree=40.28  leaf=35.00+3.89  br[1]=38.89]
+
+| | | | Replaced with leaf OTHER
+
+| | | | OTHER (16.00:0.00/1.33)
+
+| | | layout0:  [30%  N=156.00  tree=47.39  leaf=40.00+4.40  br[2]=44.40]
+
+| | | Replaced with leaf OTHER
+
+| | | OTHER (804.00:1.00/2.62)
+
+| | | OTHER (154.00:0.00/1.38)
+
+| | | OTHER (5.00:0.00/1.21)
+
+| | | OTHER (87.00:1.00/2.60)
+
+| | | OTHER (2.00:0.00/1.00)
+
+| | | OTHER (3.00:0.00/1.11)
+
+| | | OTHER (1.00:0.00/0.75)
+
+| | | OTHER (55.00:0.00/1.37)
+
+| | | OTHER (2262.00:1.00/2.62)
+
+| | pos0:  [1%  N=9316.00  tree=102.73  leaf=72.00+6.61  br[13]=78.61]
+
+| | Replaced with leaf OTHER
+
+| | | OTHER (93.00:1.00/2.60)
+
+| | | | OTHER (210.00:94.00/99.51)
+
+| | | | | OTHER (6.00:2.00/3.34)
+
+| | | | | MID (1133.00:453.00/464.97)
+
+| | | | dictionary0:  [41%  N=1139.00  tree=468.31  leaf=457.00+12.00  br[3]=469.00]
+
+| | | pos0:  [42%  N=1349.00  tree=567.82  leaf=573.00+13.11  br[14]=585.42]
+
+| | | | MID (68.00:25.00/28.32)
+
+| | | | OTHER (32.00:10.00/12.41)
+
+| | | pos0:  [40%  N=100.00  tree=40.72  leaf=47.00+3.96  br[13]=50.96]
+
+| | | OTHER (29.00:0.00/1.35)
+
+| | layout0:  [38%  N=1571.00  tree=612.50  leaf=741.00+14.21  br[2]=724.66]
+
+| | OTHER (1929.00:6.00/8.52)
+
+| wordFormat0:  [29%  N=85415.00  tree=25436.09  leaf=27487.00+95.13  br[3]=25484.78]
+
+| | OTHER (60.00:0.00/1.37)
+
+| | | | MID (171.00:34.00/38.27)
+
+| | | | OTHER (12.00:3.00/4.67)
+
+| | | layout0:  [23%  N=183.00  tree=42.94  leaf=43.00+4.61  br[2]=47.61]
+
+| | | OTHER (104.00:37.00/40.95)
+
+| | pos0:  [29%  N=287.00  tree=83.89  leaf=111.00+6.27  br[13]=111.53]
+
+| | OTHER (492.00:0.00/1.38)
+
+| wordFormat0:  [10%  N=839.00  tree=86.65  leaf=177.00+8.83  br[8]=185.83]
+
+| | OTHER (81.00:3.00/5.00)
+
+| | | | OTHER (169.00:73.00/77.99)
+
+| | | | OTHER (57.00:1.00/2.59)
+
+| | | | MID (20.00:1.00/2.53)
+
+| | | | OTHER (60.00:0.00/1.37)
+
+| | | dictionary0:  [27%  N=306.00  tree=84.48  leaf=93.00+6.17  br[1]=99.17]
+
+| | | | OTHER (8.00:0.00/1.27)
+
+| | | | MID (385.00:140.00/147.10)
+
+| | | | | MID (33.00:11.00/13.45)
+
+| | | | | OTHER (16.00:0.00/1.33)
+
+| | | | pos0:  [30%  N=49.00  tree=14.78  leaf=25.00+2.90  br[13]=27.90]
+
+| | | | MID (78.00:37.00/40.56)
+
+| | | dictionary0:  [39%  N=520.00  tree=203.71  leaf=212.00+8.30  br[2]=220.30]
+
+| | | OTHER (17.00:2.00/3.68)
+
+| | wordFormat0:  [34%  N=843.00  tree=291.87  leaf=406.00+10.55  br[4]=374.33]
+
+| | | OTHER (6.00:1.00/2.33)
+
+| | | OTHER (42.00:2.00/3.79)
+
+| | | | MID (2.00:0.00/1.00)
+
+| | | | MID (4.00:2.00/3.08)
+
+| | | | OTHER (1.00:0.00/0.75)
+
+| | | wordFormat0:  [69%  N=7.00  tree=4.83  leaf=3.00+1.39  br[4]=4.39]
+
+| | | Replaced with leaf MID
+
+| | | OTHER (17.00:0.00/1.33)
+
+| | dictionary0:  [16%  N=72.00  tree=11.83  leaf=7.00+2.49  br[2]=9.49]
+
+| | Replaced with leaf OTHER
+
+| | OTHER (19.00:0.00/1.34)
+
+| layout0:  [30%  N=1015.00  tree=307.69  leaf=416.00+11.39  br[2]=337.13]
+
+| | | OTHER (56.00:0.00/1.37)
+
+| | | MID (50.00:22.00/24.95)
+
+| | | OTHER (1317.00:0.00/1.39)
+
+| | wordFormat0:  [1%  N=1423.00  tree=27.70  leaf=28.00+4.40  br[8]=32.40]
+
+| | OTHER (196.00:7.00/9.59)
+
+| | OTHER (3816.00:41.00/46.18)
+
+| | OTHER (93.00:14.00/17.09)
+
+| | OTHER (20.00:4.00/5.91)
+
+| | | OTHER (3.00:0.00/1.11)
+
+| | | | OTHER (2.00:0.00/1.00)
+
+| | | | MID (78.00:27.00/30.48)
+
+| | | | OTHER (1.00:0.00/0.75)
+
+| | | dictionary0:  [39%  N=81.00  tree=32.23  leaf=30.00+3.57  br[2]=33.57]
+
+| | | | OTHER (15.00:0.00/1.32)
+
+| | | | OTHER (43.00:0.00/1.36)
+
+| | | | OTHER (7.00:0.00/1.26)
+
+| | | | OTHER (1.00:0.00/0.75)
+
+| | | | MID (1.00:0.00/0.75)
+
+| | | dictionary0:  [8%  N=67.00  tree=5.45  leaf=1.00+1.59  br[2]=2.59]
+
+| | | Replaced with leaf OTHER
+
+| | | OTHER (2.00:0.00/1.00)
+
+| | wordFormat0:  [24%  N=153.00  tree=36.94  leaf=52.00+4.64  br[4]=59.85]
+
+| | | | | MID (1271.00:498.00/510.60)
+
+| | | | | OTHER (33.00:9.00/11.39)
+
+| | | | wordFormat0:  [40%  N=1304.00  tree=521.99  leaf=522.00+12.80  br[3]=534.80]
+
+| | | | OTHER (59.00:12.00/14.81)
+
+| | | | OTHER (27.00:0.00/1.35)
+
+| | | | OTHER (141.00:10.00/12.87)
+
+| | | dictionary0:  [35%  N=1531.00  tree=551.02  leaf=728.00+14.04  br[1]=674.07]
+
+| | | | | MID (6364.00:2969.00/2997.08)
+
+| | | | | OTHER (128.00:18.00/21.42)
+
+| | | | | OTHER (1.00:0.00/0.75)
+
+| | | | wordFormat0:  [46%  N=6493.00  tree=3019.25  leaf=3080.00+28.38  br[3]=3108.38]
+
+| | | | | OTHER (167.00:41.00/45.48)
+
+| | | | | MID (7999.00:1437.00/1461.43)
+
+| | | | | OTHER (5.00:0.00/1.21)
+
+| | | | wordFormat0:  [18%  N=8171.00  tree=1508.13  leaf=1569.00+25.31  br[4]=1594.31]
+
+| | | | | OTHER (41.00:7.00/9.36)
+
+| | | | | OTHER (4.00:0.00/1.17)
+
+| | | | | OTHER (1.00:0.00/0.75)
+
+| | | | | MID (1.00:0.00/0.75)
+
+| | | | wordFormat0:  [25%  N=47.00  tree=12.03  leaf=8.00+2.48  br[3]=10.48]
+
+| | | | Replaced with leaf OTHER
+
+| | | | MID (143.00:34.00/38.16)
+
+| | | | OTHER (301.00:114.00/120.39)
+
+| | | | MID (208.00:65.00/70.22)
+
+| | | dictionary0:  [31%  N=15363.00  tree=4766.63  leaf=4974.00+40.75  br[2]=5024.41]
+
+| | | | | END (814.00:347.00/357.30)
+
+| | | | | OTHER (9.00:1.00/2.42)
+
+| | | | wordFormat0:  [43%  N=823.00  tree=359.73  leaf=356.00+10.37  br[3]=366.37]
+
+| | | | | OTHER (5.00:0.00/1.21)
+
+| | | | | END (528.00:214.00/222.36)
+
+| | | | wordFormat0:  [41%  N=533.00  tree=223.57  leaf=219.00+8.41  br[4]=227.41]
+
+| | | | MID (2.00:1.00/1.80)
+
+| | | | MID (52.00:14.00/16.84)
+
+| | | | OTHER (53.00:1.00/2.59)
+
+| | | | | MID (3.00:0.00/1.11)
+
+| | | | | OTHER (13.00:2.00/3.62)
+
+| | | | wordFormat0:  [29%  N=16.00  tree=4.73  leaf=5.00+1.87  br[4]=6.87]
+
+| | | dictionary0:  [41%  N=1479.00  tree=609.24  leaf=698.00+13.81  br[1]=717.73]
+
+| | | | OTHER (101.00:0.00/1.38)
+
+| | | | END (14.00:6.00/7.79)
+
+| | | dictionary0:  [7%  N=115.00  tree=9.16  leaf=12.00+3.00  br[1]=15.00]
+
+| | layout0:  [32%  N=18488.00  tree=5936.05  leaf=7203.00+46.47  br[2]=6762.06]
+
+| | OTHER (12.00:0.00/1.31)
+
+| | | OTHER (39.00:0.00/1.36)
+
+| | | MID (5.00:1.00/2.27)
+
+| | | OTHER (49.00:0.00/1.37)
+
+| | wordFormat0:  [5%  N=93.00  tree=5.00  leaf=4.00+2.16  br[8]=6.16]
+
+| | MID (1.00:0.00/0.75)
+
+| | OTHER (3.00:0.00/1.11)
+
+| | OTHER (331.00:0.00/1.38)
+
+| pos0:  [24%  N=24629.00  tree=6089.01  leaf=12434.00+54.83  br[14]=6081.69]
+
+| Replaced with branch 14
+
+| | | | MID (1272.00:499.00/511.61)
+
+| | | | OTHER (33.00:9.00/11.39)
+
+| | | | OTHER (2.00:0.00/1.00)
+
+| | | wordFormat0:  [40%  N=1307.00  tree=524.00  leaf=525.00+12.82  br[3]=537.82]
+
+| | | OTHER (225.00:12.00/15.10)
+
+| | | OTHER (27.00:0.00/1.35)
+
+| | | OTHER (143.00:10.00/12.87)
+
+| | dictionary0:  [32%  N=1702.00  tree=553.32  leaf=805.00+14.78  br[1]=795.07]
+
+| | | | MID (6364.00:2969.00/2997.08)
+
+| | | | OTHER (130.00:18.00/21.43)
+
+| | | | OTHER (24.00:0.00/1.35)
+
+| | | wordFormat0:  [46%  N=6518.00  tree=3019.85  leaf=3105.00+28.43  br[3]=3133.43]
+
+| | | | OTHER (457.00:47.00/52.21)
+
+| | | | MID (8231.00:1538.00/1563.14)
+
+| | | | OTHER (5091.00:10.00/12.99)
+
+| | | wordFormat0:  [11%  N=13779.00  tree=1628.34  leaf=6941.00+41.14  br[4]=6982.14]
+
+| | | OTHER (56.00:8.00/10.52)
+
+| | | MID (149.00:40.00/44.37)
+
+| | | OTHER (347.00:117.00/123.68)
+
+| | | MID (209.00:65.00/70.23)
+
+| | dictionary0:  [23%  N=21058.00  tree=4896.99  leaf=10518.00+50.75  br[2]=5442.74]
+
+| | | | END (814.00:347.00/357.30)
+
+| | | | OTHER (9.00:1.00/2.42)
+
+| | | | OTHER (2.00:0.00/1.00)
+
+| | | wordFormat0:  [43%  N=825.00  tree=360.73  leaf=358.00+10.39  br[3]=368.39]
+
+| | | | OTHER (94.00:0.00/1.38)
+
+| | | | END (532.00:218.00/226.40)
+
+| | | | OTHER (167.00:0.00/1.38)
+
+| | | wordFormat0:  [28%  N=793.00  tree=229.15  leaf=330.00+10.15  br[4]=340.15]
+
+| | | MID (2.00:1.00/1.80)
+
+| | | MID (52.00:14.00/16.84)
+
+| | | OTHER (55.00:1.00/2.59)
+
+| | | | MID (3.00:0.00/1.11)
+
+| | | | OTHER (13.00:2.00/3.62)
+
+| | | wordFormat0:  [29%  N=16.00  tree=4.73  leaf=5.00+1.87  br[4]=6.87]
+
+| | dictionary0:  [35%  N=1743.00  tree=615.83  leaf=870.00+14.95  br[1]=812.71]
+
+| | | OTHER (102.00:0.00/1.38)
+
+| | | OTHER (24.00:12.00/14.17)
+
+| | dictionary0:  [12%  N=126.00  tree=15.55  leaf=12.00+3.02  br[1]=15.02]
+
+| | Replaced with leaf OTHER
+
+| layout0:  [24%  N=24629.00  tree=6081.16  leaf=12434.00+54.83  br[2]=6910.23]
+
+| | | | START (6953.00:1883.00/1909.27)
+
+| | | | OTHER (6.00:0.00/1.24)
+
+| | | | OTHER (18.00:1.00/2.52)
+
+| | | | START (38.00:8.00/10.40)
+
+| | | pos0:  [27%  N=7015.00  tree=1923.43  leaf=1914.00+26.45  br[4]=1940.45]
+
+| | | | OTHER (14.00:5.00/6.79)
+
+| | | | OTHER (175.00:9.00/11.80)
+
+| | | | OTHER (3.00:0.00/1.11)
+
+| | | | START (28.00:11.00/13.33)
+
+| | | | OTHER (14.00:0.00/1.32)
+
+| | | pos0:  [14%  N=234.00  tree=34.35  leaf=31.00+4.29  br[9]=35.29]
+
+| | | OTHER (146.00:0.00/1.38)
+
+| | | OTHER (916.00:28.00/32.37)
+
+| | wordFormat0:  [23%  N=8311.00  tree=1991.53  leaf=3151.00+31.19  br[6]=2376.79]
+
+| | | | OTHER (151.00:65.00/69.74)
+
+| | | | OTHER (5.00:2.00/3.24)
+
+| | | | MID (1.00:0.00/0.75)
+
+| | | pos0:  [46%  N=157.00  tree=73.73  leaf=68.00+4.83  br[4]=72.83]
+
+| | | Replaced with leaf OTHER
+
+| | | OTHER (21748.00:1408.00/1433.84)
+
+| | geo0:  [6%  N=21905.00  tree=1506.67  leaf=1476.00+26.41  br[3]=1502.41]
+
+| | Replaced with leaf OTHER
+
+| | | END (176.00:93.00/98.06)
+
+| | | | OTHER (3743.00:332.00/344.75)
+
+| | | | | END (58.00:25.00/28.14)
+
+| | | | | OTHER (96.00:5.00/7.30)
+
+| | | | pos0:  [23%  N=154.00  tree=35.43  leaf=38.00+4.34  br[9]=42.34]
+
+| | | | OTHER (11.00:0.00/1.30)
+
+| | | | OTHER (2865.00:31.00/35.61)
+
+| | | wordFormat0:  [6%  N=6773.00  tree=417.09  leaf=401.00+14.17  br[6]=415.17]
+
+| | | Replaced with leaf OTHER
+
+| | geo0:  [7%  N=6949.00  tree=513.23  leaf=529.00+16.02  br[3]=545.02]
+
+| | | END (5.00:3.00/4.10)
+
+| | | OTHER (2037.00:2.00/3.86)
+
+| | geo0:  [0%  N=2042.00  tree=7.96  leaf=6.00+2.52  br[3]=8.52]
+
+| layout0:  [10%  N=39207.00  tree=4015.13  leaf=7230.00+53.83  br[2]=7283.83]
+
+| | | OTHER (4970.00:1631.00/1654.51)
+
+| | | OTHER (6.00:0.00/1.24)
+
+| | | OTHER (56.00:0.00/1.37)
+
+| | | START (40.00:12.00/14.61)
+
+| | | OTHER (2.00:0.00/1.00)
+
+| | | OTHER (1.00:0.00/0.75)
+
+| | pos0:  [32%  N=5075.00  tree=1673.47  leaf=1661.00+23.73  br[4]=1684.73]
+
+| | OTHER (39797.00:988.00/1010.23)
+
+| | OTHER (3418.00:362.00/375.16)
+
+| | OTHER (591.00:0.00/1.38)
+
+| layout0:  [6%  N=48881.00  tree=3060.24  leaf=3011.00+37.52  br[2]=3048.52]
+
+| Replaced with leaf OTHER
+
+| OTHER (2001.00:12.00/15.19)
+
+| | | START (562.00:136.00/143.66)
+
+| | | OTHER (4.00:1.00/2.19)
+
+| | pos0:  [25%  N=566.00  tree=145.85  leaf=140.00+7.74  br[4]=147.74]
+
+| | | | END (1932.00:828.00/843.60)
+
+| | | | OTHER (2.00:0.00/1.00)
+
+| | | geo0:  [43%  N=1934.00  tree=844.60  leaf=830.00+15.61  br[1]=845.61]
+
+| | | END (44.00:10.00/12.58)
+
+| | | END (23.00:9.00/11.16)
+
+| | | END (1.00:0.00/0.75)
+
+| | pos0:  [43%  N=2002.00  tree=869.08  leaf=849.00+15.85  br[4]=862.94]
+
+| | Replaced with branch 4
+
+| | | END (1999.00:846.00/861.83)
+
+| | | OTHER (3.00:0.00/1.11)
+
+| | geo0:  [43%  N=2002.00  tree=862.94  leaf=849.00+15.85  br[1]=864.85]
+
+| | | END (6901.00:282.00/294.12)
+
+| | | OTHER (10.00:0.00/1.29)
+
+| | geo0:  [4%  N=6911.00  tree=295.41  leaf=292.00+12.31  br[1]=304.31]
+
+| | END (36.00:11.00/13.51)
+
+| layout0:  [13%  N=9515.00  tree=1317.72  leaf=1704.00+26.56  br[3]=1715.79]
+
+| | START (6.00:1.00/2.33)
+
+| | OTHER (5.00:2.00/3.24)
+
+| | END (2.00:1.00/1.80)
+
+| | OTHER (1.00:0.00/0.75)
+
+| layout0:  [57%  N=14.00  tree=8.11  leaf=8.00+1.70  br[1]=9.70]
+
+fips0:  [4%  N=1523612.00  tree=68477.73  leaf=88916.00+201.09  br[1]=81796.11]
+
+Simplified Decision Tree:
+
+fips0 = 2: OTHER (27851.0/1889.6)
+fips0 = 6: OTHER (0.0)
+fips0 = 8: OTHER (0.0)
+fips0 = 9: OTHER (0.0)
+fips0 = 10: OTHER (0.0)
+fips0 = 11: OTHER (0.0)
+fips0 = 12: OTHER (0.0)
+fips0 = 13: OTHER (0.0)
+fips0 = 14: OTHER (0.0)
+fips0 = 15: OTHER (0.0)
+fips0 = 17: OTHER (48881.0/3048.5)
+fips0 = 18: OTHER (0.0)
+fips0 = 19: OTHER (2001.0/15.2)
+fips0 = 20: OTHER (0.0)
+fips0 = 21: OTHER (0.0)
+fips0 = 22: OTHER (0.0)
+fips0 = 23: OTHER (0.0)
+fips0 = 26: OTHER (0.0)
+fips0 = 27: OTHER (0.0)
+fips0 = 28: OTHER (0.0)
+fips0 = 29: OTHER (0.0)
+fips0 = 30: OTHER (0.0)
+fips0 = 31: OTHER (0.0)
+fips0 = 0:
+|   punctuation0 = PERIOD: OTHER (60302.0/2248.7)
+|   punctuation0 = EXCLAMATION: OTHER (2922.0/1.4)
+|   punctuation0 = QUESTION: OTHER (2120.0/1.4)
+|   punctuation0 = SEMICOLON: OTHER (0.0)
+|   punctuation0 = COLON: OTHER (28374.0/25.0)
+|   punctuation0 = PLUS: OTHER (1248.0/6.2)
+|   punctuation0 = MINUS: OTHER (8913.0/44.1)
+|   punctuation0 = APOSTROPHE: OTHER (1912.0/1.4)
+|   punctuation0 = LEFT_PARENTHESIS: OTHER (12699.0/148.9)
+|   punctuation0 = RIGHT_PARENTHESIS: OTHER (12865.0/136.5)
+|   punctuation0 = DOUBLE_QUOTE: OTHER (6073.0/2.6)
+|   punctuation0 = LEFT_BOX_BRACKET: OTHER (1419.0/6.2)
+|   punctuation0 = RIGH_BOX_BRACKET: OTHER (1421.0/5.1)
+|   punctuation0 = LEFT_CURLY_BRACKET: OTHER (23.0/1.3)
+|   punctuation0 = RIGHT_CURLY_BRACKET: OTHER (27.0/1.4)
+|   punctuation0 = EQUAL: OTHER (3608.0/1.4)
+|   punctuation0 = UNDERSCORE: OTHER (2528.0/1.4)
+|   punctuation0 = SLASH: OTHER (10738.0/72.4)
+|   punctuation0 = BACK_SLASH: OTHER (113.0/1.4)
+|   punctuation0 = NUMBER_SIGN: OTHER (1016.0/130.9)
+|   punctuation0 = LEFT_ANGLE_BRACKET: OTHER (947.0/3.9)
+|   punctuation0 = RIGHT_ANGLE_BRACKET: OTHER (2085.0/1.4)
+|   punctuation0 = COMMA:
+|   |   layout0 = Start: OTHER (10.0/2.4)
+|   |   layout0 = Mid: OTHER (71600.0/13597.2)
+|   |   layout0 = End: MID (973.0/375.0)
+|   |   layout0 = OneToken: OTHER (0.0)
+|   punctuation0 = NOTPUNC:
+|   |   geo0 = USZIP: OTHER (0.0)
+|   |   geo0 = OTHER: OTHER (1015740.0/6716.1)
+|   |   geo0 = POBOX:
+|   |   |   pos0 = UNKNOWN: START (0.0)
+|   |   |   pos0 = PUNC: START (0.0)
+|   |   |   pos0 = CC: START (0.0)
+|   |   |   pos0 = CD: START (0.0)
+|   |   |   pos0 = DT: START (0.0)
+|   |   |   pos0 = EX: START (0.0)
+|   |   |   pos0 = FW: START (0.0)
+|   |   |   pos0 = IN: START (0.0)
+|   |   |   pos0 = JJ: START (1.0/0.8)
+|   |   |   pos0 = JJR: START (0.0)
+|   |   |   pos0 = JJS: START (0.0)
+|   |   |   pos0 = MD: START (0.0)
+|   |   |   pos0 = NN: OTHER (105.0/1.4)
+|   |   |   pos0 = NNPS: START (0.0)
+|   |   |   pos0 = NNS: START (0.0)
+|   |   |   pos0 = PDT: START (0.0)
+|   |   |   pos0 = POS: START (0.0)
+|   |   |   pos0 = PRP: START (0.0)
+|   |   |   pos0 = PRP$: START (0.0)
+|   |   |   pos0 = RB: START (0.0)
+|   |   |   pos0 = RBR: START (0.0)
+|   |   |   pos0 = RBS: START (0.0)
+|   |   |   pos0 = RP: START (0.0)
+|   |   |   pos0 = SYM: START (0.0)
+|   |   |   pos0 = TO: START (0.0)
+|   |   |   pos0 = UH: START (0.0)
+|   |   |   pos0 = VB: START (1.0/0.8)
+|   |   |   pos0 = VBD: START (0.0)
+|   |   |   pos0 = VBG: START (0.0)
+|   |   |   pos0 = VBN: START (0.0)
+|   |   |   pos0 = VBP: OTHER (20.0/1.3)
+|   |   |   pos0 = VBZ: START (0.0)
+|   |   |   pos0 = WDT: START (0.0)
+|   |   |   pos0 = WP: START (0.0)
+|   |   |   pos0 = WP$: START (0.0)
+|   |   |   pos0 = WRB: START (0.0)
+|   |   |   pos0 = PRP_MD: START (0.0)
+|   |   |   pos0 = NNP_VBN: START (0.0)
+|   |   |   pos0 = NNP:
+|   |   |   |   layout0 = Start: START (350.0/109.5)
+|   |   |   |   layout0 = Mid: OTHER (209.0/106.5)
+|   |   |   |   layout0 = End: OTHER (30.0/1.4)
+|   |   |   |   layout0 = OneToken: OTHER (3.0/1.1)
+fips0 = 1:
+|   dictionary0 = 0: OTHER (30090.0/1472.4)
+|   dictionary0 = 1: OTHER (0.0)
+|   dictionary0 = 2: OTHER (1.0/0.8)
+|   dictionary0 = 3: OTHER (0.0)
+|   dictionary0 = 5: OTHER (0.0)
+|   dictionary0 = 6: OTHER (0.0)
+|   dictionary0 = 7: OTHER (0.0)
+|   dictionary0 = 8: OTHER (185.0/27.9)
+|   dictionary0 = 9: OTHER (0.0)
+|   dictionary0 = 10: OTHER (0.0)
+|   dictionary0 = 11: OTHER (0.0)
+|   dictionary0 = 12: OTHER (0.0)
+|   dictionary0 = 13: OTHER (0.0)
+|   dictionary0 = 14: OTHER (0.0)
+|   dictionary0 = 15: OTHER (0.0)
+|   dictionary0 = 4:
+|   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   wordFormat0 = WORD: OTHER (296.0/11.8)
+|   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   wordFormat0 = TIME: MID (0.0)
+|   |   wordFormat0 = URL: MID (0.0)
+|   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   wordFormat0 = PHONE: MID (0.0)
+|   |   wordFormat0 = INITCAP:
+|   |   |   layout0 = Start: OTHER (64.0/2.6)
+|   |   |   layout0 = Mid: MID (2368.0/871.8)
+|   |   |   layout0 = End: MID (581.0/108.0)
+|   |   |   layout0 = OneToken: MID (0.0)
+|   |   wordFormat0 = ALLCAPS:
+|   |   |   layout0 = Start: OTHER (1.0/0.8)
+|   |   |   layout0 = Mid: OTHER (236.0/18.3)
+|   |   |   layout0 = End: MID (28.0/1.4)
+|   |   |   layout0 = OneToken: OTHER (0.0)
+fips0 = 3:
+|   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   wordFormat0 = EMAIL: OTHER (0.0)
+|   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   wordFormat0 = ACRONYM: OTHER (0.0)
+|   wordFormat0 = WORD: OTHER (9316.0/78.6)
+|   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   wordFormat0 = TIME: OTHER (0.0)
+|   wordFormat0 = URL: OTHER (0.0)
+|   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   wordFormat0 = LOWERCASECHAR: OTHER (1929.0/8.5)
+|   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   wordFormat0 = PHONE: OTHER (0.0)
+|   wordFormat0 = INITCAP:
+|   |   dictionary0 = 0: OTHER (48886.0/16030.4)
+|   |   dictionary0 = 1: OTHER (0.0)
+|   |   dictionary0 = 3: OTHER (0.0)
+|   |   dictionary0 = 5: OTHER (0.0)
+|   |   dictionary0 = 6: OTHER (0.0)
+|   |   dictionary0 = 7: OTHER (0.0)
+|   |   dictionary0 = 8: OTHER (613.0/120.3)
+|   |   dictionary0 = 9: OTHER (0.0)
+|   |   dictionary0 = 10: OTHER (0.0)
+|   |   dictionary0 = 11: OTHER (0.0)
+|   |   dictionary0 = 12: OTHER (0.0)
+|   |   dictionary0 = 13: OTHER (0.0)
+|   |   dictionary0 = 14: OTHER (0.0)
+|   |   dictionary0 = 15: OTHER (0.0)
+|   |   dictionary0 = 2:
+|   |   |   layout0 = Start: OTHER (255.0/79.6)
+|   |   |   layout0 = End: MID (202.0/77.3)
+|   |   |   layout0 = OneToken: OTHER (5.0/1.2)
+|   |   |   layout0 = Mid:
+|   |   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   |   pos0 = CC: MID (0.0)
+|   |   |   |   pos0 = CD: MID (0.0)
+|   |   |   |   pos0 = DT: MID (0.0)
+|   |   |   |   pos0 = EX: MID (0.0)
+|   |   |   |   pos0 = FW: MID (0.0)
+|   |   |   |   pos0 = IN: MID (0.0)
+|   |   |   |   pos0 = JJ: OTHER (10.0/4.6)
+|   |   |   |   pos0 = JJR: MID (0.0)
+|   |   |   |   pos0 = JJS: MID (0.0)
+|   |   |   |   pos0 = MD: MID (0.0)
+|   |   |   |   pos0 = NN: MID (0.0)
+|   |   |   |   pos0 = NNP: MID (2502.0/976.4)
+|   |   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   |   pos0 = NNS: MID (0.0)
+|   |   |   |   pos0 = PDT: MID (0.0)
+|   |   |   |   pos0 = POS: MID (0.0)
+|   |   |   |   pos0 = PRP: MID (0.0)
+|   |   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   |   pos0 = RB: MID (0.0)
+|   |   |   |   pos0 = RBR: MID (0.0)
+|   |   |   |   pos0 = RBS: MID (0.0)
+|   |   |   |   pos0 = RP: MID (0.0)
+|   |   |   |   pos0 = SYM: MID (0.0)
+|   |   |   |   pos0 = TO: MID (0.0)
+|   |   |   |   pos0 = UH: MID (0.0)
+|   |   |   |   pos0 = VB: MID (0.0)
+|   |   |   |   pos0 = VBD: MID (0.0)
+|   |   |   |   pos0 = VBG: MID (0.0)
+|   |   |   |   pos0 = VBN: MID (0.0)
+|   |   |   |   pos0 = VBP: MID (0.0)
+|   |   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   |   pos0 = WDT: MID (0.0)
+|   |   |   |   pos0 = WP: MID (0.0)
+|   |   |   |   pos0 = WP$: MID (0.0)
+|   |   |   |   pos0 = WRB: MID (0.0)
+|   |   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   |   pos0 = NNP_VBN: MID (0.0)
+|   |   dictionary0 = 4:
+|   |   |   layout0 = Start: OTHER (421.0/82.1)
+|   |   |   layout0 = OneToken: OTHER (20.0/1.3)
+|   |   |   layout0 = Mid:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (0.0)
+|   |   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (0.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NN: MID (163.0/68.9)
+|   |   |   |   pos0 = NNP: OTHER (12238.0/5692.7)
+|   |   |   |   pos0 = NNPS: OTHER (26.0/2.6)
+|   |   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (3.0/1.1)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (32.0/1.4)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   |   |   layout0 = End:
+|   |   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   |   pos0 = CC: MID (0.0)
+|   |   |   |   pos0 = CD: MID (0.0)
+|   |   |   |   pos0 = DT: MID (0.0)
+|   |   |   |   pos0 = EX: MID (0.0)
+|   |   |   |   pos0 = FW: MID (0.0)
+|   |   |   |   pos0 = IN: MID (0.0)
+|   |   |   |   pos0 = JJ: MID (0.0)
+|   |   |   |   pos0 = JJR: MID (0.0)
+|   |   |   |   pos0 = JJS: MID (0.0)
+|   |   |   |   pos0 = MD: MID (0.0)
+|   |   |   |   pos0 = NN: OTHER (134.0/66.5)
+|   |   |   |   pos0 = NNP: MID (2937.0/881.7)
+|   |   |   |   pos0 = NNPS: OTHER (4.0/1.2)
+|   |   |   |   pos0 = NNS: MID (0.0)
+|   |   |   |   pos0 = PDT: MID (0.0)
+|   |   |   |   pos0 = POS: MID (0.0)
+|   |   |   |   pos0 = PRP: MID (0.0)
+|   |   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   |   pos0 = RB: MID (0.0)
+|   |   |   |   pos0 = RBR: MID (0.0)
+|   |   |   |   pos0 = RBS: MID (0.0)
+|   |   |   |   pos0 = RP: MID (0.0)
+|   |   |   |   pos0 = SYM: MID (0.0)
+|   |   |   |   pos0 = TO: MID (0.0)
+|   |   |   |   pos0 = UH: MID (0.0)
+|   |   |   |   pos0 = VB: MID (0.0)
+|   |   |   |   pos0 = VBD: MID (0.0)
+|   |   |   |   pos0 = VBG: MID (0.0)
+|   |   |   |   pos0 = VBN: MID (0.0)
+|   |   |   |   pos0 = VBP: MID (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (2.0/1.0)
+|   |   |   |   pos0 = WDT: MID (0.0)
+|   |   |   |   pos0 = WP: MID (0.0)
+|   |   |   |   pos0 = WP$: MID (0.0)
+|   |   |   |   pos0 = WRB: MID (0.0)
+|   |   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   |   pos0 = NNP_VBN: MID (0.0)
+|   wordFormat0 = ALLCAPS:
+|   |   dictionary0 = 0: OTHER (2982.0/357.8)
+|   |   dictionary0 = 1: OTHER (0.0)
+|   |   dictionary0 = 3: OTHER (0.0)
+|   |   dictionary0 = 5: OTHER (0.0)
+|   |   dictionary0 = 6: OTHER (0.0)
+|   |   dictionary0 = 7: OTHER (0.0)
+|   |   dictionary0 = 8: OTHER (35.0/1.4)
+|   |   dictionary0 = 9: OTHER (0.0)
+|   |   dictionary0 = 10: OTHER (0.0)
+|   |   dictionary0 = 11: OTHER (0.0)
+|   |   dictionary0 = 12: OTHER (0.0)
+|   |   dictionary0 = 13: OTHER (0.0)
+|   |   dictionary0 = 14: OTHER (0.0)
+|   |   dictionary0 = 15: OTHER (0.0)
+|   |   dictionary0 = 2:
+|   |   |   layout0 = Start: OTHER (28.0/2.6)
+|   |   |   layout0 = Mid: MID (264.0/113.1)
+|   |   |   layout0 = End: MID (120.0/24.6)
+|   |   |   layout0 = OneToken: MID (0.0)
+|   |   dictionary0 = 4:
+|   |   |   layout0 = Start: OTHER (15.0/2.5)
+|   |   |   layout0 = Mid: OTHER (536.0/94.6)
+|   |   |   layout0 = OneToken: OTHER (0.0)
+|   |   |   layout0 = End:
+|   |   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   |   pos0 = CC: MID (0.0)
+|   |   |   |   pos0 = CD: MID (0.0)
+|   |   |   |   pos0 = DT: MID (0.0)
+|   |   |   |   pos0 = EX: MID (0.0)
+|   |   |   |   pos0 = FW: MID (0.0)
+|   |   |   |   pos0 = IN: MID (0.0)
+|   |   |   |   pos0 = JJ: MID (0.0)
+|   |   |   |   pos0 = JJR: MID (0.0)
+|   |   |   |   pos0 = JJS: MID (0.0)
+|   |   |   |   pos0 = MD: MID (0.0)
+|   |   |   |   pos0 = NN: OTHER (20.0/1.3)
+|   |   |   |   pos0 = NNP: MID (146.0/48.4)
+|   |   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   |   pos0 = NNS: MID (0.0)
+|   |   |   |   pos0 = PDT: MID (0.0)
+|   |   |   |   pos0 = POS: MID (0.0)
+|   |   |   |   pos0 = PRP: MID (0.0)
+|   |   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   |   pos0 = RB: MID (0.0)
+|   |   |   |   pos0 = RBR: MID (0.0)
+|   |   |   |   pos0 = RBS: MID (0.0)
+|   |   |   |   pos0 = RP: MID (0.0)
+|   |   |   |   pos0 = SYM: MID (0.0)
+|   |   |   |   pos0 = TO: MID (0.0)
+|   |   |   |   pos0 = UH: MID (0.0)
+|   |   |   |   pos0 = VB: MID (0.0)
+|   |   |   |   pos0 = VBD: MID (0.0)
+|   |   |   |   pos0 = VBG: MID (0.0)
+|   |   |   |   pos0 = VBN: MID (0.0)
+|   |   |   |   pos0 = VBP: MID (0.0)
+|   |   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   |   pos0 = WDT: MID (0.0)
+|   |   |   |   pos0 = WP: MID (0.0)
+|   |   |   |   pos0 = WP$: MID (0.0)
+|   |   |   |   pos0 = WRB: MID (0.0)
+|   |   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   |   pos0 = NNP_VBN: MID (0.0)
+|   wordFormat0 = UPPERCASECHAR:
+|   |   layout0 = Start: OTHER (93.0/2.6)
+|   |   layout0 = OneToken: OTHER (29.0/1.4)
+|   |   layout0 = Mid:
+|   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   pos0 = CC: MID (0.0)
+|   |   |   pos0 = CD: MID (0.0)
+|   |   |   pos0 = DT: MID (0.0)
+|   |   |   pos0 = EX: MID (0.0)
+|   |   |   pos0 = FW: MID (0.0)
+|   |   |   pos0 = IN: MID (0.0)
+|   |   |   pos0 = JJ: MID (0.0)
+|   |   |   pos0 = JJR: MID (0.0)
+|   |   |   pos0 = JJS: MID (0.0)
+|   |   |   pos0 = MD: MID (0.0)
+|   |   |   pos0 = NN: OTHER (210.0/99.5)
+|   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   pos0 = NNS: MID (0.0)
+|   |   |   pos0 = PDT: MID (0.0)
+|   |   |   pos0 = POS: MID (0.0)
+|   |   |   pos0 = PRP: MID (0.0)
+|   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   pos0 = RB: MID (0.0)
+|   |   |   pos0 = RBR: MID (0.0)
+|   |   |   pos0 = RBS: MID (0.0)
+|   |   |   pos0 = RP: MID (0.0)
+|   |   |   pos0 = SYM: MID (0.0)
+|   |   |   pos0 = TO: MID (0.0)
+|   |   |   pos0 = UH: MID (0.0)
+|   |   |   pos0 = VB: MID (0.0)
+|   |   |   pos0 = VBD: MID (0.0)
+|   |   |   pos0 = VBG: MID (0.0)
+|   |   |   pos0 = VBN: MID (0.0)
+|   |   |   pos0 = VBP: MID (0.0)
+|   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   pos0 = WDT: MID (0.0)
+|   |   |   pos0 = WP: MID (0.0)
+|   |   |   pos0 = WP$: MID (0.0)
+|   |   |   pos0 = WRB: MID (0.0)
+|   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   pos0 = NNP_VBN: MID (0.0)
+|   |   |   pos0 = NNP:
+|   |   |   |   dictionary0 = 0: OTHER (6.0/3.3)
+|   |   |   |   dictionary0 = 1: MID (0.0)
+|   |   |   |   dictionary0 = 2: MID (1133.0/465.0)
+|   |   |   |   dictionary0 = 3: MID (0.0)
+|   |   |   |   dictionary0 = 4: MID (0.0)
+|   |   |   |   dictionary0 = 5: MID (0.0)
+|   |   |   |   dictionary0 = 6: MID (0.0)
+|   |   |   |   dictionary0 = 7: MID (0.0)
+|   |   |   |   dictionary0 = 8: MID (0.0)
+|   |   |   |   dictionary0 = 9: MID (0.0)
+|   |   |   |   dictionary0 = 10: MID (0.0)
+|   |   |   |   dictionary0 = 11: MID (0.0)
+|   |   |   |   dictionary0 = 12: MID (0.0)
+|   |   |   |   dictionary0 = 13: MID (0.0)
+|   |   |   |   dictionary0 = 14: MID (0.0)
+|   |   |   |   dictionary0 = 15: MID (0.0)
+|   |   layout0 = End:
+|   |   |   pos0 = UNKNOWN: MID (0.0)
+|   |   |   pos0 = PUNC: MID (0.0)
+|   |   |   pos0 = CC: MID (0.0)
+|   |   |   pos0 = CD: MID (0.0)
+|   |   |   pos0 = DT: MID (0.0)
+|   |   |   pos0 = EX: MID (0.0)
+|   |   |   pos0 = FW: MID (0.0)
+|   |   |   pos0 = IN: MID (0.0)
+|   |   |   pos0 = JJ: MID (0.0)
+|   |   |   pos0 = JJR: MID (0.0)
+|   |   |   pos0 = JJS: MID (0.0)
+|   |   |   pos0 = MD: MID (0.0)
+|   |   |   pos0 = NN: MID (68.0/28.3)
+|   |   |   pos0 = NNP: OTHER (32.0/12.4)
+|   |   |   pos0 = NNPS: MID (0.0)
+|   |   |   pos0 = NNS: MID (0.0)
+|   |   |   pos0 = PDT: MID (0.0)
+|   |   |   pos0 = POS: MID (0.0)
+|   |   |   pos0 = PRP: MID (0.0)
+|   |   |   pos0 = PRP$: MID (0.0)
+|   |   |   pos0 = RB: MID (0.0)
+|   |   |   pos0 = RBR: MID (0.0)
+|   |   |   pos0 = RBS: MID (0.0)
+|   |   |   pos0 = RP: MID (0.0)
+|   |   |   pos0 = SYM: MID (0.0)
+|   |   |   pos0 = TO: MID (0.0)
+|   |   |   pos0 = UH: MID (0.0)
+|   |   |   pos0 = VB: MID (0.0)
+|   |   |   pos0 = VBD: MID (0.0)
+|   |   |   pos0 = VBG: MID (0.0)
+|   |   |   pos0 = VBN: MID (0.0)
+|   |   |   pos0 = VBP: MID (0.0)
+|   |   |   pos0 = VBZ: MID (0.0)
+|   |   |   pos0 = WDT: MID (0.0)
+|   |   |   pos0 = WP: MID (0.0)
+|   |   |   pos0 = WP$: MID (0.0)
+|   |   |   pos0 = WRB: MID (0.0)
+|   |   |   pos0 = PRP_MD: MID (0.0)
+|   |   |   pos0 = NNP_VBN: MID (0.0)
+fips0 = 4:
+|   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   wordFormat0 = EMAIL: OTHER (0.0)
+|   wordFormat0 = INITCAP: OTHER (60.0/1.4)
+|   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   wordFormat0 = ACRONYM: OTHER (0.0)
+|   wordFormat0 = WORD: OTHER (492.0/1.4)
+|   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   wordFormat0 = TIME: OTHER (0.0)
+|   wordFormat0 = URL: OTHER (0.0)
+|   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   wordFormat0 = PHONE: OTHER (0.0)
+|   wordFormat0 = ALLCAPS:
+|   |   pos0 = UNKNOWN: MID (0.0)
+|   |   pos0 = PUNC: MID (0.0)
+|   |   pos0 = CC: MID (0.0)
+|   |   pos0 = CD: MID (0.0)
+|   |   pos0 = DT: MID (0.0)
+|   |   pos0 = EX: MID (0.0)
+|   |   pos0 = FW: MID (0.0)
+|   |   pos0 = IN: MID (0.0)
+|   |   pos0 = JJ: MID (0.0)
+|   |   pos0 = JJR: MID (0.0)
+|   |   pos0 = JJS: MID (0.0)
+|   |   pos0 = MD: MID (0.0)
+|   |   pos0 = NNP: OTHER (104.0/41.0)
+|   |   pos0 = NNPS: MID (0.0)
+|   |   pos0 = NNS: MID (0.0)
+|   |   pos0 = PDT: MID (0.0)
+|   |   pos0 = POS: MID (0.0)
+|   |   pos0 = PRP: MID (0.0)
+|   |   pos0 = PRP$: MID (0.0)
+|   |   pos0 = RB: MID (0.0)
+|   |   pos0 = RBR: MID (0.0)
+|   |   pos0 = RBS: MID (0.0)
+|   |   pos0 = RP: MID (0.0)
+|   |   pos0 = SYM: MID (0.0)
+|   |   pos0 = TO: MID (0.0)
+|   |   pos0 = UH: MID (0.0)
+|   |   pos0 = VB: MID (0.0)
+|   |   pos0 = VBD: MID (0.0)
+|   |   pos0 = VBG: MID (0.0)
+|   |   pos0 = VBN: MID (0.0)
+|   |   pos0 = VBP: MID (0.0)
+|   |   pos0 = VBZ: MID (0.0)
+|   |   pos0 = WDT: MID (0.0)
+|   |   pos0 = WP: MID (0.0)
+|   |   pos0 = WP$: MID (0.0)
+|   |   pos0 = WRB: MID (0.0)
+|   |   pos0 = PRP_MD: MID (0.0)
+|   |   pos0 = NNP_VBN: MID (0.0)
+|   |   pos0 = NN:
+|   |   |   layout0 = Start: MID (0.0)
+|   |   |   layout0 = Mid: MID (171.0/38.3)
+|   |   |   layout0 = End: OTHER (12.0/4.7)
+|   |   |   layout0 = OneToken: MID (0.0)
+fips0 = 5:
+|   layout0 = Start: OTHER (81.0/5.0)
+|   layout0 = End: OTHER (72.0/9.5)
+|   layout0 = OneToken: OTHER (19.0/1.3)
+|   layout0 = Mid:
+|   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   wordFormat0 = WORD: OTHER (17.0/3.7)
+|   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   wordFormat0 = URL: OTHER (0.0)
+|   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   wordFormat0 = PHONE: OTHER (0.0)
+|   |   wordFormat0 = INITCAP:
+|   |   |   dictionary0 = 0: OTHER (169.0/78.0)
+|   |   |   dictionary0 = 1: OTHER (57.0/2.6)
+|   |   |   dictionary0 = 2: OTHER (0.0)
+|   |   |   dictionary0 = 3: OTHER (0.0)
+|   |   |   dictionary0 = 4: OTHER (0.0)
+|   |   |   dictionary0 = 5: MID (20.0/2.5)
+|   |   |   dictionary0 = 6: OTHER (0.0)
+|   |   |   dictionary0 = 7: OTHER (0.0)
+|   |   |   dictionary0 = 8: OTHER (0.0)
+|   |   |   dictionary0 = 9: OTHER (60.0/1.4)
+|   |   |   dictionary0 = 10: OTHER (0.0)
+|   |   |   dictionary0 = 11: OTHER (0.0)
+|   |   |   dictionary0 = 12: OTHER (0.0)
+|   |   |   dictionary0 = 13: OTHER (0.0)
+|   |   |   dictionary0 = 14: OTHER (0.0)
+|   |   |   dictionary0 = 15: OTHER (0.0)
+|   |   wordFormat0 = ALLCAPS:
+|   |   |   dictionary0 = 0: OTHER (8.0/1.3)
+|   |   |   dictionary0 = 1: MID (385.0/147.1)
+|   |   |   dictionary0 = 2: MID (0.0)
+|   |   |   dictionary0 = 3: MID (0.0)
+|   |   |   dictionary0 = 4: MID (0.0)
+|   |   |   dictionary0 = 6: MID (0.0)
+|   |   |   dictionary0 = 7: MID (0.0)
+|   |   |   dictionary0 = 8: MID (0.0)
+|   |   |   dictionary0 = 9: MID (78.0/40.6)
+|   |   |   dictionary0 = 10: MID (0.0)
+|   |   |   dictionary0 = 11: MID (0.0)
+|   |   |   dictionary0 = 12: MID (0.0)
+|   |   |   dictionary0 = 13: MID (0.0)
+|   |   |   dictionary0 = 14: MID (0.0)
+|   |   |   dictionary0 = 15: MID (0.0)
+|   |   |   dictionary0 = 5:
+|   |   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   |   pos0 = CD: OTHER (0.0)
+|   |   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   |   pos0 = JJ: OTHER (0.0)
+|   |   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   |   pos0 = NN: MID (33.0/13.5)
+|   |   |   |   pos0 = NNP: OTHER (16.0/1.3)
+|   |   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   |   pos0 = VBN: OTHER (0.0)
+|   |   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   |   pos0 = NNP_VBN: OTHER (0.0)
+fips0 = 7:
+|   layout0 = OneToken: OTHER (126.0/15.0)
+|   layout0 = Start:
+|   |   dictionary0 = 1: OTHER (225.0/15.1)
+|   |   dictionary0 = 2: OTHER (27.0/1.4)
+|   |   dictionary0 = 3: MID (0.0)
+|   |   dictionary0 = 4: MID (0.0)
+|   |   dictionary0 = 5: OTHER (143.0/12.9)
+|   |   dictionary0 = 6: MID (0.0)
+|   |   dictionary0 = 7: MID (0.0)
+|   |   dictionary0 = 8: MID (0.0)
+|   |   dictionary0 = 9: MID (0.0)
+|   |   dictionary0 = 10: MID (0.0)
+|   |   dictionary0 = 11: MID (0.0)
+|   |   dictionary0 = 12: MID (0.0)
+|   |   dictionary0 = 13: MID (0.0)
+|   |   dictionary0 = 14: MID (0.0)
+|   |   dictionary0 = 15: MID (0.0)
+|   |   dictionary0 = 0:
+|   |   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   |   wordFormat0 = INITCAP: MID (1272.0/511.6)
+|   |   |   wordFormat0 = ALLCAPS: OTHER (33.0/11.4)
+|   |   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   |   wordFormat0 = WORD: OTHER (2.0/1.0)
+|   |   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   |   wordFormat0 = TIME: MID (0.0)
+|   |   |   wordFormat0 = URL: MID (0.0)
+|   |   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   |   wordFormat0 = PHONE: MID (0.0)
+|   layout0 = Mid:
+|   |   dictionary0 = 2: OTHER (56.0/10.5)
+|   |   dictionary0 = 3: MID (149.0/44.4)
+|   |   dictionary0 = 4: MID (0.0)
+|   |   dictionary0 = 5: OTHER (347.0/123.7)
+|   |   dictionary0 = 6: MID (0.0)
+|   |   dictionary0 = 7: MID (0.0)
+|   |   dictionary0 = 8: MID (0.0)
+|   |   dictionary0 = 9: MID (209.0/70.2)
+|   |   dictionary0 = 10: MID (0.0)
+|   |   dictionary0 = 11: MID (0.0)
+|   |   dictionary0 = 12: MID (0.0)
+|   |   dictionary0 = 13: MID (0.0)
+|   |   dictionary0 = 14: MID (0.0)
+|   |   dictionary0 = 15: MID (0.0)
+|   |   dictionary0 = 0:
+|   |   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   |   wordFormat0 = INITCAP: MID (6364.0/2997.1)
+|   |   |   wordFormat0 = ALLCAPS: OTHER (130.0/21.4)
+|   |   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   |   wordFormat0 = WORD: OTHER (24.0/1.3)
+|   |   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   |   wordFormat0 = TIME: MID (0.0)
+|   |   |   wordFormat0 = URL: MID (0.0)
+|   |   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   |   wordFormat0 = PHONE: MID (0.0)
+|   |   dictionary0 = 1:
+|   |   |   wordFormat0 = UNKNOWN: MID (0.0)
+|   |   |   wordFormat0 = EMAIL: MID (0.0)
+|   |   |   wordFormat0 = INITCAP: OTHER (457.0/52.2)
+|   |   |   wordFormat0 = ALLCAPS: MID (8231.0/1563.1)
+|   |   |   wordFormat0 = CONTAINDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: MID (0.0)
+|   |   |   wordFormat0 = ACRONYM: MID (0.0)
+|   |   |   wordFormat0 = WORD: OTHER (5091.0/13.0)
+|   |   |   wordFormat0 = PUNCTUATION: MID (0.0)
+|   |   |   wordFormat0 = TIME: MID (0.0)
+|   |   |   wordFormat0 = URL: MID (0.0)
+|   |   |   wordFormat0 = CONTRACTION: MID (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: MID (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: MID (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: MID (0.0)
+|   |   |   wordFormat0 = PHONE: MID (0.0)
+|   layout0 = End:
+|   |   dictionary0 = 2: MID (2.0/1.8)
+|   |   dictionary0 = 3: MID (52.0/16.8)
+|   |   dictionary0 = 4: END (0.0)
+|   |   dictionary0 = 5: OTHER (55.0/2.6)
+|   |   dictionary0 = 6: END (0.0)
+|   |   dictionary0 = 7: END (0.0)
+|   |   dictionary0 = 8: END (0.0)
+|   |   dictionary0 = 10: END (0.0)
+|   |   dictionary0 = 11: END (0.0)
+|   |   dictionary0 = 12: END (0.0)
+|   |   dictionary0 = 13: END (0.0)
+|   |   dictionary0 = 14: END (0.0)
+|   |   dictionary0 = 15: END (0.0)
+|   |   dictionary0 = 0:
+|   |   |   wordFormat0 = UNKNOWN: END (0.0)
+|   |   |   wordFormat0 = EMAIL: END (0.0)
+|   |   |   wordFormat0 = INITCAP: END (814.0/357.3)
+|   |   |   wordFormat0 = ALLCAPS: OTHER (9.0/2.4)
+|   |   |   wordFormat0 = CONTAINDIGITS: END (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: END (0.0)
+|   |   |   wordFormat0 = ACRONYM: END (0.0)
+|   |   |   wordFormat0 = WORD: OTHER (2.0/1.0)
+|   |   |   wordFormat0 = PUNCTUATION: END (0.0)
+|   |   |   wordFormat0 = TIME: END (0.0)
+|   |   |   wordFormat0 = URL: END (0.0)
+|   |   |   wordFormat0 = CONTRACTION: END (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: END (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: END (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: END (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: END (0.0)
+|   |   |   wordFormat0 = PHONE: END (0.0)
+|   |   dictionary0 = 1:
+|   |   |   wordFormat0 = UNKNOWN: END (0.0)
+|   |   |   wordFormat0 = EMAIL: END (0.0)
+|   |   |   wordFormat0 = INITCAP: OTHER (94.0/1.4)
+|   |   |   wordFormat0 = ALLCAPS: END (532.0/226.4)
+|   |   |   wordFormat0 = CONTAINDIGITS: END (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: END (0.0)
+|   |   |   wordFormat0 = ACRONYM: END (0.0)
+|   |   |   wordFormat0 = WORD: OTHER (167.0/1.4)
+|   |   |   wordFormat0 = PUNCTUATION: END (0.0)
+|   |   |   wordFormat0 = TIME: END (0.0)
+|   |   |   wordFormat0 = URL: END (0.0)
+|   |   |   wordFormat0 = CONTRACTION: END (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: END (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: END (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: END (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: END (0.0)
+|   |   |   wordFormat0 = PHONE: END (0.0)
+|   |   dictionary0 = 9:
+|   |   |   wordFormat0 = UNKNOWN: OTHER (0.0)
+|   |   |   wordFormat0 = EMAIL: OTHER (0.0)
+|   |   |   wordFormat0 = INITCAP: MID (3.0/1.1)
+|   |   |   wordFormat0 = ALLCAPS: OTHER (13.0/3.6)
+|   |   |   wordFormat0 = CONTAINDIGITS: OTHER (0.0)
+|   |   |   wordFormat0 = ALLDIGITS: OTHER (0.0)
+|   |   |   wordFormat0 = ACRONYM: OTHER (0.0)
+|   |   |   wordFormat0 = WORD: OTHER (0.0)
+|   |   |   wordFormat0 = PUNCTUATION: OTHER (0.0)
+|   |   |   wordFormat0 = TIME: OTHER (0.0)
+|   |   |   wordFormat0 = URL: OTHER (0.0)
+|   |   |   wordFormat0 = CONTRACTION: OTHER (0.0)
+|   |   |   wordFormat0 = LONELYINITIAL: OTHER (0.0)
+|   |   |   wordFormat0 = UPPERCASECHAR: OTHER (0.0)
+|   |   |   wordFormat0 = LOWERCASECHAR: OTHER (0.0)
+|   |   |   wordFormat0 = CONTAINDASH: OTHER (0.0)
+|   |   |   wordFormat0 = PHONE: OTHER (0.0)
+fips0 = 16:
+|   layout0 = Mid: OTHER (21905.0/1502.4)
+|   layout0 = Start:
+|   |   wordFormat0 = UNKNOWN: START (0.0)
+|   |   wordFormat0 = EMAIL: START (0.0)
+|   |   wordFormat0 = INITCAP: START (0.0)
+|   |   wordFormat0 = ALLCAPS: START (0.0)
+|   |   wordFormat0 = CONTAINDIGITS: START (0.0)
+|   |   wordFormat0 = ACRONYM: START (0.0)
+|   |   wordFormat0 = PUNCTUATION: START (0.0)
+|   |   wordFormat0 = TIME: START (0.0)
+|   |   wordFormat0 = URL: START (0.0)
+|   |   wordFormat0 = CONTRACTION: START (0.0)
+|   |   wordFormat0 = LONELYINITIAL: START (0.0)
+|   |   wordFormat0 = UPPERCASECHAR: START (0.0)
+|   |   wordFormat0 = LOWERCASECHAR: START (0.0)
+|   |   wordFormat0 = CONTAINDASH: OTHER (146.0/1.4)
+|   |   wordFormat0 = PHONE: OTHER (916.0/32.4)
+|   |   wordFormat0 = ALLDIGITS:
+|   |   |   pos0 = UNKNOWN: START (0.0)
+|   |   |   pos0 = PUNC: START (0.0)
+|   |   |   pos0 = CC: START (0.0)
+|   |   |   pos0 = CD: START (6953.0/1909.3)
+|   |   |   pos0 = DT: START (0.0)
+|   |   |   pos0 = EX: START (0.0)
+|   |   |   pos0 = FW: START (0.0)
+|   |   |   pos0 = IN: START (0.0)
+|   |   |   pos0 = JJ: OTHER (6.0/1.2)
+|   |   |   pos0 = JJR: START (0.0)
+|   |   |   pos0 = JJS: START (0.0)
+|   |   |   pos0 = MD: START (0.0)
+|   |   |   pos0 = NN: OTHER (18.0/2.5)
+|   |   |   pos0 = NNP: START (38.0/10.4)
+|   |   |   pos0 = NNPS: START (0.0)
+|   |   |   pos0 = NNS: START (0.0)
+|   |   |   pos0 = PDT: START (0.0)
+|   |   |   pos0 = POS: START (0.0)
+|   |   |   pos0 = PRP: START (0.0)
+|   |   |   pos0 = PRP$: START (0.0)
+|   |   |   pos0 = RB: START (0.0)
+|   |   |   pos0 = RBR: START (0.0)
+|   |   |   pos0 = RBS: START (0.0)
+|   |   |   pos0 = RP: START (0.0)
+|   |   |   pos0 = SYM: START (0.0)
+|   |   |   pos0 = TO: START (0.0)
+|   |   |   pos0 = UH: START (0.0)
+|   |   |   pos0 = VB: START (0.0)
+|   |   |   pos0 = VBD: START (0.0)
+|   |   |   pos0 = VBG: START (0.0)
+|   |   |   pos0 = VBN: START (0.0)
+|   |   |   pos0 = VBP: START (0.0)
+|   |   |   pos0 = VBZ: START (0.0)
+|   |   |   pos0 = WDT: START (0.0)
+|   |   |   pos0 = WP: START (0.0)
+|   |   |   pos0 = WP$: START (0.0)
+|   |   |   pos0 = WRB: START (0.0)
+|   |   |   pos0 = PRP_MD: START (0.0)
+|   |   |   pos0 = NNP_VBN: START (0.0)
+|   |   wordFormat0 = WORD:
+|   |   |   pos0 = UNKNOWN: OTHER (0.0)
+|   |   |   pos0 = PUNC: OTHER (0.0)
+|   |   |   pos0 = CC: OTHER (0.0)
+|   |   |   pos0 = CD: OTHER (14.0/6.8)
+|   |   |   pos0 = DT: OTHER (0.0)
+|   |   |   pos0 = EX: OTHER (0.0)
+|   |   |   pos0 = FW: OTHER (0.0)
+|   |   |   pos0 = IN: OTHER (0.0)
+|   |   |   pos0 = JJ: OTHER (175.0/11.8)
+|   |   |   pos0 = JJR: OTHER (0.0)
+|   |   |   pos0 = JJS: OTHER (0.0)
+|   |   |   pos0 = MD: OTHER (0.0)
+|   |   |   pos0 = NN: OTHER (3.0/1.1)
+|   |   |   pos0 = NNP: START (28.0/13.3)
+|   |   |   pos0 = NNPS: OTHER (0.0)
+|   |   |   pos0 = NNS: OTHER (0.0)
+|   |   |   pos0 = PDT: OTHER (0.0)
+|   |   |   pos0 = POS: OTHER (0.0)
+|   |   |   pos0 = PRP: OTHER (0.0)
+|   |   |   pos0 = PRP$: OTHER (0.0)
+|   |   |   pos0 = RB: OTHER (0.0)
+|   |   |   pos0 = RBR: OTHER (0.0)
+|   |   |   pos0 = RBS: OTHER (0.0)
+|   |   |   pos0 = RP: OTHER (0.0)
+|   |   |   pos0 = SYM: OTHER (0.0)
+|   |   |   pos0 = TO: OTHER (0.0)
+|   |   |   pos0 = UH: OTHER (0.0)
+|   |   |   pos0 = VB: OTHER (0.0)
+|   |   |   pos0 = VBD: OTHER (0.0)
+|   |   |   pos0 = VBG: OTHER (0.0)
+|   |   |   pos0 = VBN: OTHER (14.0/1.3)
+|   |   |   pos0 = VBP: OTHER (0.0)
+|   |   |   pos0 = VBZ: OTHER (0.0)
+|   |   |   pos0 = WDT: OTHER (0.0)
+|   |   |   pos0 = WP: OTHER (0.0)
+|   |   |   pos0 = WP$: OTHER (0.0)
+|   |   |   pos0 = WRB: OTHER (0.0)
+|   |   |   pos0 = PRP_MD: OTHER (0.0)
+|   |   |   pos0 = NNP_VBN: OTHER (0.0)
+|   layout0 = End:
+|   |   geo0 = USZIP: END (176.0/98.1)
+|   |   geo0 = POBOX: OTHER (0.0)
+|   |   geo0 = OTHER: OTHER (6773.0/415.2)
+|   layout0 = OneToken:
+|   |   geo0 = USZIP: END (5.0/4.1)
+|   |   geo0 = POBOX: OTHER (0.0)
+|   |   geo0 = OTHER: OTHER (2037.0/3.9)
+fips0 = 24:
+|   layout0 = OneToken: END (36.0/13.5)
+|   layout0 = Start:
+|   |   pos0 = UNKNOWN: START (0.0)
+|   |   pos0 = PUNC: START (0.0)
+|   |   pos0 = CC: START (0.0)
+|   |   pos0 = CD: START (562.0/143.7)
+|   |   pos0 = DT: START (0.0)
+|   |   pos0 = EX: START (0.0)
+|   |   pos0 = FW: START (0.0)
+|   |   pos0 = IN: START (0.0)
+|   |   pos0 = JJ: START (0.0)
+|   |   pos0 = JJR: START (0.0)
+|   |   pos0 = JJS: START (0.0)
+|   |   pos0 = MD: START (0.0)
+|   |   pos0 = NN: START (0.0)
+|   |   pos0 = NNP: OTHER (4.0/2.2)
+|   |   pos0 = NNPS: START (0.0)
+|   |   pos0 = NNS: START (0.0)
+|   |   pos0 = PDT: START (0.0)
+|   |   pos0 = POS: START (0.0)
+|   |   pos0 = PRP: START (0.0)
+|   |   pos0 = PRP$: START (0.0)
+|   |   pos0 = RB: START (0.0)
+|   |   pos0 = RBR: START (0.0)
+|   |   pos0 = RBS: START (0.0)
+|   |   pos0 = RP: START (0.0)
+|   |   pos0 = SYM: START (0.0)
+|   |   pos0 = TO: START (0.0)
+|   |   pos0 = UH: START (0.0)
+|   |   pos0 = VB: START (0.0)
+|   |   pos0 = VBD: START (0.0)
+|   |   pos0 = VBG: START (0.0)
+|   |   pos0 = VBN: START (0.0)
+|   |   pos0 = VBP: START (0.0)
+|   |   pos0 = VBZ: START (0.0)
+|   |   pos0 = WDT: START (0.0)
+|   |   pos0 = WP: START (0.0)
+|   |   pos0 = WP$: START (0.0)
+|   |   pos0 = WRB: START (0.0)
+|   |   pos0 = PRP_MD: START (0.0)
+|   |   pos0 = NNP_VBN: START (0.0)
+|   layout0 = Mid:
+|   |   geo0 = USZIP: END (1999.0/861.8)
+|   |   geo0 = POBOX: END (0.0)
+|   |   geo0 = OTHER: OTHER (3.0/1.1)
+|   layout0 = End:
+|   |   geo0 = USZIP: END (6901.0/294.1)
+|   |   geo0 = POBOX: END (0.0)
+|   |   geo0 = OTHER: OTHER (10.0/1.3)
+fips0 = 25:
+|   layout0 = Start: START (6.0/2.3)
+|   layout0 = Mid: OTHER (5.0/3.2)
+|   layout0 = End: END (2.0/1.8)
+|   layout0 = OneToken: OTHER (1.0/0.8)
+
+
+Tree saved
+
+
+Evaluation on training data (1523612 items):
+
+	 Before Pruning           After Pruning
+	----------------   ---------------------------
+	Size      Errors   Size      Errors   Estimate
+
+	1726  67285( 4.4%)    931  67490( 4.4%)    ( 4.5%)   <<
+
+Evaluation on test data (158912 items):
+
+	 Before Pruning           After Pruning
+	----------------   ---------------------------
+	Size      Errors   Size      Errors   Estimate
+
+	1726  5598( 3.5%)    931  5616( 3.5%)    ( 4.5%)   <<
+
+
+	  (a)  (b)  (c)  (d)	<-classified as
+	 ---- ---- ---- ----
+	(  561)(    2)(    9)(  245)	(a): class START
+	(   15)( 1450)(   62)( 3921)	(b): class MID
+	(    1)(   40)(  611)(  165)	(c): class END
+	(  189)(  898)(   69)(150674)	(d): class OTHER
+

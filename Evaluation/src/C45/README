@@ -1,0 +1,138 @@
+C4.5 pakage with Michael Eng's classification extension to predict testing file with learned tree
+
+10 March 2004
+
+This page contains (yet another) patch for Ross Quinlan's C4.5 decision-tree induction software. Its' purpose is to allow classification of a file of examples using a supplied decision tree, and for those examples to be output to a file, together with the computed confidence of accuracy.
+
+Although C4.5 does not normally provide a confidence measurement for classification, the facility is available in the provided consult program, described in Chapter 8 of Quinlan (1993, p. 45). The classification library classify.c is modified to return the classification weight which it uses to rank alternatives internally, and a separate program c45label.c is provided to get C4.5 to classify a file of examples and report the weight computed in classify.c.
+
+Quinlan notes (1993, p. 80) that certainly for C4.5, such measures are very much ad hoc and are not intended as probabilities of likelihood. Therefore, the confidence measurements reported should not be considered as such.
+Notes
+
+Matthieu Pierres warns that if you are running with a large number of attributes, you may need to increase the size of char suffixbuf in c45label.c eg. to about 5000. Otherwise, your output will get mangled!
+Download
+
+C4.5 can be downloaded from Quinlan's web page. Make sure you get R8.
+
+The patch below includes the new c45label.c.
+
+Download GZip udiff: michael-C4.5r8-FINAL.diff.gz (4k).
+INSTALLATION
+
+gunzip -c c4.5r8.tar.gz | tar xvf -
+cd R8/Src
+gunzip -c ../../michael-C4.5r8-FINAL.diff.gz  | patch -p2
+make all
+make c45label
+
+(optional)
+
+mv average c4.5 c4.5rules consult consultr xval-prep xval.sh  ~/bin/
+mv c45label ~/bin/
+
+USAGE
+
+usage: c45label [options]
+  options: [-f] [-M] [-u] [-l] [-v] [-t] [-c] [-T] 
+  -f: filestem (DF)
+  -M:  create .tree/.unpruned ('')
+  -u:        use unpruned tree (use pruned)
+  -l:        use training set (test set)
+  -v:     verbosity level (0)
+  -t:        print tree (dont print tree)
+  -T:     target is attribute n, use changed namesfile (last attr)
+  -I:     n=0: treat MV in class as error (default)
+             n=1: ignore records w/ MV in class
+             n=2: substitute first class label  (treat as error)
+  -c:        include confidence in output file
+  -h:        show this help info
+
+
+  The program will create a file .classif that contains
+  the assigned class labels plus its' entry in the input.
+
+
+EXAMPLE
+
+$ c4.5 -f golf
+
+C4.5 [release 8] decision tree generator        Wed Mar 10 21:42:14 2004
+----------------------------------------
+
+    Options:
+        File stem 
+
+Read 14 cases (4 attributes) from golf.data
+
+Decision Tree:
+
+outlook = overcast: Play (4.0)
+outlook = sunny:
+|   humidity <= 75 : Play (2.0)
+|   humidity > 75 : Don't Play (3.0)
+outlook = rain:
+|   windy = true: Don't Play (2.0)
+|   windy = false: Play (3.0)
+
+
+Tree saved
+
+
+Evaluation on training data (14 items):
+
+         Before Pruning           After Pruning
+        ----------------   ---------------------------
+        Size      Errors   Size      Errors   Estimate
+
+           8    0( 0.0%)      8    0( 0.0%)    (38.5%)   <<
+
+$ c45label -c -f golf
+BEWARE this is Michael's Special Edition hacked version
+C4.5 [release 8] label examples using tree      Wed Mar 10 21:42:40 2004
+------------------------------------------
+
+    Options:
+        Include confidence in output file
+        File stem 
+
+Read 14 cases (4 attributes) from golf.test
+
+Generate labels file from test data (14 items):
+... 13 to go
+... 12 to go
+... 11 to go
+... 10 to go
+... 9 to go
+... 8 to go
+... 7 to go
+... 6 to go
+... 5 to go
+... 4 to go
+... 3 to go
+... 2 to go
+... 1 to go
+... 0 to go
+all done.
+
+$ cat golf.classif 
+sunny, 85, 85, false, Don't Play,Don't Play,1.00000
+sunny, 80, 90, true, Don't Play,Don't Play,1.00000
+overcast, 83, 78, false, Play,Play,1.00000
+rain, 70, 96, false, Play,Play,1.00000
+rain, 68, 80, false, Play,Play,1.00000
+rain, 65, 70, true, Don't Play,Don't Play,1.00000
+overcast, 64, 65, true, Play,Play,1.00000
+sunny, 72, 95, false, Don't Play,Don't Play,1.00000
+sunny, 69, 70, false, Play,Play,1.00000
+rain, 75, 80, false, Play,Play,1.00000
+sunny, 75, 70, true, Play,Play,1.00000
+overcast, 72, 90, true, Play,Play,1.00000
+overcast, 81, 75, false, Play,Play,1.00000
+rain, 71, 80, true, Don't Play,Don't Play,1.00000
+
+$
+
+References
+
+Quinlan, J. R. (1993). C4.5: Programs for machine learning. Morgan Kaufmann Publishers.
+

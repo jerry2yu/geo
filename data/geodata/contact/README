@@ -1,0 +1,12 @@
+data collected on Mar 3 for keyword "Contact Us" 450 pages, on Mar 4 for keyword "Contact Information" 447 pages
+
+url file save all downloaded url and assign id to it, also indicate whether saved file tagged correctly by the rule based extractor.
+
+format: 
+id	0/1(tagged correctly/not)	url
+
+under tagged path, path correct contains all downloaded and correctly tagged webpages, each webpage saved into one file
+
+file name format
+f0000id
+
